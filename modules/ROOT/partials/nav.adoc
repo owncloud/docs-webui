@@ -1,0 +1,4 @@
+.ownCloud User Guides
+* xref:index.adoc[Introduction]
+include::user_manual:partial$nav.adoc[]
+include::new_web_ui:partial$nav.adoc[]

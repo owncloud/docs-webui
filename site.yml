@@ -1,0 +1,45 @@
+site:
+  title: ownCloud User Guides
+  url: https://doc.owncloud.com
+  start_page: user::index.adoc
+
+content:
+  sources:
+  - url: .
+    branches:
+    - HEAD
+
+ui:
+  output_dir: assets
+  bundle:
+    snapshot: true
+    url: https://minio.owncloud.com/documentation/ui-bundle.zip
+
+output:
+  clean: true
+  dir: public
+
+asciidoc:
+  attributes:
+#   branch-specific-variables: 'see antora.yml'
+#   build relevant
+    idprefix: ''
+    idseparator: '-'
+    experimental: ''
+    # the page-component-build-list is used in docs-ui
+    page-component-build-list: 'docs, server, ocis, user, desktop, ios-app, android'
+#   common
+    docs-base-url: 'https://doc.owncloud.com'
+    oc-contact-url: 'https://owncloud.com/contact/'
+    oc-help-url: 'https://owncloud.com/docs-guides/'
+    oc-marketplace-url: 'https://marketplace.owncloud.com'
+    oc-central-url: 'https://central.owncloud.org'
+    oc-support-url: 'https://owncloud.com/support'
+#   user
+    latest-user-version: 'next'
+    previous-user-version: 'next'
+  extensions:
+    - ./lib/extensions/tabs.js
+    - ./lib/extensions/remote-include-processor.js
+    - ./node_modules/asciidoctor-kroki/src/asciidoctor-kroki.js
+

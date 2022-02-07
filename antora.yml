@@ -1,0 +1,10 @@
+name: user
+title: ownCloud User Guides
+version: next
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/partials/nav.adoc
+
+asciidoc:
+  attributes:
+
