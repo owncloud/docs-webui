@@ -4,8 +4,8 @@ Welcome to the ownCloud user guide documentation. There are two user guides avai
 
 * The first guide, xref:classic_web_ui:index.adoc[User Manual for Server] is for the classic server version and can only be used with the server.
 
-* The second guide, xref:new_web_ui:index.adoc[New Web UI] is either for the classic server if installed by the admin or is the default user interface when using oCis.
+* The second guide, xref:new_web_ui:index.adoc[New Web UI] is either for the classic server if installed by the admin or is the default user interface when using oCIS.
 +
-NOTE: The New Web UI has a different feature set dependent where it is used. When used with the server, most of the functions available with the classic UI are implemented. When used with oCis, you will find additional functionality which is only available with oCis like _Spaces_.
+NOTE: The New Web UI has a different feature set dependent where it is used. When used with the server, most of the functions available with the classic UI are implemented. When used with oCis, you will find additional functionality which is only available with oCIS like _Spaces_.
 
 Note that the user guides for the clients like the Desktop, Android or iOS client have their own documentation.
