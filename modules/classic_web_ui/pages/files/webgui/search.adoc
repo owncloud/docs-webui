@@ -3,7 +3,7 @@
 
 == Introduction
 
-ownCloud comes with a regular search function allowing you to find files by their file name or parts of it. Click on the the magnifier icon in the upper right-hand corner of the web interface. In addition, the Full Text Search app can be enabled. This is something the system administrator needs to take care of. For more information on deploying it, refer to the respective section in the xref:admin_manual:configuration/search/index.adoc[Admin Manual].
+ownCloud comes with a regular search function allowing you to find files by their file name or parts of it. Click on the the magnifier icon in the upper right-hand corner of the web interface. In addition, the Full Text Search app can be enabled. This is something the system administrator needs to take care of. For more information on deploying it, refer to the respective section in the xref:{latest-server-version}@server:admin_manual:configuration/search/index.adoc[Admin Manual].
 
 == Regular Search
 

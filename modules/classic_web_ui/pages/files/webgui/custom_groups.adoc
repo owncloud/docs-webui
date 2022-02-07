@@ -16,7 +16,7 @@ feature called "Custom Groups". Here’s how to use it.
 == Creating Custom Groups
 
 Assuming that your ownCloud administrator’s already
-xref:admin_manual:configuration/user/user_configuration.adoc#enabling-custom-groups[enabled custom groups];
+xref:{latest-server-version}@server:admin_manual:configuration/user/user_configuration.adoc#enabling-custom-groups[enabled custom groups];
  under the admin menu, in the top right-hand corner,
 click btn:[Settings] (1). Then, in the main menu on the settings page,
 in "**Personal**" section, click the option: btn:[Customgroups] (2).
