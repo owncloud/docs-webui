@@ -8,6 +8,11 @@ content:
   - url: .
     branches:
     - HEAD
+  # the docs-server git is just present for the test build to satisfy used refrences
+  # the real build is made in the docs repo
+  - url: https://github.com/owncloud/docs-server.git
+    branches:
+    - master
 
 ui:
   output_dir: assets
@@ -35,6 +40,29 @@ asciidoc:
     oc-marketplace-url: 'https://marketplace.owncloud.com'
     oc-central-url: 'https://central.owncloud.org'
     oc-support-url: 'https://owncloud.com/support'
+#   server
+    # note that the version attributes just need to be present and have next as key
+    # as they are just here for the test build
+    latest-server-version: 'next'
+    previous-server-version: 'next'
+    latest-server-download-version: 'next'
+    current-server-version: 'next'
+    oc-changelog-url: 'https://owncloud.com/changelog/server/'
+    oc-install-package-url: 'https://software.opensuse.org//download.html?project=isv%3AownCloud%3Aserver%3A10&package=owncloud-complete-files'
+    oc-examples-server-url: 'https://owncloud.install.com/owncloud'
+    oc-examples-server-ip: '127.0.0.1'
+    oc-examples-username: 'username'
+    oc-examples-password: 'password'
+    oc-complete-name: 'owncloud-complete-20220112'
+    occ-command-example-prefix: 'sudo -u www-data php occ'
+    occ-command-example-prefix-no-sudo: 'php occ'
+    php-net-url: 'https://www.php.net'
+    php-supported-versions-url: 'https://www.php.net/supported-versions.php'
+    http-status-codes-base-url: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'
+    std-port-http: '8080'
+    std-port-memcache: '11211'
+    std-port-mysql: '3306'
+    std-port-redis: '6379'
 #   user
     latest-user-version: 'next'
     previous-user-version: 'next'
