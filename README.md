@@ -1,8 +1,8 @@
-# ownCloud User Giudes
+# ownCloud Web User Interface
 
 ## Building the Docs
 
-The ownCloud User Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Server documentation to preview changes you are making.
+The ownCloud Web User Interface Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Server documentation to preview changes you are making.
 
 Whenever a Pull Request of this repo gets merged, it automatically triggers a full docs build.
 
@@ -36,7 +36,7 @@ yarn antora-local
 
 ## Previewing the Generated Docs
 
-Assuming that there are no build errors, the next thing to do is to view the result in your browser. In case you have already installed a web server to access local pages, you need to configure a virtual host (or similar) which points to the directory `public/`, located in the root directory of this repository. This directory contains the generated documentation. Alternatively, use the simple web server `serve` bundled with the current package.json, just execute the following command to serve the documentation at [http://localhost:8080/user/](http://localhost:8080/user/):
+Assuming that there are no build errors, the next thing to do is to view the result in your browser. In case you have already installed a web server to access local pages, you need to configure a virtual host (or similar) which points to the directory `public/`, located in the root directory of this repository. This directory contains the generated documentation. Alternatively, use the simple web server `serve` bundled with the current package.json, just execute the following command to serve the documentation at [http://localhost:8080/webui/](http://localhost:8080/webui/):
 
 ```
 yarn serve
@@ -48,8 +48,8 @@ See the the [following section](https://github.com/owncloud/docs#target-branch-a
 
 ## Branching Workflow
 
-Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-userguide/blob/master/docs/the-branching-workflow.md) or more information.
+Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) or more information.
 
 ## Create a New Version Branch for ownCloud Server
 
-Please refer to [Create a New Version Branch for ownCloud Server](https://github.com/owncloud/docs-userguide/blob/master/docs/new-version-branch.md) for more information.
+Please refer to [Create a New Version Branch for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md) for more information.

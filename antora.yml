@@ -1,5 +1,5 @@
-name: user
-title: ownCloud User Guides
+name: webui
+title: ownCloud Web User Interface
 version: next
 start_page: ROOT:index.adoc
 nav:

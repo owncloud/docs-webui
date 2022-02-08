@@ -1,7 +1,7 @@
 site:
   title: ownCloud User Guides
   url: https://doc.owncloud.com
-  start_page: user::index.adoc
+  start_page: webui::index.adoc
 
 content:
   sources:
@@ -32,7 +32,7 @@ asciidoc:
     idseparator: '-'
     experimental: ''
     # the page-component-build-list is used in docs-ui
-    page-component-build-list: 'docs, server, ocis, user, desktop, ios-app, android'
+    page-component-build-list: 'docs, server, ocis, user, webui, desktop, ios-app, android'
 #   common
     docs-base-url: 'https://doc.owncloud.com'
     oc-contact-url: 'https://owncloud.com/contact/'
@@ -63,9 +63,9 @@ asciidoc:
     std-port-memcache: '11211'
     std-port-mysql: '3306'
     std-port-redis: '6379'
-#   user
-    latest-user-version: 'next'
-    previous-user-version: 'next'
+#   webui
+    latest-webui-version: 'next'
+    previous-webui-version: 'next'
   extensions:
     - ./lib/extensions/tabs.js
     - ./lib/extensions/remote-include-processor.js

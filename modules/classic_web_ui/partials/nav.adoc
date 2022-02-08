@@ -1,5 +1,5 @@
 // note that the module reference post xref is now a mandatory element
-* User Manual for Server
+* Classic Server UI
 ** xref:classic_web_ui:index.adoc[Introduction]
 ** xref:classic_web_ui:files/webgui/overview.adoc[The WebUI]
 *** xref:classic_web_ui:webinterface.adoc[Web Interface]
