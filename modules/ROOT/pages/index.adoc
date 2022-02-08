@@ -1,8 +1,8 @@
-= Introduction to ownCloud User Guides
+= Introduction to the ownCloud Web User Interface Guides
 
-Welcome to the ownCloud user guide documentation. There are two user guides available. Both guides cover the access of the ownCloud instance via a browser. 
+Welcome to the ownCloud Web User Interface guides. There are two web user interface guides available. Both guides cover the access of the ownCloud instance via a browser. 
 
-* The first guide, xref:classic_web_ui:index.adoc[User Manual for Server] is for the classic server version and can only be used with the server.
+* The first guide, xref:classic_web_ui:index.adoc[Classic Server UI] is for the classic server version and can only be used with the server.
 
 * The second guide, xref:new_web_ui:index.adoc[New Web UI] is either for the classic server if installed by the admin or is the default user interface when using oCIS.
 +
