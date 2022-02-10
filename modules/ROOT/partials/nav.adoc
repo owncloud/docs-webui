@@ -1,4 +1,3 @@
-.ownCloud Web User Interface
 * xref:index.adoc[Introduction]
 include::classic_web_ui:partial$nav.adoc[]
 include::infinite_web_ui:partial$nav.adoc[]
