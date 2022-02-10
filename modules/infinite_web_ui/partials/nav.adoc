@@ -1,3 +1,3 @@
 // note that the module reference post xref is now a mandatory element
-* New Web UI
-** xref:new_web_ui:index.adoc[Introduction]
+* Infinite Web UI
+** xref:infinite_web_ui:index.adoc[Introduction]
