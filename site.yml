@@ -32,7 +32,7 @@ asciidoc:
     idseparator: '-'
     experimental: ''
     # the page-component-build-list is used in docs-ui
-    page-component-build-list: 'docs, server, ocis, user, webui, desktop, ios-app, android'
+    page-component-build-list: 'docs, server, ocis, webui, user, desktop, ios-app, android'
 #   common
     docs-base-url: 'https://doc.owncloud.com'
     oc-contact-url: 'https://owncloud.com/contact/'
@@ -40,6 +40,9 @@ asciidoc:
     oc-marketplace-url: 'https://marketplace.owncloud.com'
     oc-central-url: 'https://central.owncloud.org'
     oc-support-url: 'https://owncloud.com/support'
+#   docs
+    latest-docs-version: 'next'
+    previous-docs-version: 'next'
 #   server
     # note that the version attributes just need to be present and have next as key
     # as they are just here for the test build
@@ -53,7 +56,7 @@ asciidoc:
     oc-examples-server-ip: '127.0.0.1'
     oc-examples-username: 'username'
     oc-examples-password: 'password'
-    oc-complete-name: 'owncloud-complete-20220112'
+    oc-complete-name: 'owncloud-complete-latest'
     occ-command-example-prefix: 'sudo -u www-data php occ'
     occ-command-example-prefix-no-sudo: 'php occ'
     php-net-url: 'https://www.php.net'
