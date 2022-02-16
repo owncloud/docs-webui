@@ -1,3 +1,3 @@
 // note that the module reference post xref is now a mandatory element
-* Infinite Web UI
-** xref:infinite_web_ui:index.adoc[Introduction]
+* ownCloud Web
+** xref:owncloud_web:index.adoc[Introduction]

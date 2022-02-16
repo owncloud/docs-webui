@@ -1,8 +1,8 @@
 = Introduction
 
-BlaBlaBla Infinite Web UI
+BlaBlaBla ownCloud Web
 
-Test für oCIS
+Test for oCIS
 
 [source,yaml]
 ----
