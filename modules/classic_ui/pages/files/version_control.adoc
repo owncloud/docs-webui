@@ -9,7 +9,7 @@ ownCloud supports a simple version control system for files. Versioning creates 
 
 image:files_versioning.png[image]
 
-include::{partialsdir}/direct_file_access_tip.adoc[]
+include::partial$/direct_file_access_tip.adoc[]
 
 To restore a specific version of a file, click the btn:[circular arrow] to the
 left. Click on the btn:[timestamp] to download it.
