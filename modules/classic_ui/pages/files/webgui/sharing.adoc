@@ -49,7 +49,7 @@ In the image below, you can see that the directory "event-Photos" is shared with
 
 image:files_page-2.png[Sharing files]
 
-include::{partialsdir}/direct_file_access_tip.adoc[]
+include::partial$/direct_file_access_tip.adoc[]
 
 === What Happens When Share Recipients Move Files and Folders?
 
