@@ -1,10 +1,10 @@
 = Introduction
 
-BlaBlaBla ownCloud Web
+ownCloud Web
 
-Test for oCIS
+// Test for oCIS
 
-[source,yaml]
-----
-include::https://raw.githubusercontent.com/wkloucek/cst-workshop/main/workshop-2022-02-02-docker/solution/docker-compose.yml[]
-----
+// [source,yaml]
+// ----
+// include::https://raw.githubusercontent.com/wkloucek/cst-workshop/main/workshop-2022-02-02-docker/solution/docker-compose.yml[]
+// ----
