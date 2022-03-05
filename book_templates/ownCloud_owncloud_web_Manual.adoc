@@ -1,4 +1,4 @@
-= ownCloud Developer Manual
+= ownCloud User Manual
 :toc:
 :toclevels: 2
 :homepage: https://github.com/owncloud/docs
@@ -7,6 +7,6 @@
 :listing-caption: Listing
 :source-highlighter: rouge
 :version-label: Version:
-:module_base_path: modules/developer_manual/pages/
+:module_base_path: modules/owncloud_web/pages/
 The ownCloud Team <docs@owncloud.com>
 {revnumber}, {revdate}
