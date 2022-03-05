@@ -7,6 +7,6 @@
 :listing-caption: Listing
 :source-highlighter: rouge
 :version-label: Version:
-:module_base_path: modules/user_manual/pages/
+:module_base_path: modules/classic_ui/pages/
 The ownCloud Team <docs@owncloud.com>
 {revnumber}, {revdate}
