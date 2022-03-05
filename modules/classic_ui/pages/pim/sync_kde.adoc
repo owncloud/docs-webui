@@ -1,4 +1,5 @@
 = Synchronizing with KDE SC
+:page-aliases: next@server:user_manual:pim/sync_kde.adoc
 
 image:kdes1.png[image]
 

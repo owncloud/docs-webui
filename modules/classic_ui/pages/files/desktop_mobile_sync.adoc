@@ -1,6 +1,11 @@
 = Desktop and Mobile Synchronization
+:page-aliases: next@server:user_manual:files/descktop_mobile_sync.adoc
 
-For synchronizing files with your desktop computer, we recommend using the https://owncloud.com/desktop-app/[ownCloud Sync Client] for Windows, Mac OS X and Linux.
+:description: Syncronizing files with your desktop computer is most easiest with the Descktop Synchronisation Client. While it is no mandatory, it eases keeping files in sync a lot.
+
+== Introduction
+
+{description} See the download link https://owncloud.com/desktop-app/[ownCloud Sync Client] for Windows, Mac OS X and Linux clients.
 
 The ownCloud Desktop Sync Client enables you to connect to your private
 ownCloud Server. You can create folders in your home directory, and keep

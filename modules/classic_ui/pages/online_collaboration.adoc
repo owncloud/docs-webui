@@ -2,18 +2,19 @@
 :collabora-online-url: https://www.collaboraoffice.com/collabora-online/
 :libreoffice-url: https://www.libreoffice.org/
 :secure-view-label: Secure View (with watermarks)
+:page-aliases: next@server:user_manual:online_collaboration.adoc
+
+:description: {collabora-online-url}[Collabora Online] is a powerful {libreoffice-url}[LibreOffice]-based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud.
 
 == Collabora Online
 
-{collabora-online-url}[Collabora Online] is a powerful {libreoffice-url}[LibreOffice]-based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud. 
+{description}
 
 === Secure View
 
-Secure View is a way to securely distribute information, without that information being able to leave your organisation.
-It provides the ability to restrict access to documents, in _read-only_ shares, so that recipients cannot copy, download, or edit shared files.
+Secure View is a way to securely distribute information, without that information being able to leave your organisation. It provides the ability to restrict access to documents, in _read-only_ shares, so that recipients cannot copy, download, or edit shared files.
 
-When enabled, documents will be viewed through Collabora Online with a watermark.
-In addition, the ability to print and export files (with watermarks) is available, once Secure View is enabled.
+When enabled, documents will be viewed through Collabora Online with a watermark. In addition, the ability to print and export files (with watermarks) is available, once Secure View is enabled.
 
 NOTE: This feature is *not* available in the community edition, or for Public Links.
 

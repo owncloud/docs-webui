@@ -1,11 +1,14 @@
 = Storage Quotas
 :toc: right
+:page-aliases: next@server:user_manual:files/webgui/quota.adoc
+
+:description: Your ownCloud admin has the option to set a storage quota on users. Look
+at the top of your Personal page to see what your quota is, and how much
+you have used.
 
 == Introduction
 
-Your ownCloud admin has the option to set a storage quota on users. Look
-at the top of your Personal page to see what your quota is, and how much
-you have used.
+{description}
 
 image:quota1.png[image]
 

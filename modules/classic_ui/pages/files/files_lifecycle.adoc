@@ -1,9 +1,12 @@
 = File Lifecycle Management
 :toc: right
+:page-aliases: next@server:user_manual:files/files_lifecycle.adoc
+
+:description: With File Lifecycle Management, ownCloud provides a toolset for administrators to automatically move user files into a dedicated archive a certain time after they were uploaded. 
 
 == Introduction
 
-With File Lifecycle Management, ownCloud provides a toolset for administrators to automatically move user files into a dedicated archive a certain time after they were uploaded. Unless they are restored, archived files will be permanently deleted once they exceed a certain time in the archive. The following sections provide guidance for users on ownCloud installations that have File Lifecycle Management policies enabled.
+{description} Unless they are restored, archived files will be permanently deleted once they exceed a certain time in the archive. The following sections provide guidance for users on ownCloud installations that have File Lifecycle Management policies enabled.
 
 TIP: Only files will be archived, folder structures are kept available.
 

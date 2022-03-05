@@ -2,8 +2,10 @@
 :toc: right
 :tab-type-text: sharing
 :tab-type-link: share
+:page-aliases: next@server:user_manual:files/webgui/activity.adoc
 
-Clicking the Activity tab in the Details view shows all activities for a file.
-Activities can include when a file was created, renamed, and deleted.
+:description: Clicking the Activity tab in the Details view in the web browser shows all activities for a file. Activities can include when a file was created, renamed, and deleted.
+
+{description}
 
 image:files/activity-pane.png[The Activity tab of of the Details view in ownCloud]

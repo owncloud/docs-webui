@@ -1,6 +1,7 @@
 = Using the Contacts App
-:page-aliases: go/user-sync-contacts.adoc
+:page-aliases: next@server:user_manual:apps/contacts.adoc
 
-The Contacts app is not enabled by default in ownCloud and needs to be enabled separately. 
-You can download it via {oc-marketplace-url}/apps/market[the market app].
+:description: The Contacts app is not enabled by default in ownCloud and needs to be enabled separately. You can download it via {oc-marketplace-url}/apps/market[the market app].
+
+{description}
 

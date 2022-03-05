@@ -9,16 +9,13 @@
 :office-opens-blank-url: https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/office-opens-blank-from-sharepoint
 :support-1-url: https://support.microsoft.com/kb/2123563
 :support-2-url: https://support.microsoft.com/kb/2668751
-:page-aliases: go/user-webdav.adoc
+:page-aliases: next@server:user_manual:files/access_webdav.adoc
+
+:description: ownCloud fully supports the WebDAV protocol, and you can connect and synchronize with your ownCloud files over WebDAV. In this chapter you will learn how to connect Linux, Mac OS X, Windows and mobile devices to your ownCloud server via WebDAV.
 
 == Introduction
 
-ownCloud fully supports the WebDAV protocol, and you can connect and
-synchronize with your ownCloud files over WebDAV. In this chapter you
-will learn how to connect Linux, Mac OS X, Windows, and mobile devices
-to your ownCloud server via WebDAV. Before we get into configuring
-WebDAV, let’s take a quick look at the recommended way of connecting
-client devices to your ownCloud servers.
+{description} Before we get into configuring WebDAV, let’s take a quick look at the recommended way of connecting client devices to your ownCloud servers.
 
 == ownCloud Desktop and Mobile Clients
 

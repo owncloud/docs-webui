@@ -1,8 +1,11 @@
 = The Web Interface
+:page-aliases: next@server:user_manual:webinterface.adoc
 
-You can connect to your ownCloud server using any Web browser; just
-point it to your ownCloud server and enter your username and password.
-Supported Web browsers are:
+:description: You can connect to your ownCloud server using any Web browser; just point it to your ownCloud server and enter your username and password. Supported Web browsers are:
+
+== Introduction
+
+{description}
 
 * Edge (current version on Windows 10)
 * IE11 or newer (except Compatibility Mode)

@@ -1,11 +1,12 @@
 = The Activity App
 :toc: right
+:page-aliases: next@server:user_manual:apps/activity.adoc
+
+:description: The ownCloud Activity app gathers all your file or folder related actions in one place for you to review and can notify you about them via email as well. 
 
 == Introduction
 
-The ownCloud Activity app gathers all your file or folder related actions in one place for you to review and can notify you about them via email as well. 
-You can decide, in detail, which file and folder actions are listed in the Activity stream, and for which file or folder actions to receive email notifications. 
-By using the app, you can ensure that you never miss an important event related to content in ownCloud and always be up-to-date on all activities of your files and folders.
+{description} You can decide, in detail, which file and folder actions are listed in the Activity stream, and for which file or folder actions to receive email notifications. By using the app, you can ensure that you never miss an important event related to content in ownCloud and always be up-to-date on all activities of your files and folders.
 
 [TIP] 
 ====

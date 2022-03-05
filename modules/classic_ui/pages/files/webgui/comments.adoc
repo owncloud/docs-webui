@@ -2,11 +2,13 @@
 :toc: right
 :tab-type-text: comments
 :tab-type-link: comments
+:page-aliases: next@server:user_manual:files/webgui/comments.adoc
+
+:description: In ownCloud, you can add one or more comments on both files and folders. This section describes how to add, edit, and delete comments.
 
 == Introduction
 
-In ownCloud, you can add one or more comments on both files and folders.
-This section describes how to add, edit, and delete comments.
+{description}
 
 include::partial$/direct_file_access_tip.adoc[]
 

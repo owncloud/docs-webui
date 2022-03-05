@@ -1,10 +1,13 @@
 = General Settings
 :toc: right
 :toclevels: 2
+:page-aliases: next@server:user_manual:personal_settings/general.adoc
+
+:description: In general settings, some of the features you will see include the following:
 
 == Introduction
 
-In general settings, some of the features you will see include the following:
+{description}
 
 * Usage and available quota
 * Manage your profile picture

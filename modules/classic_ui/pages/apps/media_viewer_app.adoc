@@ -4,13 +4,13 @@
 :ogg-url: https://xiph.org/vorbis/
 :mp4-url: https://en.wikipedia.org/wiki/MPEG-4_Part_14
 :media-viewer-app-url: {oc-marketplace-url}/apps/files_mediaviewer
+:page-aliases: next@server:user_manual:apps/media_viewer_app.adoc
 
-image:media-viewer-app/app-overview.png[]
+:description: The {media-viewer-app-url}[Media Viewer app] is a lightweight viewer for pictures and videos which integrates with the files app, and is released under the GPLv2.
 
 == Introduction
 
-The {media-viewer-app-url}[Media Viewer app] is a lightweight viewer for pictures and videos which integrates with the files app, and is released under the GPLv2. 
-It replaces the gallery and files_videoplayer apps, which have now been deprecated, and supports the same basic feature set as the deprecated apps.
+{description} It replaces the gallery and files_videoplayer apps, which have now been deprecated, and supports the same basic feature set as the deprecated apps.
 
 It supports the following functionality:
 
@@ -18,6 +18,8 @@ It supports the following functionality:
 * *Video*: _playback_ and _download_
 
 NOTE: The app will support paginating through all media files in the current directory, even if only one media file was chosen to be previewed.
+
+image:media-viewer-app/app-overview.png[]
 
 == Features
 

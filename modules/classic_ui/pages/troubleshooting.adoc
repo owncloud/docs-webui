@@ -1,9 +1,12 @@
 = Troubleshooting
 :toc: right
+:page-aliases: next@server:user_manual:troubleshooting.adoc
 
-Listed here are the most common errors you may encounter while
-attempting to upload files, along with what they mean and possible
-workarounds.
+:description: Listed here are the most common errors you may encounter while attempting to upload files, along with what they mean and possible workarounds.
+
+== Introduction
+
+{description}
 
 == Error while copying file to target location (copied bytes: xxx, expected filesize: yyy)
 

@@ -1,10 +1,9 @@
 = Personal Settings
+:page-aliases: next@server:user_manual:personal_settings/index.adoc
 
-As a user, you can manage your personal settings. To access them:
+:description: As a user, you can manage your personal settings. To access them: Click on your username in the top, right-hand corner of the WebUI of your ownCloud instance.
 
-Click on your username in the top, right-hand corner of the WebUI of your ownCloud instance.
-
-The Personal Settings Menu opens.
+{description} The Personal Settings Menu opens.
 
 image:personal-settings/oc_personal_settings_dropdown.png[screenshot of user menu at top-right of ownCloud Web GUI]
 

@@ -2,10 +2,13 @@
 :toc: right
 :toclevels: 1
 :moz-browser-compatibility-guide-url: https://developer.mozilla.org/en-US/docs/Web/Media/Formats#Browser_compatibility
+:page-aliases: next@server:user_manual:files/webgui/navigating.adoc
+
+:description: Navigating through folders in ownCloud is as simple as clicking on a folder to open it and using the back button on your browser to move to a previous level. This section walks you through how to navigate the ownCloud UI.
 
 == Introduction
 
-Navigating through folders in ownCloud is as simple as clicking on a folder to open it and using the back button on your browser to move to a previous level. This section walks you through how to navigate the ownCloud UI.
+{description}
 
 == Create and Upload Files and Directories
 

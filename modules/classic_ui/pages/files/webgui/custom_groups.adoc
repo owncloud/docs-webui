@@ -1,17 +1,12 @@
 = Custom Groups
 :toc: right
+:page-aliases: next@server:user_manual:files/webgui/custom_groups.adoc
+
+:description: You can create your own groups on-the-fly, through a feature called "Custom Groups". Here’s how to use it.
 
 == Introduction
 
-In previous versions of ownCloud, if you wanted to share a file or a
-folder with more than one person, you had to share it either with many
-people individually, or share to one or more groups. However, you could
-only share with groups which your ownCloud administrator had already
-created.
-
-This wasn’t the most efficient way to work. To address that, as of
-ownCloud 10.0, you can now create your own groups on-the-fly, through a
-feature called "Custom Groups". Here’s how to use it.
+{description}
 
 == Creating Custom Groups
 

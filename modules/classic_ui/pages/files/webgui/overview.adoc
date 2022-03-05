@@ -1,11 +1,13 @@
 = WebUI Overview
 :toc: right
 :toclevels: 1
+:page-aliases: next@server:user_manual:files/webgui/overview.adoc
+
+:description: You can access your files with the ownCloud Web interface, as well as: create, preview, edit, delete, share, and re-share files.
 
 == Introduction
 
-You can access your files with the ownCloud Web interface, as well as:
-create, preview, edit, delete, share, and re-share files.
+{description}
 
 IMPORTANT: Your ownCloud administrator has the option to disable these features. If any of them are missing on your system ask your server administrator.
 

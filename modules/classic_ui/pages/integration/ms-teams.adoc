@@ -1,9 +1,12 @@
 = Integrate ownCloud into Microsoft Teams
 :toc: right
+:page-aliases: next@server:user_manual:integration/ms-teams.adoc
+
+:description: You can access your ownCloud via Microsoft Teams if your administrator has created an app available in your organization's app catalog. It is possible that the admin already has enabled the app for the users, in this case you do not need to search for it in your organization's app catalog as it is already pinned.
 
 == Introduction
 
-You can access your ownCloud via Microsoft Teams if your administrator has created an app available in your organization's app catalog. It is possible that the admin already has enabled the app for the users, in this case you do not need to search for it in your organization's app catalog as it is already pinned.
+{description}
 
 == Access the App
 
