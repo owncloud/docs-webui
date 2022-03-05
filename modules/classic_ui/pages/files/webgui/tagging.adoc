@@ -1,10 +1,12 @@
 = Tagging Files
 :toc: right
+:page-aliases: next@server:user_manual:files/webgui/tagging.adoc
+
+:description: ownCloud provides via the webinterface the ability to assign one or more tags to files and folders.
 
 == Introduction
 
-In ownCloud, you can assign one or more tags to files and folders.
-To do so, go to the "**Details**" view in the
+{description} To do so, go to the "**Details**" view in the
 xref:files/webgui/overview.adoc#the-overflow-menu[The Overflow Menu] and enter the "**Tags**" tab.
 
 

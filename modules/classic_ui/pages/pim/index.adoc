@@ -1,5 +1,6 @@
 = Contacts & Calendar
+:page-aliases: next@server:user_manual:pim/index.adoc
 
-The Contacts, Calendar, and Mail apps are not included in ownCloud 9 and later, and are not supported. 
-You can install them from the ownCloud Marketplace by clicking btn:[Install] on their respective entries.
-You can find them under menu:Market[Productivity].
+:description: The Contacts, Calendar, and Mail apps can be installed from the ownCloud Marketplace in the  menu:Market[Productivity] category and can be installed by clicking btn:[Install] on their respective entries but are not with official support.
+
+{description}

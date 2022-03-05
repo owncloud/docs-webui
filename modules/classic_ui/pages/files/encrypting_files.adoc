@@ -1,17 +1,12 @@
 = Encrypting Your ownCloud Files
 :toc: right
-:page-aliases: go/user-encryption.adoc
+:page-aliases: next@server:user_manual:files/encrypting_files.adoc
+
+:description: ownCloud includes an Encryption app, and when it is enabled by your ownCloud administrator, all of your ownCloud data files are automatically encrypted.
 
 == Introduction
 
-ownCloud includes an Encryption app, and when it is enabled by your
-ownCloud administrator all of your ownCloud data files are automatically
-encrypted. Encryption is server-wide, so when it is enabled you cannot
-choose to keep your files unencrypted. You don’t have to do anything
-special, as it uses your ownCloud login as the password for your unique
-private encryption key. Just log in and out and manage and share your
-files as you normally do, and you can still change your password
-whenever you want.
+{description} Encryption is server-wide, so when it is enabled you cannot choose to keep your files unencrypted. You don’t have to do anything special, as it uses your ownCloud login as the password for your unique private encryption key. Just log in and out and manage and share your files as you normally do, and you can still change your password whenever you want.
 
 Its main purpose is to encrypt files on remote storage services that are
 connected to your ownCloud server, such as Dropbox and Google Drive.

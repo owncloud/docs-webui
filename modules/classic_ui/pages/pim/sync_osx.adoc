@@ -1,7 +1,9 @@
 = Synchronizing with OS X
+:page-aliases: next@server:user_manual:pim/sync_osx.adoc
 
 To use ownCloud with iCal you will need to use the following URL:
 
+[source,plaintext]
 ----
 https://example.com/remote.php/dav/principals/users/USERNAME/
 ----

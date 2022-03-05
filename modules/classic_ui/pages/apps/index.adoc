@@ -1,4 +1,5 @@
 :section-title: Apps
 :section-preamble-ender: on some of the core apps available with ownCloud 
+:page-aliases: next@server:user_manual:apps/index.adoc
 
 include::partial$section_page.adoc[]

@@ -1,6 +1,7 @@
 = Integration
+:page-aliases: next@server:user_manual:integration/index.adoc
 
-This section is dedicated to integrating ownCloud with other products, for now only Microsoft Teams, but more is likely to come.
+This section is dedicated to integrating ownCloud with other products, for now only Microsoft Teams, but more to come.
 
 - xref:integration/ms-teams.adoc[Microsoft Teams]
 

@@ -1,4 +1,5 @@
 = Sharing
+:page-aliases: next@server:user_manual:personal_settings/sharing.adoc
 
 == Introduction
 

@@ -1,13 +1,12 @@
 = Managing Deleted Files
 :toc: right
-:page-aliases: go/user-trashbin.adoc
+:page-aliases: next@server:user_manual:files/deleted_file_management.adoc
+
+:description: When you delete a file in ownCloud, it is not immediately deleted permanently. Instead, it is moved into the trash bin. It is not permanently deleted until you manually delete it, or when the Deleted Files app deletes it to make room for new files.
 
 == Introduction
 
-When you delete a file in ownCloud, it is not immediately deleted
-permanently. Instead, it is moved into the trash bin. It is not
-permanently deleted until you manually delete it, or when the Deleted
-Files app deletes it to make room for new files.
+{description}
 
 Find your deleted files by clicking on the btn:[Deleted files] button on the
 Files page of the ownCloud Web interface. You’ll have options to either

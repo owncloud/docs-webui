@@ -1,10 +1,12 @@
 = The Market App
 :keywords: ownCloud Marketplace, ownCloud Market, apps
+:page-aliases: next@server:user_manual:apps/market.adoc
+
 :description: Here you will find out all you need to know about working with ownCloud's Market app.
 
 == Log in to the Marketplace From the Market App
 
-To log in to {oc-marketplace-url}[the ownCloud Marketplace] from the Market app, open the Market app by clicking on the Market app icon in the top-level ownCloud navigation menu, which you can see above.
+{description} To log in to {oc-marketplace-url}[the ownCloud Marketplace] from the Market app, open the Market app by clicking on the Market app icon in the top-level ownCloud navigation menu, which you can see above.
 
 image:apps/market/top-level-navigation-bar-highlighting-the-market-app.png[The Market app in the ownCloud top-level navigation menu]
 

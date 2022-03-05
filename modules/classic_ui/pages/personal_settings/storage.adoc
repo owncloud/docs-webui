@@ -1,8 +1,11 @@
 = External Storage
+:page-aliases: next@server:user_manual:personal_settings/storage.adoc
+
+:description: If your ownCloud administrator has enabled *External Storage* for users, you will be able to add one or multiple external storages depending on the allowed storage types.
 
 == Introduction
 
-If your ownCloud administrator has enabled *External Storage* for users, you will be able to add one or multiple external storages depending on the allowed storage types.
+{description}
 
 .User Storage Settings
 image::personal-settings/storage/external-storage.png[]
