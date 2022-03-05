@@ -69,6 +69,21 @@ asciidoc:
 #   webui
     latest-webui-version: 'next'
     previous-webui-version: 'next'
+#   ocis
+    latest-ocis-version: 'next'
+    previous-ocis-version: 'next'
+#   desktop
+    latest-desktop-version: 'next'
+    previous-desktop-version: 'next'
+#   ios-app
+    latest-ios-version: 'next'
+    previous-ios-version: 'next'
+#   android
+    latest-android-version: 'next'
+    previous-android-version: 'next'
+#   branded
+    latest-branded-version: 'next'
+    previous-branded-version: 'next'
   extensions:
     - ./lib/extensions/tabs.js
     - ./lib/extensions/remote-include-processor.js
