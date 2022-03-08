@@ -1,5 +1,7 @@
 = Synchronizing with OS X
-:page-aliases: next@server:user_manual:pim/sync_osx.adoc
+:page-aliases: next@server:user_manual:pim/sync_osx.adoc, \
+{latest-server-version}@server:user_manual:pim/sync_osx.adoc, \
+{previous-server-version}@server:user_manual:pim/sync_osx.adoc
 
 To use ownCloud with iCal you will need to use the following URL:
 

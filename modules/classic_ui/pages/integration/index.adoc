@@ -1,5 +1,7 @@
 = Integration
-:page-aliases: next@server:user_manual:integration/index.adoc
+:page-aliases: next@server:user_manual:integration/index.adoc, \
+{latest-server-version}@server:user_manual:integration/index.adoc, \
+{previous-server-version}@server:user_manual:integration/index.adoc
 
 This section is dedicated to integrating ownCloud with other products, for now only Microsoft Teams, but more to come.
 

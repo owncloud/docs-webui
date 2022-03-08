@@ -2,7 +2,9 @@
 :collabora-online-url: https://www.collaboraoffice.com/collabora-online/
 :libreoffice-url: https://www.libreoffice.org/
 :secure-view-label: Secure View (with watermarks)
-:page-aliases: next@server:user_manual:online_collaboration.adoc
+:page-aliases: next@server:user_manual:online_collaboration.adoc, \
+{latest-server-version}@server:user_manual:online_collaboration.adoc, \
+{previous-server-version}@server:user_manual:online_collaboration.adoc
 
 :description: {collabora-online-url}[Collabora Online] is a powerful {libreoffice-url}[LibreOffice]-based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud.
 

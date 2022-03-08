@@ -1,6 +1,8 @@
 = Session Management
 :toc: right
-:page-aliases: next@server:user_manual:session_management.adoc
+:page-aliases: next@server:user_manual:session_management.adoc, \
+{latest-server-version}@server:user_manual:session_management.adoc, \
+{previous-server-version}@server:user_manual:session_management.adoc
 
 :description: The personal settings page allows you to have an overview of the connected browsers and clients. It is accessed by selecting the
 

@@ -1,7 +1,9 @@
 = Version Control
 :tab-type-text: versions
 :tab-type-link: versions
-:page-aliases: next@server:user_manual:files/version_control.adoc
+:page-aliases: next@server:user_manual:files/version_control.adoc, \
+{latest-server-version}@server:user_manual:files/version_control.adoc, \
+{previous-server-version}@server:user_manual:files/version_control.adoc
 
 :description: ownCloud supports a simple version control system for files. Versioning creates backups of files which are accessible via the Versions tab on the Details sidebar.
 

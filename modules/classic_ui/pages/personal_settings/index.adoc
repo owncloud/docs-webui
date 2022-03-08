@@ -1,5 +1,7 @@
 = Personal Settings
-:page-aliases: next@server:user_manual:personal_settings/index.adoc
+:page-aliases: next@server:user_manual:personal_settings/index.adoc, \
+{latest-server-version}@server:user_manual:personal_settings/index.adoc, \
+{previous-server-version}@server:user_manual:personal_settings/index.adoc
 
 :description: As a user, you can manage your personal settings. To access them: Click on your username in the top, right-hand corner of the WebUI of your ownCloud instance.
 

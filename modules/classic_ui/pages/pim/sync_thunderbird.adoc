@@ -1,5 +1,8 @@
 = Thunderbird - Synchronize Addressbook
-:page-aliases: next@server:user_manual:pim/sync_thunderbird.adoc
+:page-aliases: next@server:user_manual:pim/sync_thunderbird.adoc, \
+{latest-server-version}@server:user_manual:pim/sync_thunderbird.adoc, \
+{previous-server-version}@server:user_manual:pim/sync_thunderbird.adoc
+
 
 As someone who is new to ownCloud, new to SoGo Connector, and new to
 Thunderbird Addressbook, here is what you need in excruciating pithy

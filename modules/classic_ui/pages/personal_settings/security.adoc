@@ -6,7 +6,9 @@
 :gps-google-auth-url: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US
 :ios-2fas-url: https://apps.apple.com/app/2fa-authenticator-2fas/id1217793794
 :gps-2fas-url: https://play.google.com/store/apps/details?id=com.twofasapp&hl=en&gl=US
-:page-aliases: next@server:user_manual:personal_settings/security.adoc
+:page-aliases: next@server:user_manual:personal_settings/security.adoc, \
+{latest-server-version}@server:user_manual:personal_settings/security.adoc, \
+{previous-server-version}@server:user_manual:personal_settings/security.adoc
 
 == Introduction
 

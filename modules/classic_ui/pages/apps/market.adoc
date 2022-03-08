@@ -1,6 +1,8 @@
 = The Market App
 :keywords: ownCloud Marketplace, ownCloud Market, apps
-:page-aliases: next@server:user_manual:apps/market.adoc
+:page-aliases: next@server:user_manual:apps/market.adoc, \
+{latest-server-version}@server:user_manual:apps/market.adoc, \
+{previous-server-version}@server:user_manual:apps/market.adoc
 
 :description: Here you will find out all you need to know about working with ownCloud's Market app.
 
