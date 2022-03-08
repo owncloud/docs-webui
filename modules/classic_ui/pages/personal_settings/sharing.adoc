@@ -1,5 +1,7 @@
 = Sharing
-:page-aliases: next@server:user_manual:personal_settings/sharing.adoc
+:page-aliases: next@server:user_manual:personal_settings/sharing.adoc, \
+{latest-server-version}@server:user_manual:personal_settings/sharing.adoc, \
+{previous-server-version}@server:user_manual:personal_settings/sharing.adoc
 
 == Introduction
 

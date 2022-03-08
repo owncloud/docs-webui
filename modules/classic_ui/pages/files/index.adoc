@@ -1,4 +1,6 @@
 = Files
-:page-aliases: next@server:user_manual:files/index.adoc
+:page-aliases: next@server:user_manual:files/index.adoc, \
+{latest-server-version}@server:user_manual:files/index.adoc, \
+{previous-server-version}@server:user_manual:files/index.adoc
 
 This section covers how to work with and user files when using ownCloud.

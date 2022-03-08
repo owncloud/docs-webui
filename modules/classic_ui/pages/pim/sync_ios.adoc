@@ -1,6 +1,8 @@
 = iOS - Synchronize iPhone/iPad
 :toc: right
-:page-aliases: next@server:user_manual:pim/sync_ios.adoc
+:page-aliases: next@server:user_manual:pim/sync_ios.adoc, \
+{latest-server-version}@server:user_manual:pim/sync_ios.adoc, \
+{previous-server-version}@server:user_manual:pim/sync_ios.adoc
 
 == Calendar
 

@@ -4,7 +4,9 @@
 :ogg-url: https://xiph.org/vorbis/
 :mp4-url: https://en.wikipedia.org/wiki/MPEG-4_Part_14
 :media-viewer-app-url: {oc-marketplace-url}/apps/files_mediaviewer
-:page-aliases: next@server:user_manual:apps/media_viewer_app.adoc
+:page-aliases: next@server:user_manual:apps/media_viewer_app.adoc, \
+{latest-server-version}@server:user_manual:apps/media_viewer_app.adoc, \
+{previous-server-version}@server:user_manual:apps/media_viewer_app.adoc
 
 :description: The {media-viewer-app-url}[Media Viewer app] is a lightweight viewer for pictures and videos which integrates with the files app, and is released under the GPLv2.
 

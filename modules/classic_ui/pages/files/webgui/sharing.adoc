@@ -2,7 +2,9 @@
 :toc: right
 :tab-type-text: sharing
 :tab-type-link: share
-:page-aliases: next@server:user_manual:files/webgui/sharing.adoc
+:page-aliases: next@server:user_manual:files/webgui/sharing.adoc, \
+{latest-server-version}@server:user_manual:files/webgui/sharing.adoc, \
+{previous-server-version}@server:user_manual:files/webgui/sharing.adoc
 
 :description: Clicking the share icon on any file or folder opens the Details view on
 the right, where the Share tab has focus.

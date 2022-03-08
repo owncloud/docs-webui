@@ -1,7 +1,9 @@
 = General Settings
 :toc: right
 :toclevels: 2
-:page-aliases: next@server:user_manual:personal_settings/general.adoc
+:page-aliases: next@server:user_manual:personal_settings/general.adoc, \
+{latest-server-version}@server:user_manual:personal_settings/general.adoc, \
+{previous-server-version}@server:user_manual:personal_settings/general.adoc
 
 :description: In general settings, some of the features you will see include the following:
 
