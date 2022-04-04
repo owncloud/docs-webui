@@ -50,7 +50,7 @@ when they were deleted) until it meets the memory usage limit again.
 
 ownCloud checks the age of deleted files every time new files are added
 to the deleted files. By default, deleted files stay in the trash bin
-for 180 days. The ownCloud server administrator can adjust this value in
+for 30 days. The ownCloud server administrator can adjust this value in
 the `config.php` file by setting the `trashbin_retention_obligation`
 value. Files older than the `trashbin_retention_obligation` value will
 be deleted permanently. Additionally, ownCloud calculates the maximum
