@@ -1,0 +1,87 @@
+= ownCloud Web for Users
+
+// screenshots still to be added.
+
+:toc: right
+:toc-levels: 1
+
+:description:
+This sections describes the web UI from a regular user's perspective without administrator privileges.
+
+== Introduction
+
+{description}
+
+If you have been using ownCloud before but with the classic user interface on an ownCloud 10 server, you may want to check out section xref:web_with_oC10.adoc[ownCloud Web with ownCloud Server 10.x] get an overview of the main differences.
+
+The following description assumes you're new to ownCloud.
+
+== Top Navigation
+
+. Application Switcher:
+
+The square with the nine tiles is your application switcher. If there are no applications installed yet, you can only switch between `Files` and `Accounts`.
+
+. Global Search:
+
+The new search not only scans the content in your ownCloud spaces, but also in applications like chat tools or on the web.
+
+// work in progress, uses Bleve.
+// https://github.com/blevesearch/bleve
+
+. Mode Switcher:
+
+Depending on your preferences or light conditions you can switch between `dark mode` and `light mode`.
+
+. Account Menu:
+
+All the way to the right, the little round icon with your initials opens a menu that takes you to your account information or the settings section, shows your quota and usage of storage space and allows you to log out.
+
+== Overview Graphical Elements?
+
+== Left Sidebar
+
+=== Personal
+
+Under `Personal` in the left sidebar you have your private space where you can upload files and folders and share them either via public link or internally with others users on the same oCIS instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
+
+=== Shares
+
+Under `Shares` you can see all files or folders that have been shared with you. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
+
+A click on the three vertical dots opens an actions menu. Actions to be performed on a file or folder depend on the file type (video, text, etc.) and on the permissions granted by the sharer.
+
+=== Spaces
+
+Spaces are organizational units to sort content and make it available to certain members.
+
+Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
+
+In spaces, editors can do a little more and there's the additional role of manager.
+
+A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
+
+Every space must have at least one manager. Managers of a space have all the rights of viewers and editors. In addition, they can:
+
+* invite additional members,
+
+* edit the quota of a space,
+
+* change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
+
+==== Sharing Within Spaces
+
+If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
+
+You can either invite people to become members of a particular space with certain privileges or only send them a link to just one file or folder.
+
+==== Trashbin
+
+=== Deleted Files
+
+Under `Deleted Files` you find content that you have deleted from your `Personal Space`. Here you can either really delete the file for good or restore it if deletion was a mistake.
+
+TIP: If files in one of the spaces you are a member of are deleted, they are placed in the trashbin of the respective space so they can be stored there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
+
+
+
