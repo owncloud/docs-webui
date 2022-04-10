@@ -12,14 +12,6 @@ ownCloud web comes with a completely new design that is more user-friendly and i
 
 If you are still running ownCloud 10.x as server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with oCIS. For a quick introduction about what's new or different, check out the section xref:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x].
 
-// Test for oCIS
-
-// [source,yaml]
-// ----
-// include::https://raw.githubusercontent.com/wkloucek/cst-workshop/main/workshop-2022-02-02-docker/solution/docker-compose.yml[]
-// ----
-
-// I guess the above can be deleted now?
 
 == Changes
 

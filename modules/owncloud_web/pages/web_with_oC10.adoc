@@ -1,4 +1,8 @@
 = ownCloud Web on ownCloud Server 10.x
+:description:
+ownCloud web is also available for ownCloud server 10.x as an app to get familiar with the new interface.
+== Introduction
+{description}
 
 To ease the transition from ownCloud server 10.x to oCIS, we recommend starting to use the new Web UI. ownCloud users will benefit from the following additions and improvements:
 
