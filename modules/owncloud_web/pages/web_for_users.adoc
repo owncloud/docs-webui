@@ -20,7 +20,7 @@ The following description assumes you're new to ownCloud.
 
 . Application Switcher:
 
-The square with the nine tiles is your application switcher. If there are no applications installed yet, you can only switch between `Files` and `Accounts`.
+The square in the upper left corner with the nine tiles is your application switcher. There you can switch between `Files` and installed apps.
 
 . Global Search:
 
@@ -49,7 +49,7 @@ Under `Personal` in the left sidebar you have your private space where you can u
 
 Under `Shares` you can see all files or folders that have been shared with you. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
 
-A click on the three vertical dots opens an actions menu. Actions to be performed on a file or folder depend on the file type (video, text, etc.) and on the permissions granted by the sharer.
+A click on the three vertical dots opens an actions menu. Actions you can performed on a file or folder depend on the file type (video, text, etc.) and on the permissions granted by the sharer.
 
 === Spaces
 
@@ -57,31 +57,39 @@ Spaces are organizational units to sort content and make it available to certain
 
 Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
 
-In spaces, editors can do a little more and there's the additional role of manager.
+In Spaces, editors can do a little more and there's the additional role of manager.
 
 A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
 
 Every space must have at least one manager. Managers of a space have all the rights of viewers and editors. In addition, they can:
-
 * invite additional members,
-
 * edit the quota of a space,
-
 * change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
-
-==== Sharing Within Spaces
-
-If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
-
-You can either invite people to become members of a particular space with certain privileges or only send them a link to just one file or folder.
-
-==== Trashbin
 
 === Deleted Files
 
 Under `Deleted Files` you find content that you have deleted from your `Personal Space`. Here you can either really delete the file for good or restore it if deletion was a mistake.
 
-TIP: If files in one of the spaces you are a member of are deleted, they are placed in the trashbin of the respective space so they can be stored there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
+TIP: If files in one of the spaces are deleted, they are placed in the trashbin of the respective space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
 
+// fixme: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
 
+== Right Sidebar
+
+The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner. Here you find details about files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
+
+=== Sharing
+
+If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
+
+Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Share`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the oCIS instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
+
+A public link also works for external people not registered on the oCIS server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
+For security reasons, the only possible role for unregistered users is `viewer`.
+
+=== Versions
+
+If you modified a document stored in oCIS, you can always restore older versions. A nice feature, but when it comes to collaboration, versioning is particularly important. If you share a document with an editor, you want to be able to see what happened with the document.
+
+// FIXME: Elaborate more when it's working. Is there a diff to come? I hope so.
 
