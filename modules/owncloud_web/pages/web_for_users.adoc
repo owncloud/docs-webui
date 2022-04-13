@@ -57,7 +57,7 @@ Spaces are organizational units to sort content and make it available to certain
 
 Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
 
-In apaces, editors can do a little more and there's the additional role of manager.
+In Spaces, editors can do a little more and there's the additional role of manager.
 
 A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
 
@@ -72,7 +72,7 @@ Under `Deleted Files` you find content that you have deleted from your `Personal
 
 TIP: If files in one of the spaces are deleted, they are placed in the trashbin of the respective space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
 
-// FIXME: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
+// fixme: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
 
 == Right Sidebar
 
