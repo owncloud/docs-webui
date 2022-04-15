@@ -18,22 +18,22 @@ The following description assumes you're new to ownCloud.
 
 == Top Navigation
 
-. Application Switcher:
+=== Application Switcher
 
 The square in the upper left corner with the nine tiles is your application switcher. There you can switch between `Files` and installed apps.
 
-. Global Search:
+=== Global Search
 
 The new search not only scans the content in your ownCloud spaces, but also in applications like chat tools or on the web.
 
 // work in progress, uses Bleve.
 // https://github.com/blevesearch/bleve
 
-. Mode Switcher:
+=== Mode Switcher
 
 Depending on your preferences or light conditions you can switch between `dark mode` and `light mode`.
 
-. Account Menu:
+=== Account Menu
 
 All the way to the right, the little round icon with your initials opens a menu that takes you to your account information or the settings section, shows your quota and usage of storage space and allows you to log out.
 
