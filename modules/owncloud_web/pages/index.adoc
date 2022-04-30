@@ -1,10 +1,30 @@
-= Introduction
+= ownCloud Web
 
-ownCloud Web
+:toc: right
+:toc-levels: 1
 
-// Test for oCIS
+:description:
+ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for ownCloud Infinite Space (oCIS).
 
-// [source,yaml]
-// ----
-// include::https://raw.githubusercontent.com/wkloucek/cst-workshop/main/workshop-2022-02-02-docker/solution/docker-compose.yml[]
-// ----
+== Introduction
+
+{description}
+
+If you are still running ownCloud 10.x as server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with oCIS. For a quick introduction about what's new or different, check out the section xref:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x].
+
+
+== Changes
+
+For readers already familiar with ownCloud 10 and its standard web interface, the big differences in the new ownCloud Web on oCIS are:
+
+* A different sharing concept has been implemented.
+* Not only files stored on oCIS can be searched now, but also chat messages or the internet.
+* There's no longer a difference between sharing with people and sharing by link. In consequence, we no longer distinguish between private and public links.
+* Instead, the new spaces concept provides all these possibilities, but in a different way.
+
+// There's probably more worth mentioning...
+// Search is done via Bleve https://github.com/blevesearch/bleve
+
+
+As an admin, check out the section [ownCloud Web for Admins]. Users can find out more about how the new web interface works in the section [ownCloud Web for Users].
+
