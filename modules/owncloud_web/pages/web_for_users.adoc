@@ -12,11 +12,15 @@ This sections describes the web UI from a regular user's perspective without adm
 
 {description}
 
-If you have been using ownCloud before but with the classic user interface on an ownCloud 10 server, you may want to check out section xref:web_with_oC10.adoc[ownCloud Web with ownCloud Server 10.x] get an overview of the main differences.
+If you have been using ownCloud before but with the classic user interface on an ownCloud 10 server, you may want to check out section xref:web_with_oC10.adoc[ownCloud Web with ownCloud Server 10.x] to get an overview of the main differences.
 
 The following description assumes you're new to ownCloud.
 
+image:personal-space.png[Start Page]
+
 == Top Navigation
+
+image:top-navigation.png[]
 
 === Application Switcher
 
@@ -35,21 +39,27 @@ Depending on your preferences or light conditions you can switch between `dark m
 
 === Account Menu
 
-All the way to the right, the little round icon with your initials opens a menu that takes you to your account information or the settings section, shows your quota and usage of storage space and allows you to log out.
+image:account-menu.png[]
 
-== Overview Graphical Elements?
+All the way to the right, the little round icon with your initials opens a menu that takes you to your account information or the settings section, shows your quota as well as usage of storage space and allows you to log out.
 
 == Left Sidebar
 
 === Personal
 
-Under `Personal` in the left sidebar you have your private space where you can upload files and folders and share them either via public link or internally with others users on the same oCIS instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
+Under `Personal` in the left sidebar you have your private space where you can upload files and folders or create them directly on oCIS.
+
+image:personal-space.png
+
+You can also share files either via public link or internally with others users on the same oCIS instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
+
+image:sharing.png[Sharing Dialog]
 
 === Shares
 
 Under `Shares` you can see all files or folders that have been shared with you. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
 
-A click on the three vertical dots opens an actions menu. Actions you can performed on a file or folder depend on the file type (video, text, etc.) and on the permissions granted by the sharer.
+A click on the three vertical dots opens an actions menu. Actions can be performed on a file or folder depending on the file type (video, text, etc.) and on the permissions granted by the sharer.
 
 === Spaces
 
@@ -57,7 +67,7 @@ Spaces are organizational units to sort content and make it available to certain
 
 Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
 
-In Spaces, editors can do a little more and there's the additional role of manager.
+In spaces, editors can do a little more and there's the additional role of manager.
 
 A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
 
@@ -70,26 +80,32 @@ Every space must have at least one manager. Managers of a space have all the rig
 
 Under `Deleted Files` you find content that you have deleted from your `Personal Space`. Here you can either really delete the file for good or restore it if deletion was a mistake.
 
+image:file-restore.png[Delete or Restore]
+
 TIP: If files in one of the spaces are deleted, they are placed in the trashbin of the respective space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
 
 // fixme: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
 
 == Right Sidebar
 
-The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner. Here you find details about files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
+The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner. image:sidebar.png
+
+Here you find details about selected files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
+
+image:file-details[File Details]
 
 === Sharing
 
 If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
 
-Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Share`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the oCIS instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
+Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the oCIS instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
 A public link also works for external people not registered on the oCIS server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
 For security reasons, the only possible role for unregistered users is `viewer`.
 
 === Versions
 
-If you modified a document stored in oCIS, you can always restore older versions. A nice feature, but when it comes to collaboration, versioning is particularly important. If you share a document with an editor, you want to be able to see what happened with the document.
+If you modified a document stored in oCIS, you can always restore older versions. When collaborating with other people on the same documents, versioning is very important. If you share a document with an editor, you want to be able to check what happened with the document.
 
 // FIXME: Elaborate more when it's working. Is there a diff to come? I hope so.
 
