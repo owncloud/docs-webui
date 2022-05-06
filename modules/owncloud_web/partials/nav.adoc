@@ -1,6 +1,6 @@
 // Note that referencing the module reference after xref is now mandatory
 * ownCloud Web
 ** xref:owncloud_web:index.adoc[Introduction]
-// ** xref:owncloud_web:web_with_oC10.adoc
-** xref:owncloud_web:web_for_users.adoc
-// ** xref:owncloud_web:web_for_admins.adoc
+** xref:owncloud_web:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x]
+** xref:owncloud_web:web_for_users.adoc[ownCloud Web for Users]
+// ** xref:owncloud_web:web_for_admins.adoc[ownCloud Web for Admins]
