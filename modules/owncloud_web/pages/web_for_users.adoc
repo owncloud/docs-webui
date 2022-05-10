@@ -47,11 +47,11 @@ All the way to the right, the little round icon with your initials opens a menu 
 
 === Personal
 
-Under `Personal` in the left sidebar you have your private space where you can upload files and folders or create them directly on oCIS.
+Under `Personal` in the left sidebar you have your private space where you can upload files and folders or create them directly on Infinite Scale.
 
 image:personal-space.png
 
-You can also share files either via public link or internally with others users on the same oCIS instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
+You can also share files either via public link or internally with others users on the same Infinite Scale instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
 
 image:sharing.png[Sharing Dialog]
 
@@ -98,14 +98,14 @@ image:file-details[File Details]
 
 If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
 
-Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the oCIS instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
+Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
-A public link also works for external people not registered on the oCIS server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
+A public link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
 For security reasons, the only possible role for unregistered users is `viewer`.
 
 === Versions
 
-If you modified a document stored in oCIS, you can always restore older versions. When collaborating with other people on the same documents, versioning is very important. If you share a document with an editor, you want to be able to check what happened with the document.
+If you modified a document stored in Infinite Scale, you can always restore older versions. When collaborating with other people on the same documents, versioning is very important. If you share a document with an editor, you want to be able to check what happened with the document.
 
 // FIXME: Elaborate more when it's working. Is there a diff to come? I hope so.
 

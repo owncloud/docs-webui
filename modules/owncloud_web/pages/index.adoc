@@ -4,21 +4,21 @@
 :toc-levels: 1
 
 :description:
-ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for ownCloud Infinite Space (oCIS).
+ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for Infinite Scale.
 
 == Introduction
 
 {description}
 
-If you are still running ownCloud 10.x as server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with oCIS. For a quick introduction about what's new or different, check out the section xref:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x].
+If you are still running ownCloud 10.x as server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with Infinite Scale. For a quick introduction about what's new or different, check out the section xref:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x].
 
 
 == Changes
 
-For readers already familiar with ownCloud 10 and its standard web interface, the big differences in the new ownCloud Web on oCIS are:
+For readers already familiar with ownCloud 10 and its standard web interface, the big differences in the new ownCloud Web on Infinite Scale are:
 
 * A different sharing concept has been implemented.
-* Not only files stored on oCIS can be searched now, but also chat messages or the Internet.
+* Not only files stored on Infinite Scale can be searched now, but also chat messages or the Internet.
 * There's no longer a difference between sharing with people and sharing by link. In consequence, we no longer distinguish between private and public links.
 * Instead, the new spaces concept provides all these possibilities, but in a different way.
 

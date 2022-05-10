@@ -4,7 +4,7 @@ ownCloud web is also available for ownCloud server 10.x as an app to get familia
 == Introduction
 {description}
 
-To ease the transition from ownCloud server 10.x to oCIS, we recommend starting to use the new Web UI. ownCloud users will benefit from the following additions and improvements:
+To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend starting to use the new Web UI. ownCloud users will benefit from the following additions and improvements:
 
 == Main Navigation on Top.
 
