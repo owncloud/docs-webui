@@ -7,6 +7,6 @@
 
 == App Integration
 
-// Applications like Microsoft Word run in a "frame" displayed on oCIS, meaning they are actually running on the host server in this example at Microsoft, not on oCIS. Alternatively you can install the respective apps from the ownCloud marketplace.
+// Applications like Microsoft Word run in a "frame" displayed on Infinite Scale, meaning they are actually running on the host server in this example at Microsoft, not on Infinite Scale. Alternatively you can install the respective apps from the ownCloud marketplace.
 // needs more background
 
