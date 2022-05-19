@@ -91,7 +91,7 @@ permissions applied, except for the ability to share with other users.
 
 image:guest-users/content-shared-with-guest-user.png[Content shared with a guest user]
 
-NOTE: Guest users can also use the **Desktop/IOS/Andriod Sync Clients** to access synced files locally.
+NOTE: Guest users can also use the **Desktop/IOS/Android Sync Clients** to access synced files locally.
 
 == Updating Shares
 

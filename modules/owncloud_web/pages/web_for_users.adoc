@@ -98,7 +98,7 @@ image:file-details[File Details]
 
 If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
 
-Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
+Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can choose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
 A public link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
 For security reasons, the only possible role for unregistered users is `viewer`.
