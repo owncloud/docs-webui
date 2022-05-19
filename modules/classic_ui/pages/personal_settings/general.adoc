@@ -26,7 +26,7 @@ You can make this anything you want, as it is separate from your ownCloud login 
 * Social sharing links
 * ownCloud version
 
-The following image is a example screen of the General section:
+The following image is an example screen of the General section:
 
 image:personal-settings/general/general.png[Screenshot of user's General settings page]
 

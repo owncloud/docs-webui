@@ -46,7 +46,7 @@ image::personal-settings/security/activate-2fa-totp.png[]
 
 To finalize the setup, follow the app's directions to scan the QR code. The number displayed (2nd factor) needs to be entered in the browser dialog in the btn:[Authentication code] field.
 
-Log out and after your next regular login with user name and password, you will be asked to enter the number that the app provides. The number changes after some time and usually a counter is shown how much time is remaining after the next number appears.
+Log out and after your next regular login with username and password, you will be asked to enter the number that the app provides. The number changes after some time and usually a counter is shown how much time is remaining after the next number appears.
 
 ==== Disable Two-Factor Authentication
 

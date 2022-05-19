@@ -224,7 +224,7 @@ toc:
 # NOTE In addition to footer, header is also supported
 footer:
   font_size: $base_font_size_small
-  # NOTE if background_color is set, background and border will span width of page
+  # NOTE if background_color is set, background and border will span the width of the page
   border_color: dddddd
   border_width: 0.25
   height: $base_line_height_length * 2.5
