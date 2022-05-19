@@ -93,7 +93,7 @@ TIP: If files in one of the spaces are deleted, they are placed in the trashbin 
 
 == Right Sidebar
 
-The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner. image:sidebar.png[]
+The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner: image:sidebar.png[]
 
 Here you find details about selected files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
 
