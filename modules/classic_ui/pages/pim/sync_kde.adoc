@@ -17,7 +17,7 @@ Enter your ownCloud username and password and click btn:[Next].
 
 image:kdes3.png[image]
 
-Select ownCloud in the drop down list and click btn:[Next].
+Select ownCloud in the drop-down list and click btn:[Next].
 
 image:kdes4.png[image]
 

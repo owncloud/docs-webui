@@ -44,7 +44,7 @@ yarn serve
 
 ## Target Branch and Backporting
 
-See the the [following section](https://github.com/owncloud/docs#target-branch-and-backporting) as the same rules and notes apply.
+See the [following section](https://github.com/owncloud/docs#target-branch-and-backporting) as the same rules and notes apply.
 
 ## Branching Workflow
 

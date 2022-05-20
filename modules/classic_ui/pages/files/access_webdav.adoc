@@ -397,7 +397,7 @@ Cannot map ownCloud as a WebDAV drive in Windows using self-signed certificate.
 
 ==== Solution
 
-.  Go to the your ownCloud instance via your favorite Web browser.
+.  Go to your ownCloud instance via your favorite Web browser.
 .  Click through until you get to the certificate error in the browser status line.
 .  View the cert, then from the Details tab, select Copy to File.
 .  Save to the desktop with an arbitrary name, for example `myOwnCloud.cer`.

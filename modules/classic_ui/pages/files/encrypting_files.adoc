@@ -90,7 +90,7 @@ image:encryption3.png[image]
 
 This option is only available if your log-in password, but not your
 encryption password, was changed by your administrator. This can occur
-if your ownCloud provider uses a external user back-end (for example,
+if your ownCloud provider uses an external user back-end (for example,
 LDAP) and changed your login password using that back-end configuration.
 In this case, you can set your encryption password to your new login
 password by providing your old and new login password. The Encryption

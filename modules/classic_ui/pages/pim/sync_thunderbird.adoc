@@ -31,7 +31,7 @@ which will display the URL you need for your installation to work.
 
 image:contact_thunderbird-URL_config.jpg[image]
 
-Once installed, synchronize (right click on your newly made remote
+Once installed, synchronize (right-click on your newly made remote
 address book and select btn:[Synchronize]). You’ll see your address book
 populate from ownCloud! **Don’t** click btn:[read only] above unless you don’t
 want to modify your ownCloud server addressbook, like it contains a

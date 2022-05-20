@@ -27,7 +27,7 @@ You can use the trash icon, at the far right-hand side of any session, to termin
 image:session_management/app_passwords.png[Managing app passwords and tokens in ownCloud]
 
 Underneath the "_App passwords / tokens_" list is a button to create a new app or device-specific username and password. 
-The username will be pre-filled to the currently logged in user, and a random password will be generated. 
+The username will be pre-filled to the currently logged-in user, and a random password will be generated.
 You can change both of these, if so desired. 
 When you're happy with the username and password, click the btn:[done] button.
 You can use the trash icon, at the far right-hand side of any password, to delete it 

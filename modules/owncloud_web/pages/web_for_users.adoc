@@ -24,7 +24,9 @@ image:top-navigation.png[]
 
 === Application Switcher
 
-The square in the upper left corner with the nine tiles is your application switcher. There you can switch between `Files` and installed apps.
+The square in the upper left corner with the nine tiles is your application switcher. There you can switch between `Files` and `User management` and installed apps.
+
+image::application-switcher.png[Application Switcher]
 
 === Global Search
 
@@ -67,6 +69,7 @@ Spaces are organizational units to sort content and make it available to certain
 
 Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
 
+
 In spaces, editors can do a little more and there's the additional role of manager.
 
 A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
@@ -75,6 +78,8 @@ Every space must have at least one manager. Managers of a space have all the rig
 * invite additional members,
 * edit the quota of a space,
 * change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
+
+image::spaces-menu.png[Spaces Menu,width=60%]]
 
 === Deleted Files
 
@@ -88,19 +93,22 @@ TIP: If files in one of the spaces are deleted, they are placed in the trashbin 
 
 == Right Sidebar
 
-The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner. image:sidebar.png
+The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner: image:sidebar.png[]
 
 Here you find details about selected files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
 
-image:file-details[File Details]
+image::file-details.png[File Details]
 
 === Sharing
 
 If you have been using the standard web interface on ownCloud server previously, the new way of sharing may require some getting used to, but it's even simpler now.
 
-Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can chose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
+Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can choose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
-A public link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
+
+image::sharing.png[Sharing]
+
+A quick-action link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share].
 For security reasons, the only possible role for unregistered users is `viewer`.
 
 === Versions

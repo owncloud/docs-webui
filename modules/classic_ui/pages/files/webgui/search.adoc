@@ -4,7 +4,7 @@
 {latest-server-version}@server:user_manual:files/webgui/search.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/search.adoc
 
-:description: ownCloud comes with a regular search function allowing you to find files by their file name or parts of it. Click on the the magnifier icon in the upper right-hand corner of the web interface. In addition, the Full Text Search app can be enabled. 
+:description: ownCloud comes with a regular search function allowing you to find files by their file name or parts of it. Click on the magnifier icon in the upper right-hand corner of the web interface. In addition, the Full Text Search app can be enabled.
 
 == Introduction
 
@@ -20,8 +20,8 @@ The search is not case-sensitive, so capital letters are treated the same as low
 
 == Full Text Search App
 
-Things get tricky when you don't remember what the file you're looking for was called and guess work doesn't help. A key word search within text documents is only possible if the Full Text Search app is installed. Contact your admin if you need it and it's not installed. With this app enabled, you can search within files of the most common formats. Like with the regular search, you can enter only the first part of a string and it matches all occurances of words starting with the search string.
+Things get tricky when you don't remember what the file you're looking for was called and guess work doesn't help. A key word search within text documents is only possible if the Full Text Search app is installed. Contact your admin if you need it and it's not installed. With this app enabled, you can search within files of the most common formats. Like with the regular search, you can enter only the first part of a string and it matches all occurrences of words starting with the search string.
 
-If you are looking for all terms containing a specific string like in the above example "pain", wildcards can be used, e.g. an asterisk: *ain gives you results like braine, pain, Spain and painful. Using a question mark instead of the asterisk limits the preceeding characters to exactly one. In this example, only pain and painful would show up if you entered the search string "?ain".
+If you are looking for all terms containing a specific string like in the above example "pain", wildcards can be used, e.g. an asterisk: *ain gives you results like braine, pain, Spain and painful. Using a question mark instead of the asterisk limits the preceding characters to exactly one. In this example, only pain and painful would show up if you entered the search string "?ain".
 
 TIP: Using the asterisk within a word will ignore everything that follows after the asterisk. A trailing asterisk is always assumed in the search.
