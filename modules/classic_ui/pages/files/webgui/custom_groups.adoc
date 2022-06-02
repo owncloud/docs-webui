@@ -30,7 +30,7 @@ After a moment or two, you’ll see the new custom group appear in the groups li
 Please be aware of two things:
 
 . Custom groups are visible *only* to members of the group, but *not* to anyone outside the group; and
-. ownCloud administrators can see and modify all custom groups of an instance.
+. ownCloud administrators can see and modify all custom groups of an instance (default setting, can be modified via config.php)
 ====
 
 == Managing Group Members
@@ -49,8 +49,8 @@ want, and they’ll be added to the group. Finally, you’ll see a
 confirmation at the top of the page (3), indicating that the user’s been
 added to the custom group.
 
-NOTE: Members can only use a group for sharing, whereas group admins can manage a group’s members,
-change a group’s name, change members’ roles, and delete groups.
+NOTE: Members can only use a group for sharing, whereas group owners can manage a group’s members,
+change a group’s name, change members’ roles, and delete groups. You can add as many group owners as you like.
 
 == Sharing with the Group
 
