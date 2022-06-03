@@ -1,12 +1,44 @@
 = ownCloud Web for Admins
-
 :toc: right
 :toc-levels: 1
 
+:description: Logged in to Infinite Scale as admin user, you can perform administration tasks. These include user and group management.
+
+== Introduction
+
+{description}
+
+Click on the application switcher icon in the upper left corner and change the selection from `Files` to `User management`. Here you can add users, edit exiting user data and manage groups.
+
+image:user-management.png[Application Switcher]
+
 == User Management
+
+To create a new user, select `Users` in the left sidebar, then click on btn:[+ New user`].
+
+image:create-user.png[Create User]
+
+Enter the required values for user name, first and last name, as well as email address and password, then click btn:[Create].
+
+The new user will show up in the overview and can be edited by clicking on the pencil icon to the right.
+
+// When available, add quota settings, possibly group affiliation if that can be done here.
+
+== Group Management
+
+Depending on the size of your organization, you may want to organize users in groups by teams or any other classification. To Create a new group, select `Groups` in the left sidebar, then click on btn:[+ New group]. In the pop-up window enter a name for the new group and click btn:[Create].
+
+image:create-group.png[Create Group]
+
+The new group now shows up in the overview page.
+
+// Document how to add users to groups, once that's available.
+
+////
 
 == App Integration
 
-// Applications like Microsoft Word run in a "frame" displayed on Infinite Scale, meaning they are actually running on the host server in this example at Microsoft, not on Infinite Scale. Alternatively you can install the respective apps from the ownCloud marketplace.
-// needs more background
+Applications like Microsoft Word run in a "frame" displayed on Infinite Scale, meaning they are actually running on the host server in this example at Microsoft, not on Infinite Scale. Alternatively you can install the respective apps from the ownCloud marketplace.
+
+////
 
