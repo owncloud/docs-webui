@@ -3,4 +3,4 @@
 ** xref:owncloud_web:index.adoc[Introduction]
 ** xref:owncloud_web:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x]
 ** xref:owncloud_web:web_for_users.adoc[ownCloud Web for Users]
-// ** xref:owncloud_web:web_for_admins.adoc[ownCloud Web for Admins]
+** xref:owncloud_web:web_for_admins.adoc[ownCloud Web for Admins]
