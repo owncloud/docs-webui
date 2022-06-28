@@ -1,5 +1,6 @@
 = ownCloud Web on ownCloud Server 10.x
-
+:toc: right
+:onlyoffice-owncloud-web-url: https://github.com/ONLYOFFICE/onlyoffice-owncloud-web
 :description: ownCloud web is available for ownCloud server 10.x as an app. To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend deploying the new https://marketplace.owncloud.com/apps/web[Web app].
 
 == Introduction
@@ -42,7 +43,13 @@ In addition to these new features, we also optimized a few other features in the
 
 == Deploying ownCloud Web
 
-ownCloud Web can be deployed as an app. Download it from the https://marketplace.owncloud.com/apps/web[Marketplace] and run the command `occ market:install web`. Alternatively log in to the server as admin and install the Web app via the Marketplace app.
+ownCloud Web can be deployed as an app. Download it from the {oc-marketplace-url}/web[Marketplace] and run the command:
+
+[source,bash]
+----
+occ market:install web
+----
+Alternatively, log in to the server as admin and install the Web app via the Marketplace app.
 
 === Configure Authentication
 
@@ -50,8 +57,7 @@ ownCloud Web works with OAuth2 and OpenID Connect.
 
 If you're using OpenID Connect, add ownCloud Web as a new client to your identity provider.
 
-If you prefer to use https://marketplace.owncloud.com/apps/oauth2[OAuth2], log in as admin, go to the `User Authentication` settings, add ownCloud Web as a new client and provide the redirect URL: `https://<your-owncloud-server>/index.php/apps/web/oidc-callback.html`.
-
+If you prefer to use {oc-marketplace-url}/oauth2[OAuth2], log in as admin, go to the `User Authentication` settings, add ownCloud Web as a new client and provide the redirect URL: `https://<your-owncloud-server>/index.php/apps/web/oidc-callback.html`.
 
 === Server Configuration
 
@@ -82,7 +88,7 @@ NOTE: While it is possible to make ownCloud Web the default interface, the decis
 
 === Configuring ownCloud Web
 
-There are a few configuration settings necessary for ownCloud Web to work correctly. Copy the example config below into the `config/config.json` file and adjust it for your environment:
+There are a few configuration settings necessary for ownCloud Web to work correctly. Copy the example config below into the `config/config.json` file (create one if it does not exist) and adjust it for your environment:
 
 [source,plaintext]
 ----
@@ -137,8 +143,7 @@ If you use OpenID Connect instead of OAuth2, you need to replace the "auth" part
   }
 ----
 
-
-TIP: If any issues arise when trying to access the new design, a good start for debugging is to let a json validator check your config.json file.
+TIP: If any issues arise when trying to access the new design, a good start for debugging is to let a json validator check your `config.json` file.
 
 [caption=]
 [cols="30%,70%",options="header",]
@@ -153,23 +158,22 @@ TIP: If any issues arise when trying to access the new design, a good start for 
 | theme to be used in ownCloud Web pointing to a json file in the themes folder
 
 | auth.clientId
-| client ID received when ownCloud Web was added in the `User Authentication` section by the admin
+| Client ID received when ownCloud Web was added in the `User Authentication` section by the admin
 
 | apps
-| list of internal extensions to load
+| List of internal extensions to load
 
 | applications
-| additional apps and links to be displayed in the application switcher or in the user menu
+| Additional apps and links to be displayed in the application switcher or in the user menu
 
 | applications[0].title
-| title visible in the application switcher or user menu, localizable
+| Title visible in the application switcher or user menu, localizable
 
 | applications[1].menu
-| use `user` if the menu item should be displayed in the user menu (defaults to app switcher).
+| Use `user` if the menu item should be displayed in the user menu (defaults to app switcher).
 |===
 
 NOTE: Do not place the `config.json` file in the app folder. If you do, the integrity check of the app will fail and issue warnings.
-
 
 === Integrate Traditional ownCloud 10 Features in ownCloud Web
 
@@ -213,13 +217,13 @@ TIP: This will add a link to the specified URL in the user menu. The link will o
 
 === ONLYOFFICE Integration
 
-For ONLYOFFICE there is a https://github.com/ONLYOFFICE/onlyoffice-owncloud-web[native integration] available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the ONLYOFFICE document editors and allows users to create and open documents directly in ownCloud Web.
+For ONLYOFFICE there is a {onlyoffice-owncloud-web-url}[native integration] available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the ONLYOFFICE document editors and allows users to create and open documents directly in ownCloud Web.
 
 To use ONLYOFFICE in ownCloud Web, you need:
 
 * ownCloud Server >= 10.8
 * ownCloud Web >= 4.0.0
-* https://marketplace.owncloud.com/apps/onlyoffice[ONLYOFFICE connector] >= 7.1.1
+* {oc-marketplace-url}/onlyoffice[ONLYOFFICE connector] >= 7.1.1
 
 Make sure that ONLYOFFICE works as expected in the regular UI then add the following to the `config.json` file to make it available in ownCloud Web:
 
@@ -243,7 +247,7 @@ Requirements:
 
 * ownCloud server >= 10.8
 * ownCloud Web >= 4.0.0
-* https://marketplace.owncloud.com/apps/richdocuments[Collabora Online] app >= 2.7.0
+* {oc-marketplace-url}/richdocuments[Collabora Online] app >= 2.7.0
 
 Make sure that Collabora Online works as expected in the regular UI, then add the following to `config.json` to make it available in ownCloud Web:
 
