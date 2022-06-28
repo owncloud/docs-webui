@@ -285,7 +285,7 @@ In case there are additional preview providers configured in the backend, there 
 
 If you already have an "external_apps" section, just add the Preview app to the list. Adjust the "mimeTypes" list to match your additional preview providers.
 
-See https://github.com/owncloud/files_mediaviewer#supporting-more-media-types for advice on how to add preview providers to the backend.
+See {latest-server-version}@server:admin_manual:configuration/files/previews_configuration.adoc#managing-your-preview-settings[Managing Your Preview Settings] for advice on how to add preview providers to the backend.
 
 NOTE: The Preview app needs to be moved from the apps section to the external_apps section because only external apps support additional configuration. There are plans to change the configuration of apps to give you a coherent admin experience in that regard.
 
