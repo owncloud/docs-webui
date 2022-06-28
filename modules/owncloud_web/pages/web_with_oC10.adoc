@@ -1,12 +1,15 @@
 = ownCloud Web on ownCloud Server 10.x
-:description:
-ownCloud web is also available for ownCloud server 10.x as an app to get familiar with the new interface.
+:toc: right
+:onlyoffice-owncloud-web-url: https://github.com/ONLYOFFICE/onlyoffice-owncloud-web
+:description: ownCloud web is available for ownCloud server 10.x as an app. To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend deploying the new https://marketplace.owncloud.com/apps/web[Web app].
+
 == Introduction
+
 {description}
 
-To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend starting to use the new Web UI. ownCloud users will benefit from the following additions and improvements:
+ownCloud users will benefit from the following additions and improvements:
 
-== Main Navigation on Top.
+=== Main Navigation on Top.
 
 * The most significant change to the basic layout is that the top bar is now instantly recognizable as the main navigation bar. Here you find the app switcher, global search, dark mode and new account menu.
 
@@ -18,22 +21,276 @@ To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend
 
 * On the far right of the top bar is the redesigned account menu, which now also shows the amount of storage space still available (personal quota).
 
-== Collapsible Left Sidebar and New Icons
+=== Collapsible Left Sidebar and New Icons
 
 The application-specific navigation is located in the left sidebar as before. The sidebar has been made collapsible by request of many users, so that the area of the application main window can be maximized.
 
 For all icons in the sidebar and the main window, we use a new unified design set. In addition, the filetype icons are color-coded for example, PDF files are red, spreadsheets are green and zip archives are yellow.
 
-== Context Menu Accessible via Right Click
+=== Context Menu Accessible via Right-Click
 
 The context menu with the most important app functions can now be opened via right click, a usability feature welcomed by many test users. This allows users to perform typical actions even faster, for example, downloading documents or opening documents in the Collabora and OnlyOffice office apps.
 
-== Easier Document Sharing
+=== Easier Document Sharing
 
 The new Web UI makes sharing content easier. Quick Action icons enable you to open files and folders with a single click. It’s just as easy to invite users as viewers or editors to view or collaborate on documents.
 
-== Improved accessibility
+=== Improved Accessibility
 
 We have added new accessibility features to the ownCloud user interface. The new Web UI can be controlled completely via keyboard, offers improved color contrast for better readability, and supports navigation and operation via screen reader. We are thus meeting the requirements of many users in the public sector, such as educational and government institutions.
 
 In addition to these new features, we also optimized a few other features in the frontend design of ownCloud. These include, among others, the rounded windows and the “shimmer effect” while the data of a directory is loaded from the server.
+
+== Deploying ownCloud Web
+
+ownCloud Web can be deployed as an app. Download it from the {oc-marketplace-url}/web[Marketplace] and run the command:
+
+[source,bash]
+----
+occ market:install web
+----
+Alternatively, log in to the server as admin and install the Web app via the Marketplace app.
+
+=== Configure Authentication
+
+ownCloud Web works with OAuth2 and OpenID Connect.
+
+If you're using OpenID Connect, add ownCloud Web as a new client to your identity provider.
+
+If you prefer to use {oc-marketplace-url}/oauth2[OAuth2], log in as admin, go to the `User Authentication` settings, add ownCloud Web as a new client and provide the redirect URL: `https://<your-owncloud-server>/index.php/apps/web/oidc-callback.html`.
+
+=== Server Configuration
+
+A few configuration steps are necessary on the ownCloud 10 server:
+
+. Set the ownCloud Web address so it gets displayed in the app switcher by adding the following line to the `config/config.php` file:
+
+[source,plaintext]
+----
+'web.baseUrl' => 'https://<your-owncloud-server>/index.php/apps/web',
+----
+
+. Configure link routing. Public and private links can either be provided by the regular web interface (default) or by the new ownCloud Web app. If you set the `web.rewriteLinks` option in `config/config.php` to `true`, all links will be redirected to the new ownCloud Web:
+
+[source,plaintext]
+----
+'web.rewriteLinks' => true,
+----
+
+. Optionally make ownCloud Web the default interface users see after they log in to ownCloud. By default, the regular web interface will be used. To make ownCloud Web the default, add the following line to the `config/config.php` file:
+
+[source,plaintext]
+----
+'defaultapp' => 'web',
+----
+
+NOTE: While it is possible to make ownCloud Web the default interface, the decision should be carefully evaluated. Features are still being added to ownCloud Web and users might need to use the regular web interface for certain tasks.
+
+=== Configuring ownCloud Web
+
+There are a few configuration settings necessary for ownCloud Web to work correctly. Copy the example config below into the `config/config.json` file (create one if it does not exist) and adjust it for your environment:
+
+[source,plaintext]
+----
+{
+  "server" : "https://<your-owncloud-server>",
+  "theme": "https://<your-owncloud-server>/themes/owncloud/theme.json",
+  "auth": {
+    "clientId": "<client-id-from-oauth2>",
+    "url": "https://<your-owncloud-server>/index.php/apps/oauth2/api/v1/token",
+    "authUrl": "https://<your-owncloud-server>/index.php/apps/oauth2/authorize"
+  },
+  "apps" : [
+    "files",
+    "preview",
+    "draw-io"
+  ],
+  "applications" : [
+    {
+      "title": {
+        "en": "Classic Design",
+        "de": "Klassisches Design",
+        "fr": "Design classique",
+        "zh_CN": "文件"
+      },
+      "icon": "swap-box",
+      "url": "https://<your-owncloud-server>/index.php/apps/files"
+    },
+    {
+      "icon": "settings-4",
+      "menu": "user",
+      "target": "_self",
+      "title": {
+        "de": "Einstellungen",
+        "en": "Settings"
+      },
+      "url": "https://<your-owncloud-server>/index.php/settings/personal"
+    }
+  ]
+}
+----
+
+If you use OpenID Connect instead of OAuth2, you need to replace the "auth" part with the following configuration:
+
+[source,plaintext]
+----
+  "openIdConnect": {
+    "metadata_url": "<fqdn-of-the-identity-provider>/.well-known/openid-configuration",
+    "authority": "<fqdn-of-the-identity-provider>",
+    "client_id": "<client-id-from-the-identity-provider>",
+    "response_type": "code",
+    "scope": "openid profile email"
+  }
+----
+
+TIP: If any issues arise when trying to access the new design, a good start for debugging is to let a json validator check your `config.json` file.
+
+[caption=]
+[cols="30%,70%",options="header",]
+|===
+| Parameter
+| Description
+
+| server
+| ownCloud 10 server address
+
+| theme
+| theme to be used in ownCloud Web pointing to a json file in the themes folder
+
+| auth.clientId
+| Client ID received when ownCloud Web was added in the `User Authentication` section by the admin
+
+| apps
+| List of internal extensions to load
+
+| applications
+| Additional apps and links to be displayed in the application switcher or in the user menu
+
+| applications[0].title
+| Title visible in the application switcher or user menu, localizable
+
+| applications[1].menu
+| Use `user` if the menu item should be displayed in the user menu (defaults to app switcher).
+|===
+
+NOTE: Do not place the `config.json` file in the app folder. If you do, the integrity check of the app will fail and issue warnings.
+
+=== Integrate Traditional ownCloud 10 Features in ownCloud Web
+
+ownCloud features that are not deeply integrated in the regular web interface can be added to the app switcher and to the user menu.
+
+NOTE: All apps that are listed in the ownCloud app switcher of the regular web interface will be added as links to the app switcher of the new ownCloud Web automatically. All those links will open in a new browser tab on click.
+
+To add new elements, open the `config.json` file in an editor, go to the `applications` section and add entries like the following example:
+
+[source,plaintext]
+----
+    {
+      "title": {
+        "en": "Custom Groups",
+        "de": "Benutzerdefinierte Gruppen"
+      },
+      "icon": "settings-4",
+      "url": "https://<your-owncloud-server>/settings/personal?sectionid=customgroups"
+    }
+----
+
+TIP: This method can also be used to link external sites like help pages. Apps and links will be opened in a new browser tab.
+
+Entries for the the user menu look like this:
+
+[source,plaintext]
+----
+    {
+      "icon": "settings-4",
+      "menu": "user",
+      "target": "_self",
+      "title": {
+        "de": "Hilfe",
+        "en": "Help"
+      },
+      "url": "https://help-link.example"
+    }
+----
+
+TIP: This will add a link to the specified URL in the user menu. The link will open in the same tab. If you want it to open in a new tab, remove the line "target": "_self",.
+
+=== ONLYOFFICE Integration
+
+For ONLYOFFICE there is a {onlyoffice-owncloud-web-url}[native integration] available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the ONLYOFFICE document editors and allows users to create and open documents directly in ownCloud Web.
+
+To use ONLYOFFICE in ownCloud Web, you need:
+
+* ownCloud Server >= 10.8
+* ownCloud Web >= 4.0.0
+* {oc-marketplace-url}/onlyoffice[ONLYOFFICE connector] >= 7.1.1
+
+Make sure that ONLYOFFICE works as expected in the regular UI then add the following to the `config.json` file to make it available in ownCloud Web:
+
+[source,plaintext]
+----
+"external_apps": [
+    {
+        "id": "onlyoffice",
+        "path": "https://<your-owncloud-server>/apps/onlyoffice/js/web/onlyoffice.js"
+    }
+]
+----
+
+NOTE: Adjust the URL in the example according to your setup.
+
+=== Collabora Online Integration
+
+There is a native Collabora Online integration available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the Collabora Online document editors and allows users to create and open documents directly in ownCloud Web.
+
+Requirements:
+
+* ownCloud server >= 10.8
+* ownCloud Web >= 4.0.0
+* {oc-marketplace-url}/richdocuments[Collabora Online] app >= 2.7.0
+
+Make sure that Collabora Online works as expected in the regular UI, then add the following to `config.json` to make it available in ownCloud Web:
+
+[source,plaintext]
+----
+"external_apps": [
+    {
+        "id": "richdocuments",
+        "path": "https://<your-owncloud-server>/apps/richdocuments/js/richdocuments.js"
+    }
+]
+----
+
+NOTE: Adjust the URL to match your setup.
+
+=== Configuring the Preview App
+
+In case there are additional preview providers configured in the backend, there is no mechanism to announce those to the Preview app in ownCloud Web. However, you can add the additional supported mimeTypes to the Preview app by following these steps:
+
+. Remove the "preview" string from the "apps" section in your `config.json` file.
+. Add the following config to your config.json file:
+
+[source,plaintext]
+----
+"external_apps": [
+    {
+      "id": "preview",
+      "path": "web-app-preview",
+      "config": {
+        "mimeTypes": ["image/tiff", "image/webp"]
+      }
+    }
+  ],
+----
+
+If you already have an "external_apps" section, just add the Preview app to the list. Adjust the "mimeTypes" list to match your additional preview providers.
+
+See {latest-server-version}@server:admin_manual:configuration/files/previews_configuration.adoc#managing-your-preview-settings[Managing Your Preview Settings] for advice on how to add preview providers to the backend.
+
+NOTE: The Preview app needs to be moved from the apps section to the external_apps section because only external apps support additional configuration. There are plans to change the configuration of apps to give you a coherent admin experience in that regard.
+
+=== Accessing ownCloud Web
+
+After following all the steps, you should see a new entry in the application switcher called `New Design` which takes you to ownCloud Web.
+
+image::application-switcher-oc10.jpg[Application Switcher]
