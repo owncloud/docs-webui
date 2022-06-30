@@ -9,7 +9,7 @@
 
 ownCloud users will benefit from the following additions and improvements:
 
-=== Main Navigation on Top.
+=== Main Navigation on Top
 
 * The most significant change to the basic layout is that the top bar is now instantly recognizable as the main navigation bar. Here you find the app switcher, global search, dark mode and new account menu.
 
@@ -285,7 +285,7 @@ In case there are additional preview providers configured in the backend, there 
 
 If you already have an "external_apps" section, just add the Preview app to the list. Adjust the "mimeTypes" list to match your additional preview providers.
 
-See {latest-server-version}@server:admin_manual:configuration/files/previews_configuration.adoc#managing-your-preview-settings[Managing Your Preview Settings] for advice on how to add preview providers to the backend.
+See xref:{latest-server-version}@server:admin_manual:configuration/files/previews_configuration.adoc#managing-your-preview-settings[Managing Your Preview Settings] for advice on how to add preview providers to the backend.
 
 NOTE: The Preview app needs to be moved from the apps section to the external_apps section because only external apps support additional configuration. There are plans to change the configuration of apps to give you a coherent admin experience in that regard.
 
