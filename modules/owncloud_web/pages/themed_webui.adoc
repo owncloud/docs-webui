@@ -1,10 +1,10 @@
 = ownCloud Web with Custom Theming
 :toc: right
-:toc-levels: 1
+:toclevels: 1
 :example-theme-url: https://github.com/owncloud/web/tree/master/config
 :design-tokens-url: https://owncloud.design/#/Design%20Tokens
 :gh-webui-url: https://github.com/owncloud/web/issues/new
-:description: Just like with other clients (desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
+:description: Just like with other clients (desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the ownCloud web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
 
 == Introduction
 
@@ -14,15 +14,22 @@ This can be achieved by providing a json file that contains text snippets (like 
 
 == Providing a Theme
 
-Your theming configuration resides in a `.json` file, e.g. `theme.json`. To load this file, it needs to be correctly referenced inside your `config/config.json`. An example configurations can be found on {example-theme-url}[GitHub].
+Your theming configuration resides in a `.json` file, e.g. `theme.json`. To load this file, it needs to be correctly referenced inside your `config/config.json`. Alternatively, when using Infinite Scale, you can define the theming json file via the `WEB_UI_THEME_PATH` environment variable which takes precedence over the theming reference in `config.json`, if any is set. An example configurations can be found on {example-theme-url}[GitHub].
 
 NOTE: If no theme is provided or the loading of your custom theme fails, the standard ownCloud theme will be loaded as a fallback. However, this doesn’t stop you from correctly loading a theme that is wrongly formatted, so please read the instructions below carefully.
 
 To reference your theme, you have two options:
 
-* Using a URL, e.g.: "theme": "https://externalurl.example.com/theme-name/theme.json",. To avoid CORS issues, make sure that you host the URL on the same domain as your ownCloud web hosting.
+* Using a URL like:
++
+[source,plaintext]
+----
+"theme": \"https://externalurl.example.com/theme-name/theme.json",
+----
++
+To avoid CORS issues, make sure that you host the URL on the same domain as your ownCloud web hosting.
 
-* For development and testing purposes, you can store your `theme.json` inside `packages/web-runtime/themes/{theme-name}/` and reference it in the `config.json` file. However, this isn’t recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud 10.x.
+* For development and testing purposes, you can store your `theme.json` inside \`packages/web-runtime/themes/{theme-name}/` and reference it in the `config.json` file. However, this isn’t recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud 10.x.
 
 == Configuring a Theme
 
@@ -58,7 +65,7 @@ See below for the meaning of all the first-level objects inside a single theme a
 
 === "general"
 
-Here, you can specify a `"name"` and a `"slogan"` string. The name gets used in the HTML page `<title>`, and both of them are shown on various screens (e.g. login, loading, error and public share pages).
+Here, you can specify a `"name"` and a `"slogan"` string. The name gets used in the HTML page `<title>`, and both of them are shown on various screens (like: login, loading, error and public share pages).
 
 === "logo"
 
