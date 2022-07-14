@@ -66,11 +66,11 @@ Here, you can specify the images to be used in the "topbar", for the "favicon" a
 
 === "loginPage"
 
-Using the `"autoRedirect"` boolean, you can specify whether the user is shown a login page before possible getting redirected to your LDAP/OIDC/OAuth provider. If it is set to `true`, you can specify the background image for the login page by providing an image file in the `"backgroundImg"` option.
+Using the `"autoRedirect"` boolean, you can specify whether the user is shown a login page before possibly getting redirected to your LDAP/OIDC/OAuth provider. If it is set to `true`, you can specify the background image for the login page by providing an image file in the `"backgroundImg"` option.
 
 === "designTokens"
 
-To further customize your ownCloud instance, you can provide your own styles. To give you an idea of how a working design system looks like, feel free to head over to the {design-tokens-url}[ownCloud design tokens] for inspiration.
+To further customize your ownCloud instance, you can provide your own styles. To give you an idea of how a working design system looks, feel free to head over to the {design-tokens-url}[ownCloud design tokens] for inspiration.
 
 TIP: All the variables are initialized using the ownCloud design tokens and then overwritten by your theme variables. Therefore, you don’t have to provide all the variables and can use the default ownCloud colors as a fallback.
 
@@ -209,7 +209,7 @@ Size variables get prepended with `--oc-size-`, so e.g. `“icon-default”` cre
 
 ==== Spacing
 
-Use the six spacing options (`xsmall | small | medium | large | xlarge | xxlarge`) to create a more (or less) condensed version of the user interface. If you need more customization options regarding sizes, open an issue on {gh-webui-url}[GitHub] with a detailed description.
+Use the six spacing options (`xsmall | small | medium | large | xlarge | xxlarge`) to create a more (or less) condensed version of the user interface. If you need more customization options regarding spacing, open an issue on {gh-webui-url}[GitHub] with a detailed description.
 
 Spacing variables get prepended with `--oc-space-`, so e.g. `“xlarge”` creates the custom CSS property `--oc-space-xlarge`.
 
