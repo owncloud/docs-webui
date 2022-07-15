@@ -38,6 +38,6 @@ The Full Text Search app enables you to search not only for file names but also 
 
 * *Exact case:* When using more than one search term _enclosed_ with quotes, separated by a blank, the complete term is the search pattern. Searching for "_Desktop_ _Sync_" will return all results that contain _Desktop Sync_. Note that beside any match, all existing file names are additionally listed as matches.
 
-* *Wildcards:* When looking for all terms containing a specific string like "pain", wildcards can be used. Using an `asterisk` like `*ain` gives you results like braine, pain, Spain and painful. Using a `question mark` like `?ain` limits the preceding characters to exactly one, only pain and painful would show up.
+* *Wildcards:* When looking for all terms containing a specific string like "pain", wildcards can be used. Using an `asteriks` like `*ain` gives you results like braine, pain, Spain and painful. Using a `question mark` like `?ain` limits the preceding characters to exactly one, only pain and painful would show up.
 +
-TIP: Using the asterisk within a word will ignore everything that follows after the asterisk. A trailing asterisk is always assumed in the search.
+TIP: Using the asterisk within a word will ignore everything that follows after the asterisk. A trailing asteriks is always assumed in the search.
