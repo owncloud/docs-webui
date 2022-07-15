@@ -4,17 +4,19 @@
 :example-theme-url: https://github.com/owncloud/web/tree/master/config
 :design-tokens-url: https://owncloud.design/#/Design%20Tokens
 :gh-webui-url: https://github.com/owncloud/web/issues/new
-:description: Just like with other clients (desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the ownCloud web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
+:description: Just like with other clients (Desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the ownCloud web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
 
 == Introduction
 
 {description}
 
-This can be achieved by providing a json file that contains text snippets (like brand name and slogan), paths to images (e.g. logos or favicon) and design tokens for various parameters like color, sizing and spacing. In the following we explain the setup and configuration options and provide an empty template for you to get started.
+This can be achieved by providing a json file that contains text snippets (like brand name and slogan), paths to images (e.g. logos or favicon) and design tokens for various parameters like color, sizing and spacing. In the following, we explain the setup and configuration options and provide an empty template for you to get started.
+
+owncloud web can be seen as a hub for extensions like the files extension, the user management extension and others. The central part of owncloud web with respect to theming is the web-runtime which holds all general style definitions which can be used by but also be individually set by an extension. This makes it possible to e.g. individually style the generally frame independently from an extension.
 
 == Providing a Theme
 
-Your theming configuration resides in a `.json` file, e.g. `theme.json`. To load this file, it needs to be correctly referenced inside your `config/config.json`. Alternatively, when using Infinite Scale, you can define the theming json file via the `WEB_UI_THEME_PATH` environment variable which takes precedence over the theming reference in `config.json`, if any is set. An example configurations can be found on {example-theme-url}[GitHub].
+Your theming configuration resides in a `.json` file, e.g. `theme.json`. To load this file, it needs to be correctly referenced inside your `config/config.json`. Alternatively, when using Infinite Scale, you can define the theming json file via the `WEB_UI_THEME_PATH` environment variable which takes precedence over the theming file reference in `config.json`, if any is set. An example configurations can be found on {example-theme-url}[GitHub].
 
 NOTE: If no theme is provided or the loading of your custom theme fails, the standard ownCloud theme will be loaded as a fallback. However, this doesn’t stop you from correctly loading a theme that is wrongly formatted, so please read the instructions below carefully.
 
@@ -24,12 +26,12 @@ To reference your theme, you have two options:
 +
 [source,plaintext]
 ----
-"theme": \"https://externalurl.example.com/theme-name/theme.json",
+"theme": "https://externalurl.example.com/theme-name/theme.json",
 ----
 +
 To avoid CORS issues, make sure that you host the URL on the same domain as your ownCloud web hosting.
 
-* For development and testing purposes, you can store your `theme.json` inside \`packages/web-runtime/themes/{theme-name}/` and reference it in the `config.json` file. However, this isn’t recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud 10.x.
+* For development and testing purposes, you can store your `theme.json` inside `packages/web-runtime/themes/\{theme-name}/` and reference it in the `config.json` file. However, this is not recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud 10.x.
 
 == Configuring a Theme
 
@@ -65,7 +67,7 @@ See below for the meaning of all the first-level objects inside a single theme a
 
 === "general"
 
-Here, you can specify a `"name"` and a `"slogan"` string. The name gets used in the HTML page `<title>`, and both of them are shown on various screens (like: login, loading, error and public share pages).
+Here, you can specify a `"name"` and a `"slogan"` string. The name gets used in the HTML page `<title>`, and both of them are shown on various screens like: login, loading, error and public share pages.
 
 === "logo"
 
@@ -103,13 +105,14 @@ Follow this structure to make sure your theming configuration is loaded correctl
 
 ==== Extendability
 
-If you define different key-value pairs inside any of the objects in `"designTokens"`, they will get loaded and initialized as CSS custom properties but don’t take any effect in the user interface. This gives you an opportunity to customize extensions from within the theme in the web runtime (and not the extension itself).
+If you define different key-value pairs inside any of the objects in `"designTokens"`, they will get loaded and initialized as CSS custom properties but don’t take any effect in the user interface. This gives you the opportunity to customize extension styles from within the theme in the web-runtime, without the need redefining the same style components in an extension again. Note that you can overwrite a style component set the web-runtime for an extension by the extension.
 
 ==== Breakpoints
 
 If you’d like to set different breakpoints than the default ones in the ownCloud design system, you can set them using theming variables.
 
-Breakpoint variables get prepended with `--oc-breakpoint-`, so e.g. `“large-default”` creates the custom CSS property `--oc-breakpoint-large-default`.
+Breakpoint variables get prepended with `--oc-breakpoint-`. +
+Example: `“large-default”` creates the custom CSS property `--oc-breakpoint-large-default`.
 
 [source,plaintext]
 ----
@@ -129,9 +132,10 @@ Breakpoint variables get prepended with `--oc-breakpoint-`, so e.g. `“large-de
 
 ==== Colors
 
-For the color values, you can use any valid CSS color format, e.g. hex (#fff), rgb (rgb(255,255,255)) or color names (white).
+For the color values, you can use any valid CSS color format, like `hex (#fff)`, `rgb (rgb(255,255,255))` or color names `(white)`.
 
-Color variables get prepended with `--oc-color-`, so e.g. `“background-default”` creates the custom CSS property `--oc-color-background-default`.
+Color variables get prepended with `--oc-color-`. +
+Example: `“background-default”` creates the custom CSS property `--oc-color-background-default`.
 
 Again, you can use the ownCloud design tokens as a reference implementation:
 
@@ -180,7 +184,8 @@ Again, you can use the ownCloud design tokens as a reference implementation:
 
 You can change the `default`, `large` and `medium` font sizes according to your needs. If you need more customization options regarding font sizes, open an issue on {gh-webui-url}[GitHub] with a detailed description.
 
-Font size variables get prepended with `--oc-font-size-`, so e.g. `“default”` creates the custom CSS property `--oc-font-size-default`.
+Font size variables get prepended with `--oc-font-size-`. +
+Example: `“default”` creates the custom CSS property `--oc-font-size-default`.
 
 [source,plaintext]
 ----
@@ -197,7 +202,8 @@ Font size variables get prepended with `--oc-font-size-`, so e.g. `“default”
 
 Use sizing variables to change various UI elements, such as icon and logo appearance, table row or checkbox sizes, according to your needs. If you need more customization options regarding sizes, open an issue on {gh-webui-url}[GitHub] a detailed description.
 
-Size variables get prepended with `--oc-size-`, so e.g. `“icon-default”` creates the custom CSS property `--oc-size-icon-default`.
+Size variables get prepended with `--oc-size-`. +
+Example: `“icon-default”` creates the custom CSS property `--oc-size-icon-default`.
 
 [source,plaintext]
 ----
@@ -216,9 +222,12 @@ Size variables get prepended with `--oc-size-`, so e.g. `“icon-default”` cre
 
 ==== Spacing
 
-Use the six spacing options (`xsmall | small | medium | large | xlarge | xxlarge`) to create a more (or less) condensed version of the user interface. If you need more customization options regarding spacing, open an issue on {gh-webui-url}[GitHub] with a detailed description.
+Use the six spacing options +
+(`xsmall | small | medium | large | xlarge | xxlarge`) +
+to create a more (or less) condensed version of the user interface. If you need more customization options regarding spacing, open an issue on {gh-webui-url}[GitHub] with a detailed description.
 
-Spacing variables get prepended with `--oc-space-`, so e.g. `“xlarge”` creates the custom CSS property `--oc-space-xlarge`.
+Spacing variables get prepended with `--oc-space-`. +
+Example: `“xlarge”` creates the custom CSS property `--oc-space-xlarge`.
 
 [source,plaintext]
 ----
