@@ -245,6 +245,18 @@ Using this feature requires network connectivity. If you want to store
 your files offline, use the ownCloud Desktop Client to sync all files on
 your ownCloud to one or more directories of your local hard drive.
 
+NOTE: On Windows 10 you need to turn on the network discovery. The following steps need to be done:
+
+. Go to the windows settings
+. Select "Network & Internet"
+image:files/access_webdav/network-internet.png[]
+. Select "Network and Sharing Center"
+image:files/access_webdav/network-sharing-center.png[]
+. Select "Change advanced sharing settings"
+image:files/access_webdav/advanced-sharing-settings.png[]
+. Select "Turn on network discovery"
+image:files/access_webdav/network-discovery.png[]
+
 NOTE: Prior to mapping your drive, you must permit the use of Basic Authentication in the
 Windows Registry. The procedure is documented in 
 {windows7-dav-url}[Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used]
