@@ -5,7 +5,7 @@
 :schimera-url: https://play.google.com/store/apps/details?id=com.schimera.webdavnavlite
 :ios-webdav-navigator-url: https://itunes.apple.com/app/webdav-navigator/id382551345
 :sabre-finder-url: http://sabre.io/dav/clients/finder/
-:windows7-dav-url: https://support.microsoft.com/en-us/topic/349cb223-941f-03f1-d80c-3a9a2b9ffb72
+:windows7-dav-url: https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-automatically-reconnect-dav-share
 :office-opens-blank-url: https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/office-opens-blank-from-sharepoint
 :support-1-url: https://support.microsoft.com/kb/2123563
 :support-2-url: https://support.microsoft.com/kb/2668751
