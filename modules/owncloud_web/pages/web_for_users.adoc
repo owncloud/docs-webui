@@ -30,7 +30,7 @@ image::application-switcher.png[Application Switcher]
 
 === Global Search
 
-The new search not only scans the content in your ownCloud spaces, but also in applications like chat tools or on the web.
+The new search not only scans the content in your ownCloud, but is also prepared to search in applications like chat tools or on the web.
 
 // work in progress, uses Bleve.
 // https://github.com/blevesearch/bleve
