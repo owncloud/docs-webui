@@ -49,7 +49,7 @@ All the way to the right, the little round icon with your initials opens a menu 
 
 === Personal
 
-Under `Personal` in the left sidebar you have your private space where you can upload files and folders or create them directly on Infinite Scale.
+Under `Personal` in the left sidebar you have your private place where you can upload files and folders or create them directly on Infinite Scale.
 
 image:personal-space.png
 
@@ -65,18 +65,27 @@ A click on the three vertical dots opens an actions menu. Actions can be perform
 
 === Spaces
 
-Spaces are organizational units to sort content and make it available to certain members.
-
-Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, i.e., sharing on a larger scale.
+Spaces are special folders for teams. They are organized by the team members itself so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
 
 
-In spaces, editors can do a little more and there's the additional role of manager.
+Under `Personal`, every user can store private files, while the `Spaces` area is intended for collaboration, i.e., working together on a project, in a department or in a school class.
 
-A user with editor privileges for a space can also edit the space name and description, change the cover image for a space and empty the trash bin.
+Members can be added to a Space so that they gain access to all files within the Space and see, whol else is a member of this Space. Within a Space, members can have different roles. By default, there are the roles:
 
-Every space must have at least one manager. Managers of a space have all the rights of viewers and editors. In addition, they can:
+* Viewer
+* Editor
+* Manager (only available within Spaces)
+
+Viewer can view and download files or folders. 
+
+A user with editor privileges for a Space can also edit the Space name and description, change the cover image for a Space and empty the trash bin.
+
+In Spaces there's the additional role of manager.
+
+Every Space must have at least one manager. Managers of a Space have all the rights of viewers and editors. In addition, they can:
+
 * invite additional members,
-* edit the quota of a space,
+* edit the quota of a Space,
 * change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
 
 image::spaces-menu.png[Spaces Menu,width=60%]]
@@ -87,7 +96,7 @@ Under `Deleted Files` you find content that you have deleted from your `Personal
 
 image:file-restore.png[Delete or Restore]
 
-TIP: If files in one of the spaces are deleted, they are placed in the trashbin of the respective space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
+TIP: If files in one of the Spaces are deleted, they are placed in the trashbin of the respective Space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the Space representation and select `Deleted Files`. You'll be directed to the Space's trashbin where you can delete for real or restore.
 
 // fixme: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
 
