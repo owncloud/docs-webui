@@ -13,6 +13,6 @@ To get a first impression about the two web interfaces, see the screenshots belo
 ^| Classic UI
 ^| ownCloud Web
 
-^| image:{latest-webui-version}@classic_ui:files_page.png[width=400]
-^| image:{latest-webui-version}@owncloud_web:personal-space.png[width=400]
+^| image:{latest-webui-version}@classic_ui:files_page.png[width=320]
+^| image:{latest-webui-version}@owncloud_web:personal-space.png[width=320]
 |===
