@@ -65,12 +65,12 @@ A click on the three vertical dots opens an actions menu. Actions can be perform
 
 === Spaces
 
-Spaces are special folders for teams. They are organized by the team members itself so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
+Spaces are special folders for teams. They are organized by the team members themselves so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
 
 
 Under `Personal`, every user can store private files, while the `Spaces` area is intended for collaboration, i.e., working together on a project, in a department or in a school class.
 
-Members can be added to a Space so that they gain access to all files within the Space and see, whol else is a member of this Space. Within a Space, members can have different roles. By default, there are the roles:
+Members can be added to a Space so that they gain access to all files within the Space and see who else is a member of this Space. Within a Space, members can have different roles. By default, there are the roles:
 
 * Viewer
 * Editor
