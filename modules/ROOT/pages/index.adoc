@@ -1,7 +1,18 @@
-= Introduction to the ownCloud Web User Interface Guide
+= Introduction to the ownCloud Web User Interfaces Guide
 
-Welcome to the ownCloud Web User Interface guide. The guide covers access to the ownCloud instance via browser.
+Welcome to the ownCloud Web User Interfaces guide. The guide covers access to the ownCloud instance via browser.
 
 Note that the xref:classic_ui:index.adoc[Classic UI] guide is only available for the classic server version.
 
-Note that the user guides for the clients like the Desktop, Android or iOS client have their own documentation.
+Note that the client user guides for Desktop, Android or iOS have their own documentation.
+
+To get a first impression about the two web interfaces, see the screenshots below.
+
+[width="100%",cols="~,~",options="header"]
+|===
+^| Classic UI
+^| ownCloud Web
+
+^| image:{latest-webui-version}@classic_ui:files_page.png[width=400]
+^| image:{latest-webui-version}@owncloud_web:personal-space.png[width=400]
+|===
