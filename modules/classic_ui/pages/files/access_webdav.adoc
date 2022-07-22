@@ -461,7 +461,7 @@ More details can be found https://github.com/owncloud/documentation/pull/2668[he
 
 === Problem: Network Discovery
 
-On Windows 10, you need to turn on the _Network Discovery_ to make webdav access working. In newer versions of Windows 10 is enabled but default.
+On Windows 10, you need to turn on the _Network Discovery_ to make webdav access work. In newer versions of Windows 10 it is enabled by default.
 
 ==== Solution
 
