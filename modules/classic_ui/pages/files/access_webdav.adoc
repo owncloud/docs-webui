@@ -245,12 +245,20 @@ Using this feature requires network connectivity. If you want to store
 your files offline, use the ownCloud Desktop Client to sync all files on
 your ownCloud to one or more directories of your local hard drive.
 
-NOTE: Prior to mapping your drive, you must permit the use of Basic Authentication in the
-Windows Registry. The procedure is documented in 
-{windows7-dav-url}[Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used]
+NOTE: If you encounter any issues during the connection please also check the 
+xref:##known-problems[troubleshooting section] below.
+
+[NOTE]
+====
+Prior to mapping your drive, you must permit the use of _Basic Authentication_ in the
+Windows Registry when using HTTP without SSL encryption. The procedure is documented in:
+
+* {windows7-dav-url}[Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used]
 and
-{office-opens-blank-url}[Office applications open blank from SharePoint WebDAV or sites].
+* {office-opens-blank-url}[Office applications open blank from SharePoint WebDAV or sites].
+
 Please follow the Knowledge Base article before proceeding.
+====
 
 === Mapping Drives With the Command Line
 
@@ -450,6 +458,31 @@ sc start "WebClient"
 ----
 
 More details can be found https://github.com/owncloud/documentation/pull/2668[here].
+
+=== Problem: Network Discovery
+
+On Windows 10, you need to turn on the _Network Discovery_ to make webdav access work. In newer versions of Windows 10 it is enabled by default.
+
+==== Solution
+
+ The following steps need to be done:
+
+. Go to the Windows Settings
+. Select "Network & Internet"
++
+image:files/access_webdav/network-internet.png[width=400]
+
+. Select "Network and Sharing Center"
++
+image:files/access_webdav/network-sharing-center.png[width=400]
+
+. Select "Change advanced sharing settings"
++
+image:files/access_webdav/advanced-sharing-settings.png[width=400]
+
+. Select "Turn on network discovery"
++
+image:files/access_webdav/network-discovery.png[width=400]
 
 == Accessing Files Using cURL
 
