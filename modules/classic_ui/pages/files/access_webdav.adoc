@@ -72,29 +72,31 @@ methods.
 Use the `davs://` protocol to connect the Nautilus file manager to your
 ownCloud share:
 
+[source,plaintext]
 ----
 davs://example.com/owncloud/remote.php/webdav
 ----
 
 NOTE: If your server connection is not HTTPS-secured, use `dav://` instead of `davs://`.
 
-image:webdav_gnome3_nautilus.png[screenshot of configuring Nautilus file manager to use WebDAV]
+image:webdav_gnome3_nautilus.png[screenshot of configuring Nautilus file manager to use WebDAV,width=500]
 
 === Accessing Files with KDE and Dolphin File Manager
 
 To access your ownCloud files using the Dolphin file manager in KDE, use the `webdav://` protocol:
 
+[source,plaintext]
 ----
 webdav://example.com/owncloud/remote.php/webdav
 ----
 
-image:webdav_dolphin.png[screenshot of configuring Dolphin file manager to use WebDAV]
+image:webdav_dolphin.png[screenshot of configuring Dolphin file manager to use WebDAV,width=400]
 
 You can create a permanent link to your ownCloud server:
 
 . Open Dolphin and click btn:[Network] in the left-hand column.
 +
-image:files/access_webdav/dolphin-add-network-folder.png[Dolphin File Explorer]
+image:files/access_webdav/dolphin-add-network-folder.png[Dolphin File Explorer,width=400]
 . Click on the icon labeled btn:[Add a Network Folder]. +
 The resulting dialog should appear with WebDAV already selected.
 . If WebDAV is not selected, select it.
@@ -105,7 +107,7 @@ The resulting dialog should appear with WebDAV already selected.
 ** *Server:* The ownCloud domain name, for example *example.com* (without **https://** or **http://**).
 ** *Folder:* Enter the path `owncloud/remote.php/webdav`.
 +
-image:files/access_webdav/dolphin-network-folder-wizard.png[Dolphin Network Folder Wizard]
+image:files/access_webdav/dolphin-network-folder-wizard.png[Dolphin Network Folder Wizard,width=500]
 . (Optional) Check the btn:[create] icon checkbox for a bookmark to appear in the menu:Places[] column.
 . (Optional) Provide any special settings or an SSL certificate in the btn:[Port & Encrypted] checkbox.
 
@@ -121,33 +123,43 @@ Linux computer.
 mount WebDAV shares just like any other remote filesystem. Use this
 command to install it on Debian/Ubuntu:
 +
+[source,bash]
 ----
 sudo apt-get install davfs2
 ----
 . Use this command to install it on CentOS, Fedora, and openSUSE:
 +
+[source,bash]
 ----
 sudo yum install davfs2
 ----
 . Add yourself to the `davfs2` group (this will be effective after the next login):
 +
+[source,bash]
 ----
 sudo usermod -aG davfs2 <username>
 ----
 . Then create an `owncloud` directory in your home directory for the
 mountpoint, and `.davfs2/` for your personal configuration file:
 +
+[source,bash]
 ----
 mkdir ~/owncloud
+----
++
+[source,bash]
+----
 mkdir ~/.davfs2
 ----
 . Copy `/etc/davfs2/secrets` to `~/.davfs2`:
 +
+[source,bash]
 ----
 sudo cat /etc/davfs2/secrets > ~/.davfs2/secrets
 ----
 . Make the permissions read-write owner only:
 +
+[source,bash]
 ----
 chmod 600 ~/.davfs2/secrets
 ----
@@ -155,22 +167,26 @@ chmod 600 ~/.davfs2/secrets
 file, using your ownCloud server URL and your ownCloud username and
 password:
 +
+[source,plaintext]
 ----
 /home/<username>/owncloud <username> <password>
 ----
 . Add the mount information to `/etc/fstab`:
 +
+[source,plaintext]
 ----
 https://example.com/owncloud/remote.php/webdav /home/<username>/owncloud davfs user,rw,auto 0 0
 ----
 . Then test that it mounts and authenticates by running the following command. 
   If you set it up correctly you won’t need root permissions:
 +
+[source,bash]
 ----
 mount ~/owncloud
 ----
 . You should also be able to unmount it:
 +
+[source,bash]
 ----
 umount ~/owncloud
 ----
@@ -188,6 +204,7 @@ prefer to mount it manually, change `auto` to `noauto` in `/etc/fstab`.
 If you experience trouble when you create a file in the directory, edit
 `/etc/davfs2/davfs2.conf` and add:
 
+[source,plaintext]
 ----
 use_locks 0
 ----
@@ -202,8 +219,9 @@ this, you need to configure `davfs2` to recognize your certificate. Copy
 `/etc/davfs2/davfs2.conf` and uncomment the line `servercert`. Now add
 the path of your certificate as in this example:
 
+[source,plaintext]
 ----
-servercert   /etc/davfs2/certs/mycertificate.pem
+servercert /etc/davfs2/certs/mycertificate.pem
 ----
 
 == Accessing Files Using Mac OS X
@@ -217,7 +235,7 @@ To access files through the Mac OS X Finder:
 . Choose menu:Go[Connect to Server]. +
 The "Connect to Server" window opens.
 . Specify the address of the server in the *Server Address* field. +
-image:osx_webdav1.png[Screenshot of entering your ownCloud server address on Mac OS X] +
+image:osx_webdav1.png[Screenshot of entering your ownCloud server address on Mac OS X,width=400] +
 +
 For example, the URL used to connect to the ownCloud server from the Mac OS X Finder is: +
 +
@@ -225,7 +243,7 @@ For example, the URL used to connect to the ownCloud server from the Mac OS X Fi
 https://example.com/owncloud/remote.php/webdav
 ----
 +
-image:osx_webdav2.png[image]
+image:osx_webdav2.png[image,width=400]
 . Click btn:[Connect]. +
 The device connects to the server. +
 +
@@ -237,7 +255,7 @@ https://www.wikihow.com/Connect-to-a-Server-on-a-Mac[wikihow documentation]
 It is best to use a suitable WebDAV client from the
 http://www.webdav.org/projects/[WebDAV Project page] .
 
-If you must use the native Windows implementation, you can map ownCloud
+If you have to use the native Windows implementation, you can map ownCloud
 to a new drive. Mapping to a drive enables you to browse files stored on
 an ownCloud server the way you would files stored in a mapped network drive.
 
@@ -245,12 +263,20 @@ Using this feature requires network connectivity. If you want to store
 your files offline, use the ownCloud Desktop Client to sync all files on
 your ownCloud to one or more directories of your local hard drive.
 
-NOTE: Prior to mapping your drive, you must permit the use of Basic Authentication in the
-Windows Registry. The procedure is documented in 
-{windows7-dav-url}[Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used]
+NOTE: If you encounter any issues during the connection please also check the 
+xref:known-problems[troubleshooting section] below.
+
+[NOTE]
+====
+Prior to mapping your drive, you must permit the use of _Basic Authentication_ in the
+Windows Registry when using HTTP without SSL encryption. The procedure is documented in:
+
+* {windows7-dav-url}[Windows 7 cannot automatically reconnect a DAV share when Basic Authentication is used]
 and
-{office-opens-blank-url}[Office applications open blank from SharePoint WebDAV or sites].
+* {office-opens-blank-url}[Office applications open blank from SharePoint WebDAV or sites].
+
 Please follow the Knowledge Base article before proceeding.
+====
 
 === Mapping Drives With the Command Line
 
@@ -269,9 +295,10 @@ net use Z: https://<drive_path>/remote.php/webdav /user:youruser yourpassword
 +
 `net use Z: \https://example.com/owncloud/remote.php/webdav /user:youruser yourpassword`
 +
-""
+[quote]
+____
 The computer maps the files of your ownCloud account to the drive letter Z.
-""
+____
 +
 NOTE: Though not recommended, you can also mount the ownCloud server using HTTP, leaving the connection unencrypted. 
 If you plan to use HTTP connections on devices while in a public place, we strongly recommend using a 
@@ -300,7 +327,7 @@ https://example.com/owncloud/remote.php/webdav
 +
 NOTE: For SSL protected servers, check *Reconnect at logon* to ensure that the mapping is persistent upon subsequent reboots. If you want to connect to the ownCloud server as a different user, check *Connect using different credentials*.
 +
-image:explorer_webdav.png[image]
+image:explorer_webdav.png[image,width=500]
 . Click the btn:[Finish] button. +
 Windows Explorer maps the network drive, making your ownCloud instance available.
 
@@ -316,7 +343,7 @@ To use Cyberduck:
 . Specify a server without any leading protocol information. For example:
 +
 ----
-`example.com`
+example.com
 ----
 . Specify the appropriate port. The port you choose depends on whether
 or not your ownCloud server supports SSL. Cyberduck requires that you
@@ -449,7 +476,33 @@ sc config "WebClient" start=auto
 sc start "WebClient"
 ----
 
-More details can be found https://github.com/owncloud/documentation/pull/2668[here].
+// documentation is archived and link is out of date
+// More details can be found https://github.com/owncloud/documentation/pull/2668[here].
+
+=== Problem: Network Discovery
+
+On Windows 10, you need to turn on the _Network Discovery_ to make webdav access work. In newer versions of Windows 10 it is enabled by default.
+
+==== Solution
+
+ The following steps need to be done:
+
+. Go to the Windows Settings
+. Select "Network & Internet"
++
+image:files/access_webdav/network-internet.png[width=500]
+
+. Select "Network and Sharing Center"
++
+image:files/access_webdav/network-sharing-center.png[width=500]
+
+. Select "Change advanced sharing settings"
++
+image:files/access_webdav/advanced-sharing-settings.png[width=500]
+
+. Select "Turn on network discovery"
++
+image:files/access_webdav/network-discovery.png[width=500]
 
 == Accessing Files Using cURL
 
@@ -459,14 +512,16 @@ To create a folder with the current date as name:
 
 [source,bash]
 ----
-curl -u user:pass -X MKCOL "https://example.com/owncloud/remote.php/dav/files/USERNAME/$(date '+%d-%b-%Y')"
+curl -u user:pass -X MKCOL \
+    "https://example.com/owncloud/remote.php/dav/files/USERNAME/$(date '+%d-%b-%Y')"
 ----
 
 To upload a file `error.log` into that directory:
 
 [source,bash]
 ----
-curl -u user:pass -T error.log "https://example.com/owncloud/remote.php/dav/files/USERNAME/$(date '+%d-%b-%Y')/error.log"
+curl -u user:pass -T error.log \
+    "https://example.com/owncloud/remote.php/dav/files/USERNAME/$(date '+%d-%b-%Y')/error.log"
 ----
 
 To move a file:
@@ -569,11 +624,11 @@ which is part of libxml2. To format it as it is listed above, pipe the previous 
 
 == Uploading Files to a Public Link (File Drop) Using cURL
 
-To upload a file `file.txt` to a public link with token `70mX9s7KOZwfmdi` +
-\https://example.com/s/70mX9s7KOZwfmdi +
-having no password
+To upload a file named `file.txt` to a public link with token `70mX9s7KOZwfmdi` like `\https://example.com/s/70mX9s7KOZwfmdi` having no password:
 
 [source,bash]
 ----
-curl -k -T file.txt -u "70mX9s7KOZwfmdi:" -H 'X-Requested-With: XMLHttpRequest' \https://example.com/public.php/webdav/file.txt
+curl -k -T file.txt -u "70mX9s7KOZwfmdi:" \
+    -H 'X-Requested-With: XMLHttpRequest' \
+    https://example.com/public.php/webdav/file.txt
 ----
