@@ -1,10 +1,8 @@
 = ownCloud Web
-
 :toc: right
 :toc-levels: 1
 
-:description:
-ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for Infinite Scale.
+:description: ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for Infinite Scale.
 
 == Introduction
 
