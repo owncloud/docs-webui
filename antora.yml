@@ -1,6 +1,6 @@
 name: webui
 title: ownCloud Web User Interface
-version: next
+version: 'next'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/partials/nav.adoc
