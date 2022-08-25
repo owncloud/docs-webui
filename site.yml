@@ -47,8 +47,8 @@ asciidoc:
 #   server
     # note that the version attributes just need to be present and have next as key
     # as they are just here for the test build
-    latest-server-version: '10.9'
-    previous-server-version: '10.8'
+    latest-server-version: '10.10'
+    previous-server-version: '10.9'
     latest-server-download-version: 'next'
     current-server-version: 'next'
     oc-changelog-url: 'https://owncloud.com/changelog/server/'
