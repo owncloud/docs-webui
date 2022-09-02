@@ -21,7 +21,7 @@ To view notifications, click the hamburger menu, in the top left-hand corner of 
 
 image::apps/activity/activity-menu.png[View activity in ownCloud's WebUI.]
 
-By default, you see all activity related to your files and folders. However, by using the left-hand navigation menu, you can filter activity by:
+By default, you see all activity related to your files and folders. However, by using the left-hand navigation menu, you can filter activities by:
 
 * Activities by you
 * Activities by others
@@ -33,7 +33,7 @@ image::apps/activity/comment-activity.png[View comment activity in ownCloud's We
 
 == Configuring the Activity App
 
-To configure your Activity preferences navigate to menu:Settings[Personal > General > Activity]. You can configure notifications for when:
+To configure your Activity preferences, navigate to menu:Settings[Personal > General > Activity]. You can configure notifications for events like:
 
 * Files and folders are created, changed, deleted, restored (from the trash bin), and shared.
 * Files and folders are shared from another server.
@@ -59,5 +59,5 @@ In addition to enabling and disabling email notifications, bulk email notificati
 
 == Time Base
 
-* An admin can define a default date for shares to expire, which you can change if needed. Whenever a date is set for expiring shares (e.g. after 7 days), the share expires at the end of that day. The time base is the time of the ownCloud server, not the time of the client accessing the ownCloud Server.
-* When a client receives an expiry notification for a share, the expiry is effective at the end of the day based on the time of the ownCloud server and not the time of the client accessing ownCloud Server.
+* An admin can define a default date for shares to expire, which you can change if needed. Whenever a date is set for expiring shares (e.g. after 7 days), the share expires at the end of that day. The time base is the time of the ownCloud server, not the time of the client accessing the ownCloud server.
+* When a client receives an expiry notification for a share, the expiry is effective at the end of the day based on the time of the ownCloud server and not the time of the client accessing ownCloud server.
