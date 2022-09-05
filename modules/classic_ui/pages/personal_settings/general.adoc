@@ -19,6 +19,7 @@ You can make this anything you want, as it is separate from your ownCloud login 
 * List your group memberships
 * Manage your password
 * Choose the language for your ownCloud interface
+* Account related settings 
 * Links to desktop and mobile apps
 * Manage your activity stream and notifications
 * Default folder to save new documents to
@@ -28,7 +29,7 @@ You can make this anything you want, as it is separate from your ownCloud login 
 
 The following image is an example screen of the General section:
 
-image:personal-settings/general/general.png[Screenshot of user's General settings page]
+image:personal-settings/general/general.png[Screenshot of user's General settings page, width=500]
 
 == Managing Your Profile Picture
 
@@ -43,12 +44,10 @@ There are two options to set your profile picture:
 
 ==== Upload a Profile Picture
 
-To upload an image click the "_Upload new_" image:personal-settings/general/upload-profile-picture.png[] button, which opens a file browser, through which you can choose an image to upload.
-After you’ve chosen an image, you will then be able to crop the uploaded image, if required, to just the segment of the image that you want to use for your profile picture.
-You can see an example in the screenshot below.
+To upload an image from your device, click the "_Upload new_" image:personal-settings/general/upload-profile-picture.png[] button, which opens a file browser, through which you can choose an image to upload. After you’ve chosen an image, you will then be able to crop the uploaded image, if required, to just the segment of the image that you want to use for your profile picture. You can see an example in the screenshot below.
 
 .Crop the new profile picture
-image::personal-settings/general/set-profile-picture.png[]
+image::personal-settings/general/set-profile-picture.png[width=300]
 
 When you’re happy with the image, click btn:[Choose as profile picture], and the image will be set as your profile picture.
 
@@ -56,11 +55,10 @@ TIP: the image can be a maximum of 20MB in size.
 
 ==== Select a Profile Picture
 
-To select a profile picture, click the _Select from Files_ image:personal-settings/general/choose-profile-picture-button.png[] button and the profile picture chooser will open. 
-From there, pick the profile picture that you want and click btn:[Choose].
+To select a profile picture from images in your ownCloud, click the _Select from Files_ image:personal-settings/general/choose-profile-picture-button.png[] button and the profile picture chooser will open. From there, pick the profile picture that you want and click btn:[Choose].
 
 .Choose a new profile picture
-image::personal-settings/general/select-profile-picture.png[]
+image::personal-settings/general/select-profile-picture.png[width=400]
 
 === Remove Your Profile Picture
 
@@ -100,3 +98,20 @@ image::personal-settings/general/update-language.png[]
 
 To change the language for your user account, pick the desired language from the dropdown under Language. 
 The new language will be auto-saved shortly after you select it.
+
+== Account Related Settings
+
+In the Account section, you will see the following buttons:
+
+image::personal-settings/general/account-related-settings.png[width=450]
+
+* To comply with chapter 15 of the GDPR framework, ownCloud provides the following buttons to:
++
+--
+** Request data export
+** Request account deletion
+--
++
+When a user clicks on one of these buttons, the admin group will recieve an email with the users request for further processing.
+
+* If the user needs to change his role, a field opens post clicking the btn:[Request new role] button, the request can be entered and is sent via email to the admin group for further processing. A possible change can be, that the user needs to be a group admin for a particular custom group.
