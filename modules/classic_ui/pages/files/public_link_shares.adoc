@@ -20,32 +20,36 @@ image::public-link/create-public-link.png[Create a public link,width=250]
 
 As with other shares, provide the name in the *"Link Name"* field, and fill out the options that suit what you want the link to support.
 
-The following dialog has dependencies, see the xref:share-settings-explained[Share Settings Explained] for details:
+The following dialog has dependencies, see the xref:share-settings-explained[Share Settings Explained] for details on the items available:
 
 * When using the ownCloud community edition, following options will be shown:
 +
 [width=100%,cols="50%,50%",options="header"]
 |===
-| Share Folder
-| Share File
+^| Share Folder
+^| Share File
 
 a| image::public-link/public-link-settings-folder.png[Assign folder permissions,width=300]
 a| image::public-link/public-link-settings-file.png[Assign file permissions,width=250]
 |===
 
 * When using:
++
+--
 ** The ownCloud Enterprise Edition **and**
-** Collabora Online (via ownCloud's Richdocuments App) **and**
-** xref:{latest-server-download-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc[Secure View] has been enabled by your administrator
+** a Collabora Online Document Server **and**
+** a configured xref:{latest-server-download-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc[Collabora Online App] (ownCloud's Collabora Online / Richdocuments App) **and**
+** xref:{latest-server-download-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc#configure-owncloud-for-collabora-online-secure-view[Secure View] has been enabled and configured by your administrator
 +
-{empty}
+NOTE: Additional permission items may be available for files depending on the administrators Secure View configuration.
+--
 +
-The folder permissions are different compared to the community version.
+The share permissions for files are different compared to the community version.
 +
 [width=100%,cols="50%,50%",options="header"]
 |===
-| Share Folder
-| Share File
+^| Share Folder
+^| Share File
 
 a| image::public-link/public-link-settings-folder.png[Assign permissions,width=300]
 a| image::public-link/public-link-settings-ee-file.png[Assign file permissions,width=250]
@@ -66,13 +70,13 @@ Finally, click the btn:[Save] button to complete creation of the share. Now that
 | Description
 
 | Preview
-| When set, a recipient can only preview the document. Note that the capability to _Preview_ is only available for office documents and most recent ownCloud versions.
+| When set, a recipient can only preview the document via Collabora Online. Note that the capability to _Preview_ is only available for office documents and implemented in most recent versions of ownCloud. Compared to SecureView, watermarking is not used.
 
 | Download / View
 | Allows recipients to view or download the public link's contents.
 
 | Download / View / Edit
-| Allows recipients to view, download, edit, and delete the public link's contents. Note that the capability to _Edit_ is only available in most recent ownCloud versions.
+| Allows recipients to view, download, edit, and delete the public link's contents. Note that the capability to _Edit_ is only implemented and available in most recent versions of ownCloud.
 
 | Download / View / Upload
 | Allows recipients to view, download and upload the public link's contents.
