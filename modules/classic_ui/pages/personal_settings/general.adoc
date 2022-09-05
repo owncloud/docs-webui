@@ -29,11 +29,11 @@ You can make this anything you want, as it is separate from your ownCloud login 
 
 The following image is an example screen of the General section:
 
-image:personal-settings/general/general.png[Screenshot of user's General settings page, width=500]
+image::personal-settings/general/general.png[General settings page,width=400]
 
 == Managing Your Profile Picture
 
-image::personal-settings/general/profile-picture-overview-annotated.png[width=400]
+image::personal-settings/general/profile-picture-overview-annotated.png[width=350]
 
 === Changing Your Profile Picture
 
@@ -105,7 +105,7 @@ In the Account section, you will see the following buttons:
 
 image::personal-settings/general/account-related-settings.png[width=450]
 
-* To comply with chapter 15 of the GDPR framework, ownCloud provides the following buttons to:
+* To comply with article 15 of the GDPR framework, ownCloud provides the following buttons to:
 +
 --
 ** Request data export
