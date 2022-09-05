@@ -33,7 +33,7 @@ image:personal-settings/general/general.png[Screenshot of user's General setting
 
 == Managing Your Profile Picture
 
-image::personal-settings/general/profile-picture-overview-annotated.png[]
+image::personal-settings/general/profile-picture-overview-annotated.png[width=400]
 
 === Changing Your Profile Picture
 
