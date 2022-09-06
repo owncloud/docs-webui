@@ -9,7 +9,11 @@
 
 == Introduction
 
-{description} This tab contains the history of the file where you can roll back a file to any previous version. Changes made at intervals greater than two minutes are saved as versions.
+{description}
+
+== The Versions Tab
+
+This tab contains the history of the file where you can roll back a file to any previous version. Changes made at intervals greater than two minutes are saved as versions.
 
 image::files_versioning/concious-persistent-major-versions.png[width=250]
 
