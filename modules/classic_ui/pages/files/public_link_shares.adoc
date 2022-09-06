@@ -33,7 +33,7 @@ a| image::public-link/public-link-settings-folder.png[Assign folder permissions,
 a| image::public-link/public-link-settings-file.png[Assign file permissions,width=250]
 |===
 
-* When using:
+* The share permissions for files are different compared to the community version when using:
 +
 --
 ** The ownCloud Enterprise Edition **and**
@@ -44,7 +44,6 @@ a| image::public-link/public-link-settings-file.png[Assign file permissions,widt
 NOTE: Additional permission items may be available for files depending on the administrator's secure view configuration.
 --
 +
-The share permissions for files are different compared to the community version.
 +
 [width=100%,cols="50%,50%",options="header"]
 |===
