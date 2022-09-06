@@ -12,8 +12,6 @@
 
 {description}
 
-include::partial$/direct_file_access_tip.adoc[]
-
 == Add Comments
 
 Use the Details view, in xref:files/webgui/overview.adoc#the-overflow-menu[The Overflow Menu], 
