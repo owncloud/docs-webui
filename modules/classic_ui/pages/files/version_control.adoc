@@ -16,7 +16,7 @@ image::files_versioning/concious-persistent-major-versions.png[width=250]
 * To restore a specific version of a file, click the btn:[circular arrow] to the
 left.
 * Click on the btn:[timestamp] to download it.
-* If the Admin has enabled to show the author of a version in the versions history, ownCloud is capable to automatically generate version numbers for versions. Based on this feature, the user can define the actual version to be a major version which gets a major version number and all new upcoming versions start counting from this major number. To do so, the user has to click on the btn:[check mark] on the left of the actual version to publish this version as major version.
+* If the Admin has enabled to show the author of a version in the versions history, ownCloud can automatically generate version numbers. Based on this feature, the user can define the actual version to be a major version which gets a major version number and all new upcoming versions start counting from this major number. The user has to click on the btn:[check mark] on the left of the actual version to publish it as major version.
 * If you want to make a former version a major version, restore the former version first and make it a major version afterwards.
 
 The versioning app expires old versions automatically to make sure that the user doesn’t run out of space. The following pattern is used to delete old versions:

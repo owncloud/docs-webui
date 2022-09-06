@@ -44,14 +44,14 @@ There are two options to set your profile picture:
 
 ==== Upload a Profile Picture
 
-To upload an image from your device, click the "_Upload new_" image:personal-settings/general/upload-profile-picture.png[] button, which opens a file browser, through which you can choose an image to upload. After you’ve chosen an image, you will then be able to crop the uploaded image, if required, to just the segment of the image that you want to use for your profile picture. You can see an example in the screenshot below.
+To upload an image from your device, click the "_Upload new_" image:personal-settings/general/upload-profile-picture.png[] button, which opens a file browser with which you can choose an image to upload. After you’ve chosen an image, you will then be able to crop the uploaded image, if required, to just the segment of the image that you want to use for your profile picture. You can see an example in the screenshot below.
 
 .Crop the new profile picture
 image::personal-settings/general/set-profile-picture.png[width=300]
 
 When you’re happy with the image, click btn:[Choose as profile picture], and the image will be set as your profile picture.
 
-TIP: the image can be a maximum of 20MB in size.
+TIP: The image can be a maximum of 20MB in size.
 
 ==== Select a Profile Picture
 
@@ -96,7 +96,7 @@ include::partial$configuration/user/update-password-note.adoc[]
 .Change profile’s language
 image::personal-settings/general/update-language.png[]
 
-To change the language for your user account, pick the desired language from the dropdown under Language. 
+To change the language for your user account, pick the desired language from the drop-down menu under Language. 
 The new language will be auto-saved shortly after you select it.
 
 == Account Related Settings
@@ -114,4 +114,4 @@ image::personal-settings/general/account-related-settings.png[width=450]
 +
 When a user clicks on one of these buttons, the admin group will recieve an email with the users request for further processing.
 
-* If the user needs to change his role, a field opens post clicking the btn:[Request new role] button, the request can be entered and is sent via email to the admin group for further processing. A possible change can be, that the user needs to be a group admin for a particular custom group.
+* If users need to change their role, they need to click the btn:[Request new role] button, enter the request and send it to the admin group for further processing. A possible change can be that the user needs to be a group admin for a particular custom group.
