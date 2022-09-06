@@ -44,7 +44,6 @@ a| image::public-link/public-link-settings-file.png[Assign file permissions,widt
 NOTE: Additional permission items may be available for files depending on the administrator's secure view configuration.
 --
 +
-+
 [width=100%,cols="50%,50%",options="header"]
 |===
 ^| Share Folder
