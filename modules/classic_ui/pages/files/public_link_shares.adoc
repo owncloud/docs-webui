@@ -38,8 +38,8 @@ a| image::public-link/public-link-settings-file.png[Assign file permissions,widt
 --
 ** The ownCloud Enterprise Edition **and**
 ** a Collabora Online Document Server **and**
-** a configured xref:{latest-server-download-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc[Collabora Online App] (ownCloud's Collabora Online / Richdocuments App) **and**
-** xref:{latest-server-download-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc#configure-owncloud-for-collabora-online-secure-view[Secure View] has been enabled and configured by your administrator
+** a configured xref:{current-server-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc[Collabora Online App] (ownCloud's Collabora Online / Richdocuments App) **and**
+** xref:{current-server-version}@server:admin_manual:enterprise/collaboration/collabora_secure_view.adoc#configure-owncloud-for-collabora-online-secure-view[Secure View] has been enabled and configured by your administrator
 +
 NOTE: Additional permission items may be available for files depending on the administrator's secure view configuration.
 --
