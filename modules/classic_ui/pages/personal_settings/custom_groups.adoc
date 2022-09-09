@@ -53,7 +53,7 @@ image::personal-settings/custom-groups/manage-group-members.png[Manage members i
 +
 NOTE: An ownCloud administrator can create a domain blocklist for guest user invitation.
 
-* You can share with multiple users at once by entering their identifiers (e.g., display name, user ID, email address, federated cloud ID) as a comma-separated list in the sharing dialog (e.g., `alice,\bob@example.org,carol`. Based on the inputs, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
+* You can share with multiple users at once by entering their identifiers (e.g., display name, user ID, email address, federated cloud ID) as a comma-separated list in the sharing dialog (e.g., `alice,bob@example.org,carol`. Based on the inputs, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
 * When removing a user, click on the btn:[Waste bin] symbol on the right side of the user.
 * Click on the btn:[Pen] symbol to change the users role.
 * With the button _Leave this group_, you can remove yourself from the group.
