@@ -24,7 +24,7 @@ image::files_share-options.png[image,width=350]
 
 == Creating Shares
 
-* For sharing a file or folder there is a text field below the Share tab. In this sharing dialog, you can enter multiple users at once using their identifiers (e.g., display name, user ID, email address, federated cloud ID) as a comma-separated list (e.g., `alice,\bob@example.org,carol`. Based on the inputs, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
+* For sharing a file or folder there is a text field below the Share tab. In this sharing dialog, you can enter multiple users at once using their identifiers (e.g., display name, user ID, email address, federated cloud ID) as a comma-separated list (e.g., `alice,bob@example.org,carol`. Based on the inputs, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
 
 * If username auto-completion is enabled, when you start typing the user or group name ownCloud will automatically complete it for you, if possible.
 
