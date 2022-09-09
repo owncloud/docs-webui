@@ -149,7 +149,7 @@ Shares can have a combination of the following five permission types:
 
 == Creating Drop Folders
 
-As of ownCloud version 10.0.2, users can create upload-only, public shares (otherwise known as "Drop Folders"). Drop Folders allow users to upload files to a central location, but don’t allow them to either see or change any existing files, which already have been uploaded.
+As of ownCloud version 10.0.2, users can create upload-only, public shares (otherwise known as "Drop Folders"). Drop Folders allow users to upload files to a central location, but don’t allow them to either see or change any existing files, which have already been uploaded.
 
 image::sharing/create-drop-folder.png[Create a Drop Folder,width=350]
 
