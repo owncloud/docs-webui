@@ -12,17 +12,17 @@ If you have been using ownCloud before but with the classic user interface on an
 
 The following description assumes you're new to ownCloud.
 
-image::personal-space.png[Start Page,width=500]
+image::web-for-users/personal-space.png[Start Page,width=500]
 
 == Top Navigation
 
-image::top-navigation.png[Top Navigation,width=500]
+image::web-for-users/top-navigation.png[Top Navigation,width=600]
 
 === Application Switcher
 
 The square in the upper left corner with the nine tiles is your application switcher. There you can switch between `Files` and `User management` and installed apps.
 
-image::application-switcher.png[Application Switcher,width=400]
+image::web-for-users/application-switcher.png[Application Switcher,width=250]
 
 === Global Search
 
@@ -37,7 +37,7 @@ Depending on your preferences or light conditions you can switch between `dark m
 
 === Account Menu
 
-image::account-menu.png[Account Menu,width=500]
+image::web-for-users/account-menu.png[Account Menu,width=500]
 
 All the way to the right, the little round icon with your initials opens a menu that takes you to your account information or the settings section, shows your quota as well as usage of storage space and allows you to log out.
 
@@ -47,11 +47,11 @@ All the way to the right, the little round icon with your initials opens a menu 
 
 Under `Personal` in the left sidebar you have your private place where you can upload files and folders or create them directly on Infinite Scale.
 
-image::personal-space.png[Personal Space,width=500]
+image::web-for-users/personal-space.png[Personal Space,width=500]
 
 You can also share files either via public link or internally with others users on the same Infinite Scale instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
 
-image::sharing.png[Sharing Dialog,width=400]
+image::web-for-users/sharing.png[Sharing Dialog,width=400]
 
 === Shares
 
@@ -85,25 +85,23 @@ Every Space must have at least one manager. Managers of a Space have all the rig
 * edit the quota of a Space,
 * change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
 
-image::spaces-menu.png[Spaces Menu,width=500]]
+image::web-for-users/spaces-menu.png[Spaces Menu,width=500]]
 
 === Deleted Files
 
 Under `Deleted Files` you find content that you have deleted from your `Personal Space`. Here you can either really delete the file for good or restore it if deletion was a mistake.
 
-image::file-restore.png[Delete or Restore,width=500]
+image::web-for-users/file-restore.png[Delete or Restore,width=500]
 
 TIP: If files in one of the Spaces are deleted, they are placed in the trashbin of the respective Space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the Space representation and select `Deleted Files`. You'll be directed to the Space's trashbin where you can delete for real or restore.
 
-// fixme: If with beta 1 users still end up in the `Deleted Files` section afterwards, add a note here.
-
 == Right Sidebar
 
-The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner: image:sidebar.png[Sidebar]
+The right sidebar can be opened via the square icon with the dark or gray sidebar under your avatar symbol in the upper right corner: image:web-for-users/sidebar.png[Sidebar]
 
 Here you find details about selected files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
 
-image::file-details.png[File Details,width=500]
+image::web-for-users/file-details.png[File Details,width=500]
 
 === Sharing
 
@@ -111,8 +109,7 @@ If you have been using the standard web interface on ownCloud server previously,
 
 Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can choose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
-
-image::sharing.png[Sharing,width=400]
+image::web-for-users/sharing.png[Sharing,width=400]
 
 A quick-action link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share]. For security reasons, the only possible role for unregistered users is `viewer`.
 
@@ -122,3 +119,12 @@ If you modified a document stored in Infinite Scale, you can always restore olde
 
 // FIXME: Elaborate more when it's working. Is there a diff to come? I hope so.
 
+== Contextual Help
+
+ownCloud Web offers contextual help. In those cases where possible, you will see a questionmark as shown in the image below:
+
+image::web-for-users/share-via-link.png[Sharing,width=400]
+
+When clicking on the questionmark, a context specific frame with additional help text shows up which can be closed by clicking outside, see the image below for an example.
+
+image::web-for-users/contextual-help.png[Sharing,width=400]

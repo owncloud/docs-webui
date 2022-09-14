@@ -206,4 +206,4 @@ NOTE: The Preview app needs to be moved from the apps section to the external_ap
 
 After following all the steps, you should see a new entry in the application switcher called `New Design` which takes you to ownCloud Web.
 
-image::application-switcher-oc10.jpg[Application Switcher]
+image::web-with-oc10/application-switcher-oc10.jpg[Application Switcher]
