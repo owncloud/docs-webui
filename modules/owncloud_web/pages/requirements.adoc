@@ -1,0 +1,62 @@
+= Requirememts
+:toc: right
+
+:description: To run ownCloud Web with full satisfaction, some requiremets must be met.
+
+== Introduction
+
+{description} Though older versions may work without any issues, ownCloud can only give support for the described requirements.
+
+== Desktop Requirements
+
+When using a desktop device like a PC or Notebook, the following browsers are supported:
+
+[caption=]
+[width=100%,cols="30%,40%,50%",options="header"]
+|===
+
+| Browser
+| Supported Version
+| Operating System
+
+| Chrome
+| Latest 2 versions
+| Windows 10+ +
+macOS 12.5+ +
+Linux
+
+| Firefox
+| Latest 2 versions
+| Windows 10+ +
+macOS 12.5+ +
+Linux
+
+|Edge
+| Latest 2 versions
+| Windows 10+
+
+| Safari
+| 16+
+| macOS 12.6+
+|===
+
+=== Additional Information
+
+* Touch input is supported on desktop devices.
+* The required minimum resolution is 1280 x 720 px.
+
+=== Unsupported Browsers
+
+* Microsoft's Internet Explorer is not supported as IE does not provide necessary functionalities.
+* Other browsers like Opera are unsupported, too, but may work without any issues.
+
+=== The Desktop App
+
+Complementary to ownCloud Web, you may install the https://owncloud.com/desktop-app/[Desktop App], available for Windows, macOS and Linux, which enables you to sync your environment with your local device.
+
+== Mobile Requirements
+
+ownCloud Web provides basic functionality on mobile devices, but not all features are available. In most cases the screen is just too small to show all elements in a proper manner, though it may work on tablets. For mobile devices, the installation of the free Android or iOS App is required:
+
+* Android App https://play.google.com/store/apps/details?id=com.owncloud.android[Google Play Store]
+* iOS App https://bit.ly/oCiOSapp[Apple App Store]
