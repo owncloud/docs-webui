@@ -45,9 +45,9 @@ In addition to these new features, we also optimized a few other features in the
 
 ownCloud Web can be deployed as an app. Download it from the {oc-marketplace-url}/web[Marketplace] and run the command:
 
-[source,bash]
+[source,bash,subs="attributes+"]
 ----
-occ market:install web
+{occ-command-example-prefix} market:install web
 ----
 Alternatively, log in to the server as admin and install the Web app via the Marketplace app.
 
@@ -64,21 +64,21 @@ If you prefer to use {oc-marketplace-url}/oauth2[OAuth2], log in as admin, go to
 A few configuration steps are necessary on the ownCloud 10 server:
 
 . Set the ownCloud Web address so it gets displayed in the app switcher by adding the following line to the `config/config.php` file:
-
++
 [source,plaintext]
 ----
 'web.baseUrl' => 'https://<your-owncloud-server>/index.php/apps/web',
 ----
 
 . Configure link routing. Public and private links can either be provided by the regular web interface (default) or by the new ownCloud Web app. If you set the `web.rewriteLinks` option in `config/config.php` to `true`, all links will be redirected to the new ownCloud Web:
-
++
 [source,plaintext]
 ----
 'web.rewriteLinks' => true,
 ----
 
 . Optionally make ownCloud Web the default interface users see after they log in to ownCloud. By default, the regular web interface will be used. To make ownCloud Web the default, add the following line to the `config/config.php` file:
-
++
 [source,plaintext]
 ----
 'defaultapp' => 'web',
