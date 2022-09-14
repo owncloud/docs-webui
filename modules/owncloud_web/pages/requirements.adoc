@@ -9,7 +9,7 @@
 
 == Desktop Requirements
 
-When using a desktop device like a PC or Notebook, the following browsers are supported:
+When using a desktop device like a PC, Notebook including Microsoft Surface, the following browsers are supported:
 
 [caption=]
 [width=100%,cols="30%,40%,50%",options="header"]
@@ -55,6 +55,8 @@ Linux
 Complementary to ownCloud Web, you may install the https://owncloud.com/desktop-app/[Desktop App], available for Windows, macOS and Linux, which enables you to sync your environment with your local device.
 
 == Mobile Requirements
+
+Note that Microsoft Surface tablets have the same category as desktop devices. For requirements see above.
 
 ownCloud Web provides basic functionality on mobile devices, but not all features are available. In most cases the screen is just too small to show all elements in a proper manner, though it may work on tablets. For mobile devices, the installation of the free Android or iOS App is required:
 
