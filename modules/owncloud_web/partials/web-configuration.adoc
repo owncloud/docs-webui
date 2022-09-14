@@ -1,6 +1,9 @@
 === Configuring ownCloud Web
 
-There are a few configuration settings necessary for ownCloud Web to work correctly. Copy the example config below into the `config/config.json` file (create one if it does not exist) and adjust it for your environment:
+There are a few configuration settings necessary for ownCloud Web to work correctly. Dependent if you are using ownCloud classic or Infinite Scale, copy the config below into a file named `config.json` (create one if it does not exist) and adjust it for your environment. The location for the config.json file must be: 
+
+* ownCloud 10: `<your-owncloud-root>/config/`
+* Infinite Scale: see the xref:{latest-ocis-version}@ocis:ROOT:deployment/general/general-info.adoc#configuration-rules[default locations for config files]
 
 [source,plaintext]
 ----
