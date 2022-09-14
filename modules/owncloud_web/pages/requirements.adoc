@@ -9,7 +9,7 @@
 
 == Desktop Requirements
 
-When using a desktop device like a PC or Notebook, following browsers are supported:
+When using a desktop device like a PC or Notebook, the following browsers are supported:
 
 [caption=]
 [width=100%,cols="30%,40%,50%",options="header"]
@@ -42,13 +42,13 @@ Linux
 
 === Additional Information
 
-* Touch input is supported on desktop devices
-* The required minimum resolution is 1280 x 720 px
+* Touch input is supported on desktop devices.
+* The required minimum resolution is 1280 x 720 px.
 
 === Unsupported Browsers
 
 * Microsoft's Internet Explorer is not supported as IE does not provide necessary functionalities.
-* Other browsers like Opera are unsupported too, but may work without any issues.
+* Other browsers like Opera are unsupported, too, but may work without any issues.
 
 === The Desktop App
 
