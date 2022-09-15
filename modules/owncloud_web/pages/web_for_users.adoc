@@ -121,10 +121,10 @@ If you modified a document stored in Infinite Scale, you can always restore olde
 
 == Contextual Help
 
-ownCloud Web offers contextual help. In those cases where possible, you will see a questionmark as shown in the image below:
+ownCloud Web offers contextual help. If available, you will see a question mark as shown in the image below:
 
 image::web-for-users/share-via-link.png[Sharing,width=400]
 
-When clicking on the questionmark, a context specific frame with additional help text shows up which can be closed by clicking outside, see the image below for an example.
+When clicking on the question mark, a context specific frame providing a help text will show up and can be closed by clicking outside outside the frame. See the image below for an example.
 
 image::web-for-users/contextual-help.png[Sharing,width=400]
