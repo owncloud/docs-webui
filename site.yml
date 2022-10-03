@@ -13,6 +13,9 @@ content:
   - url: https://github.com/owncloud/docs-server.git
     branches:
     - master
+  - url: https://github.com/owncloud/docs-ocis.git
+    branches:
+    - master
 
 ui:
   output_dir: assets
@@ -47,8 +50,8 @@ asciidoc:
 #   server
     # note that the version attributes just need to be present and have next as key
     # as they are just here for the test build
-    latest-server-version: '10.10'
-    previous-server-version: '10.9'
+    latest-server-version: '10.11'
+    previous-server-version: '10.10'
     latest-server-download-version: 'next'
     current-server-version: 'next'
     oc-changelog-url: 'https://owncloud.com/changelog/server/'
@@ -73,7 +76,7 @@ asciidoc:
 #   ocis
     latest-ocis-version: 'next'
     previous-ocis-version: 'next'
-    ocis-version: '2.0.0-beta1'
+    ocis-version: '2.0.0-beta8'
     ocis-downloadpage-url: 'https://download.owncloud.com/ocis/ocis/testing/'
     ocis-ext-includes: 'https://raw.githubusercontent.com/owncloud/ocis/docs/extensions/_includes/'
 #   desktop

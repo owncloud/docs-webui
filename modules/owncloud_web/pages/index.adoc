@@ -1,6 +1,5 @@
 = ownCloud Web
 :toc: right
-:toc-levels: 1
 
 :description: ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for Infinite Scale.
 
@@ -9,7 +8,6 @@
 {description}
 
 If you are still running ownCloud 10.x as server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with Infinite Scale. For a quick introduction about what's new or different, check out the section xref:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x].
-
 
 == Changes
 
@@ -22,6 +20,8 @@ For readers already familiar with ownCloud 10 and its standard web interface, th
 // There's probably more worth mentioning...
 // Search is done via Bleve https://github.com/blevesearch/bleve
 
-
 // As an admin, check out the section [ownCloud Web for Admins]. Users can find out more about how the new web interface works in the section [ownCloud Web for Users].
 
+== Security Aspects
+
+The development of ownCloud Web is closely aligned to the development of Infinite Scale. Read the Infinite Scale xref:{latest-ocis-version}@ocis:ROOT:security/security.adoc[Security Aspects] document for details.
