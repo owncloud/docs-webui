@@ -14,5 +14,5 @@ To get a first impression about the two web interfaces, see the screenshots belo
 ^| ownCloud Web
 
 ^| image:{latest-webui-version}@classic_ui:files_page.png[width=320]
-^| image:{latest-webui-version}@owncloud_web:personal-space.png[width=320]
+^| image:{latest-webui-version}@owncloud_web:web-for-users/personal-space.png[width=320]
 |===
