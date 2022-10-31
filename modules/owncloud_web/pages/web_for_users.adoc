@@ -61,7 +61,7 @@ A click on the three vertical dots opens an actions menu. Actions can be perform
 
 === Spaces
 
-Spaces are the foundation for sharing data. Spaces are not owned by someone. Spaces store data and are designed for collaboration. Spaces first need to be created by a user having the `Create Space` permission. (Ask your admin for details). The xref:sharing-roles-and-permissions[Manager role] for managing the space can further be delegated to one or more users, where the creator can remove himself from this role completely if required.
+Spaces are the foundation for sharing data. Spaces are not owned by someone. Spaces store data and are designed for collaboration. Spaces first need to be created by a user having the `Create Space` permission, see the xref:web_for_admins.adoc#creating-a-space[Creating a Space] documentation for details. The xref:sharing-roles-and-permissions[Manager role] for managing the space can further be delegated to one or more users, where the creator can remove himself from this role completely if required.
 
 Spaces are organized by the team members themselves without intervention from admins. Leaving members do not interupt sharing and other sharees can keep on working. This is true not only for the whole space or for single files or directories, but also for roles and permissions assigned.
 
