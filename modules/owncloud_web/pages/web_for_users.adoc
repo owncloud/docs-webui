@@ -51,8 +51,6 @@ image::web-for-users/personal-space.png[Personal Space,width=500]
 
 You can also share files either via public link or internally with others users on the same Infinite Scale instance by invitation. Either way, you can grant permission to access files as xref:sharing-roles-and-permissions[Viewer or Editor].
 
-// image::web-for-users/sharing.png[Sharing Dialog,width=400]
-
 === Shares
 
 Under `Shares`, you can see all files or folders that have been shared with you. The origin of the share always resides in a space, see below. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
