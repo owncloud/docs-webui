@@ -53,27 +53,27 @@ You can also share files either via public link or internally with others users 
 
 === Shares
 
-Under `Shares`, you can see all files or folders that have been shared with you. The origin of the share always resides in a space, see below. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
+Under `Shares`, you can see all files or folders that have been shared with you. The origin of the share always resides in a space as you'll see below. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
 
 A click on the three vertical dots opens an actions menu. Actions can be performed on a file or folder depending on the file type (video, text, etc.) and on the permissions granted by the sharer.
 
 === Spaces
 
-Spaces are the foundation for sharing data. Spaces are not owned by someone. Spaces store data and are designed for collaboration. Spaces first need to be created by a user having the `Create Space` permission, see the xref:web_for_admins.adoc#creating-a-space[Creating a Space] documentation for details. The xref:sharing-roles-and-permissions[Manager role] for managing the space can further be delegated to one or more users, where the creator can remove himself from this role completely if required.
+Spaces are the foundation for sharing data. Spaces are not owned by someone. Spaces store data and are designed for collaboration. Spaces first need to be created by a user having the `Create Space` permission, see the xref:web_for_admins.adoc#creating-a-space[Creating a Space] documentation for details. The xref:sharing-roles-and-permissions[Manager role] for managing the space can be delegated to one or more users, and the creator can remove himself or herself from this role completely.
 
-Spaces are organized by the team members themselves without intervention from admins. Leaving members do not interupt sharing and other sharees can keep on working. This is true not only for the whole space or for single files or directories, but also for roles and permissions assigned.
+Spaces are organized by the space members themselves without intervention from admins. If members leave, sharing is not interrupted and sharees can keep working. This is true not only for the whole space or for single files or directories, but also for roles and permissions assigned.
 
-Whole spaces either show up as `Personal` space or in the `Spaces` area, while when content only is shared, it is shown in `Shared` making it easier to distinguish the way of sharing respectively viewing and assiging sharing roles and permissions.
+A space either shows up as `Personal` space or in the `Spaces` area. When only content is shared, it is shown in the `Shared` area, making it easier to distinguish the way of sharing, as well as viewing and assigning sharing roles and permissions.
 
 ==== Space Areas
 
 Personal::
-Every user has a private space, where he can store or share content. This space is created automatically when the user has been setup. Delegating the managing role or adding members to the whole personal space is not possible though sharing single files or directories is enabled. With the inability to assign or delegate the managing role or add space members, the personal space stays in total control of the user.
+Every user has a private space, where they can store or share content. This space is created automatically when the user is set up. Delegating the managing role or adding members to the personal space is not possible, but sharing single files or directories is enabled. With the inability to assign or delegate the managing role or add space members, the personal space stays in total control of the user.
 +
-NOTE: Consider using the personal space for personal and unshared data only and have additional space(s) for data that is sharable. This increases security a lot and prevents accidentially providing private data to the outside. In addition, when leaving the company, sharing stays untouched and private data can safely be deleted. 
+NOTE: Consider using the personal space for data that is only relevant to you and shouldn't be shared. For anything else better create one or more additional spaces for data you want to share. This increases security a lot and prevents accidentally providing private data to the outside world. In addition, when leaving the company or organization, sharing stays untouched and private data can safely be deleted. 
 
 Spaces::
-Spaces where a user is member of show up here. This area is intended for team collaboration, like when sharing on a larger scale, working together on a project, in a department or in a school class.
+Spaces of which a user is member show up here. This area is intended for collaboration, like when sharing on a larger scale, working together on a project, in a department or in a school class.
 
 === Deleted Files
 
@@ -109,13 +109,13 @@ If you modified a document stored in Infinite Scale, you can always restore olde
 
 == Sharing Roles and Permissions
 
-* Members can be added to a Space so that they gain access to all files and folders within the space. Members get the sharing *and* space permissions granted depending by their role.
+* Members can be added to a space so that they gain access to all files and folders within the space. Members are granted sharing *and* space permissions, depending on their role.
 * Members can have different roles and permissions in different spaces.
 * When sharing single files and folders only, sharees are granted the sharing, *but not* the space permissions.
 
-The following table describes the default roles and it's permissions.
+The following table describes the default roles and their permissions.
 
-NOTE: Permissions *sum up* as higher the role gets.
+NOTE: Permissions *sum up* with increasing resposibility.
 
 [width=100,cols=".^30%,.^100%,.^100%",options="header",]
 |===
@@ -130,14 +130,14 @@ a| * read documents,
 a| * get info about the space.
 
 | Editor
-a| * modify documents
+a| * modify documents,
 * delete documents,
 * upload content to a space.
 a| * edit the space name,
 * edit the space description,
 * add or change the image for the space,
 * empty the spaces trash bin,
-* recover files from the spaces trashbin.
+* recover files from the spaces trash bin.
 
 | Manager
 |
@@ -156,7 +156,7 @@ image:web-for-users/spaces-share-menu.png[Spaces Sharing Menu,width=300]
 ^| image:web-for-users/spaces-menu.png[Spaces Menu,width=300]
 |===
 
-(1) ... With deactivating, a Manager can disable any access to a space including sharing and syncing. This can be used to keep data in a frozen state before finally deleting it later on. To regain full access including sharing and syncing, a deactivated space can be activated again.
+(1) ... By deactivating, a Manager can disable any access to a space including sharing and syncing. This can be used to keep data in a frozen state before finally deleting it later on. To regain full access including sharing and syncing, a deactivated space can be activated again.
 
 == Contextual Help
 
