@@ -1,7 +1,7 @@
-= Requirememts
+= Requirements
 :toc: right
 
-:description: To run ownCloud Web with full satisfaction, some requiremets must be met.
+:description: To run ownCloud Web with full satisfaction, some requirements must be met.
 
 == Introduction
 
