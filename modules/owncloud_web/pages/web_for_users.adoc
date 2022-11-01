@@ -115,7 +115,7 @@ If you modified a document stored in Infinite Scale, you can always restore olde
 
 The following table describes the default roles and their permissions.
 
-NOTE: Permissions *sum up* with increasing resposibility.
+NOTE: Permissions *sum up* with increasing responsibility.
 
 [width=100,cols=".^30%,.^100%,.^100%",options="header",]
 |===
@@ -164,6 +164,6 @@ ownCloud Web offers contextual help. If available, you will see a question mark 
 
 image::web-for-users/share-via-link.png[Sharing,width=400]
 
-When clicking on the question mark, a context specific frame providing a help text will show up and can be closed by clicking outside outside the frame. See the image below for an example.
+When clicking on the question mark, a context specific frame providing a help text will show up and can be closed by clicking outside the frame. See the image below for an example.
 
 image::web-for-users/contextual-help.png[Sharing,width=400]

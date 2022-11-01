@@ -13,7 +13,7 @@ If you are still running ownCloud 10.x as server, consider installing the {oc-ma
 
 For readers already familiar with ownCloud 10 and its standard web interface, the big differences in the new ownCloud Web on Infinite Scale are:
 
-* Spaces: Spaces are special folders for teams. They are ogranized by the team members itself so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
+* Spaces: Spaces are special folders for teams. They are organized by the team members themselves so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
 * Simplified links: Just select if only invited people or everyone can access a link. In consequence, we no longer distinguish between private and public links.
 * Simplified sharing, for example: Get links with only 1 click or see at a glance who and which links are giving access.
 

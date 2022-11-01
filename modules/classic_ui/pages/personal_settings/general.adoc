@@ -112,6 +112,6 @@ image::personal-settings/general/account-related-settings.png[width=450]
 ** Request account deletion
 --
 +
-When a user clicks on one of these buttons, the admin group will recieve an email with the users request for further processing.
+When a user clicks on one of these buttons, the admin group will receive an email with the users request for further processing.
 
 * If users need to change their role, they need to click the btn:[Request new role] button, enter the request and send it to the admin group for further processing. A possible change can be that the user needs to be a group admin for a particular custom group.

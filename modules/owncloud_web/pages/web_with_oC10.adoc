@@ -110,7 +110,7 @@ To add new elements, open the `config.json` file in an editor, go to the `applic
 
 TIP: This method can also be used to link external sites like help pages. Apps and links will be opened in a new browser tab.
 
-Entries for the the user menu look like this:
+Entries for the user menu look like this:
 
 [source,plaintext]
 ----
