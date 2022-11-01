@@ -49,43 +49,31 @@ Under `Personal` in the left sidebar you have your private place where you can u
 
 image::web-for-users/personal-space.png[Personal Space,width=500]
 
-You can also share files either via public link or internally with others users on the same Infinite Scale instance by invitation. Either way, you can grant permission to access files as Viewer or Editor.
-
-image::web-for-users/sharing.png[Sharing Dialog,width=400]
+You can also share files either via public link or internally with others users on the same Infinite Scale instance by invitation. Either way, you can grant permission to access files as xref:sharing-roles-and-permissions[Viewer or Editor].
 
 === Shares
 
-Under `Shares` you can see all files or folders that have been shared with you. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
+Under `Shares`, you can see all files or folders that have been shared with you. The origin of the share always resides in a space as you'll see below. You can accept the share or decline. You can see who the owner of the share is and who else it has been shared with. Then there's the time or date when the content has been shared.
 
 A click on the three vertical dots opens an actions menu. Actions can be performed on a file or folder depending on the file type (video, text, etc.) and on the permissions granted by the sharer.
 
 === Spaces
 
-Spaces are special folders for teams. They are organized by the team members themselves so that admins don't need to manage them. Even if members leave, the files stay in place so your team can keep on working.
+Spaces are the foundation for sharing data. Spaces are not owned by someone. Spaces store data and are designed for collaboration. Spaces first need to be created by a user having the `Create Space` permission, see the xref:web_for_admins.adoc#creating-a-space[Creating a Space] documentation for details. The xref:sharing-roles-and-permissions[Manager role] for managing the space can be delegated to one or more users, and the creator can remove himself or herself from this role completely.
 
-Under `Personal`, every user has a private space, while the `Spaces` area is intended for collaboration, like sharing on a larger scale.
+Spaces are organized by the space members themselves without intervention from admins. If members leave, sharing is not interrupted and sharees can keep working. This is true not only for the whole space or for single files or directories, but also for roles and permissions assigned.
 
-Under `Personal`, every user can store private files, while the `Spaces` area is intended for collaboration, i.e., working together on a project, in a department or in a school class.
+A space either shows up as `Personal` space or in the `Spaces` area. When only content is shared, it is shown in the `Shared` area, making it easier to distinguish the way of sharing, as well as viewing and assigning sharing roles and permissions.
 
-Members can be added to a Space so that they gain access to all files within the Space and see who else is a member of this Space. Within a Space, members can have different roles. By default, there are the roles:
+==== Space Areas
 
-* Viewer
-* Editor
-* Manager (only available within Spaces)
+Personal::
+Every user has a private space, where they can store or share content. This space is created automatically when the user is set up. Delegating the managing role or adding members to the personal space is not possible, but sharing single files or directories is enabled. With the inability to assign or delegate the managing role or add space members, the personal space stays in total control of the user.
++
+NOTE: Consider using the personal space for data that is only relevant to you and shouldn't be shared. For anything else better create one or more additional spaces for data you want to share. This increases security a lot and prevents accidentally providing private data to the outside world. In addition, when leaving the company or organization, sharing stays untouched and private data can safely be deleted. 
 
-Viewer can view and download files or folders. 
-
-A user with editor privileges for a Space can also edit the Space name and description, change the cover image for a Space and empty the trash bin.
-
-In Spaces there's the additional role of manager.
-
-Every Space must have at least one manager. Managers of a Space have all the rights of viewers and editors. In addition, they can:
-
-* invite additional members,
-* edit the quota of a Space,
-* change the roles of members, including those of other managers. Downgrading a manager to viewer or editor is possible.
-
-image::web-for-users/spaces-menu.png[Spaces Menu,width=500]]
+Spaces::
+Spaces of which a user is member show up here. This area is intended for collaboration, like when sharing on a larger scale, working together on a project, in a department or in a school class.
 
 === Deleted Files
 
@@ -109,7 +97,7 @@ If you have been using the standard web interface on ownCloud server previously,
 
 Sharing is either done via the icons to the right of a file or folder or via the `Actions` menu or by opening the right sidebar and clicking `Shares`. In any case, the right sidebar provides you a dialog where you can choose between inviting people registered on the Infinite Scale instance by entering their names or email addresses in the `Invite` field and click btn:[Share] or by sharing via link.
 
-image::web-for-users/sharing.png[Sharing,width=400]
+image::web-for-users/sharing.png[Sharing,width=350]
 
 A quick-action link also works for external people not registered on the Infinite Scale server. Below the `Share with people` section, provide a name for the link and set an `Expiration date` and a password before hitting btn:[Share]. For security reasons, the only possible role for unregistered users is `viewer`.
 
@@ -118,6 +106,57 @@ A quick-action link also works for external people not registered on the Infinit
 If you modified a document stored in Infinite Scale, you can always restore older versions. When collaborating with other people on the same documents, versioning is very important. If you share a document with an editor, you want to be able to check what happened with the document.
 
 // FIXME: Elaborate more when it's working. Is there a diff to come? I hope so.
+
+== Sharing Roles and Permissions
+
+* Members can be added to a space so that they gain access to all files and folders within the space. Members are granted sharing *and* space permissions, depending on their role.
+* Members can have different roles and permissions in different spaces.
+* When sharing single files and folders only, sharees are granted the sharing, *but not* the space permissions.
+
+The following table describes the default roles and their permissions.
+
+NOTE: Permissions *sum up* with increasing resposibility.
+
+[width=100,cols=".^30%,.^100%,.^100%",options="header",]
+|===
+| Role
+^| Sharing Permissions
+^| Space Permissions
+
+| Viewer
+a| * read documents,
+* view images,
+* play videos.
+a| * get info about the space.
+
+| Editor
+a| * modify documents,
+* delete documents,
+* upload content to a space.
+a| * edit the space name,
+* edit the space description,
+* add or change the image for the space,
+* empty the spaces trash bin,
+* recover files from the spaces trash bin.
+
+| Manager
+|
+a| * invite additional members,
+* share a space,
+* deactivate and activate a space ^(1)^,
+* delete a space,
+* change the roles of members, +
+including those of other managers. A downgrade to viewer or editor is possible.
+
+|
+^a| Personal Sharing View +
+image:web-for-users/sharing-menu.png[Personal Sharing Menu,width=300] +
+Spaces Sharing View +
+image:web-for-users/spaces-share-menu.png[Spaces Sharing Menu,width=300]
+^| image:web-for-users/spaces-menu.png[Spaces Menu,width=300]
+|===
+
+(1) ... By deactivating, a Manager can disable any access to a space including sharing and syncing. This can be used to keep data in a frozen state before finally deleting it later on. To regain full access including sharing and syncing, a deactivated space can be activated again.
 
 == Contextual Help
 
