@@ -149,11 +149,12 @@ a| * invite additional members,
 including those of other managers. A downgrade to viewer or editor is possible.
 
 |
-^a| Personal Sharing View +
+^a| Personal Sharing View
 image:web-for-users/sharing-menu.png[Personal Sharing Menu,width=300] +
-Spaces Sharing View +
+Spaces Sharing View
 image:web-for-users/spaces-share-menu.png[Spaces Sharing Menu,width=300]
-^| image:web-for-users/spaces-menu.png[Spaces Menu,width=300]
+^a| Spaces View
+image:web-for-users/spaces-menu.png[Spaces Menu,width=300]
 |===
 
 (1) ... By deactivating, a Manager can disable any access to a space including sharing and syncing. This can be used to keep data in a frozen state before finally deleting it later on. To regain full access including sharing and syncing, a deactivated space can be activated again.
