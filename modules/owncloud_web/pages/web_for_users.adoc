@@ -148,6 +148,10 @@ a| * invite additional members,
 * change the roles of members, +
 including those of other managers. A downgrade to viewer or editor is possible.
 
+| Internal
+^a| (2)
+^a| (2)
+
 |
 ^a| Personal Sharing View
 image:web-for-users/sharing-menu.png[Personal Sharing Menu,width=300] +
@@ -158,6 +162,8 @@ image:web-for-users/spaces-menu.png[Spaces Menu,width=300]
 |===
 
 (1) ... By deactivating, a Manager can disable any access to a space including sharing and syncing. This can be used to keep data in a frozen state before finally deleting it later on. To regain full access including sharing and syncing, a deactivated space can be activated again.
+
+(2) ... When creating a "Quicklink" with the role `Internal` assigned, recipients of those links can quickly access a resource they already have access to. This makes it easier to reference content in big spaces, therefore the name Internal. To access a Quicklink, the user must have an account and a grant to that resource with one of the other roles available. If the link recipient has no account and has not been granted access to the shared resource, accessing the linked content is not possible and nothing will be shown.
 
 == Contextual Help
 
