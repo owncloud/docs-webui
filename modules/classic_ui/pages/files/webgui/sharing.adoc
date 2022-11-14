@@ -28,9 +28,9 @@ image::files/webgui/files_share-options.png[image,width=350]
 +
 image::files/webgui/share-with-multiple-users.png[]
 +
-Based on the inputs, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
+Based on the input, ownCloud will decide how to create the shares (e.g., share with an internal user, invite a new guest, create a federated share). This way, users can easily invite many recipients at once.
 
-* If username auto-completion is enabled, when you start typing the user or group name ownCloud will automatically complete it for you, if possible.
+* If username auto-completion is enabled, ownCloud will try to complete it for you when you start typing the user or group name.
 
 [NOTE]
 ====
