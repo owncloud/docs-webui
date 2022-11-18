@@ -115,7 +115,7 @@ If you modified a document stored in Infinite Scale, you can always restore olde
 
 The following table describes the default roles and their permissions.
 
-NOTE: Permissions *sum up* with increasing responsibility.
+NOTE: With the exception of the "Uploader" role, permissions *sum up* with increasing responsibility.
 
 [width=100,cols=".^30%,.^100%,.^100%",options="header",]
 |===
@@ -123,16 +123,24 @@ NOTE: Permissions *sum up* with increasing responsibility.
 ^| Sharing Permissions
 ^| Space Permissions
 
+| Uploader
+a| * upload documents +
+(existing content is not revealed)
+|
+
 | Viewer
-a| * read documents,
-* view images,
-* play videos.
+a| * read documents +
+(includes viewing images or playing videos)
 a| * get info about the space.
+
+| Contributor
+a| * download documents,
+* upload documents.
+|
 
 | Editor
 a| * modify documents,
-* delete documents,
-* upload content to a space.
+* delete documents.
 a| * edit the space name,
 * edit the space description,
 * add or change the image for the space,
