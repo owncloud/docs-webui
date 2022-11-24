@@ -81,7 +81,7 @@ Under `Deleted Files` you find content that you have deleted from your `Personal
 
 image::web-for-users/file-restore.png[Delete or Restore,width=500]
 
-TIP: If files in one of the Spaces are deleted, they are placed in the trashbin of the respective Space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the Space representation and select `Deleted Files`. You'll be directed to the Space's trashbin where you can delete for real or restore.
+TIP: If files in one of the spaces are deleted, they are placed in the trashbin of the respective space so they can be restored from there. Go to the `Spaces` overview, click on the vertical three dots in the space representation and select `Deleted Files`. You'll be directed to the space's trashbin where you can delete for real or restore.
 
 == Right Sidebar
 
@@ -90,6 +90,8 @@ The right sidebar can be opened via the square icon with the dark or gray sideba
 Here you find details about selected files: name, size, last modification time and with whom they have been shared. From here you can also use the `Actions` menu and reach the `Share` section.
 
 image::web-for-users/file-details.png[File Details,width=500]
+
+NOTE: The file size values differ depending on the client you are using. Some operating systems like iOS and macOS use the decimal system (power of 10) where 1kB or one kilobyte consists of 1000 bytes, while Linux, Android and Windows use the binary system (power of 2) where 1KB consists of 1024 bytes and is called a kibibyte. So no reason to worry if you see different file sizes on ownCloud Web and your mobile device.
 
 === Sharing
 
