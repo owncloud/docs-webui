@@ -22,11 +22,14 @@ NOTE: Some apps like `files_external` or `encryption` will disable the *Stay log
 == Navigating the Main User Interface
 
 By default, the ownCloud Web interface opens to your Files page. You can
-add, remove, and share files, and make changes based on the access
+add, remove, share files and make changes based on the access
 privileges set by you (if you are administering the server) or by your
 server administrator.
 
 image:files_page.png[scale="75%", "The main Files view."]
+
+NOTE:  The file size values differ depending on the client you are using. Some operating systems like iOS and macOS use the decimal system (power of 10) where 1kB or one kilobyte consists of 1000 bytes, while Linux, Android and Windows use the binary system (power of 2) where 1KB consists of 1024 bytes and is called a kibibyte. So no reason to worry if you see different file sizes in ownCloud Web and your mobile device.
+
 
 The ownCloud user interface contains the following fields and functions:
 
