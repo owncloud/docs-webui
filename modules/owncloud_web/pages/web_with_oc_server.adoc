@@ -1,7 +1,7 @@
-= ownCloud Web on ownCloud Server 10.x
+= ownCloud Web on ownCloud Server
 :toc: right
 :onlyoffice-owncloud-web-url: https://github.com/ONLYOFFICE/onlyoffice-owncloud-web
-:description: ownCloud web is available for ownCloud server 10.x as an app. To ease the transition from ownCloud server 10.x to Infinite Scale, we recommend deploying the new https://marketplace.owncloud.com/apps/web[Web app].
+:description: ownCloud web is available for ownCloud Server as an app. To ease the transition from ownCloud Server to Infinite Scale, we recommend deploying the new https://marketplace.owncloud.com/apps/web[Web app].
 
 == Introduction
 
@@ -130,7 +130,7 @@ TIP: This will add a link to the specified URL in the user menu. The link will o
 
 === ONLYOFFICE Integration
 
-For ONLYOFFICE there is a {onlyoffice-owncloud-web-url}[native integration] available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the ONLYOFFICE document editors and allows users to create and open documents directly in ownCloud Web.
+For ONLYOFFICE there is a {onlyoffice-owncloud-web-url}[native integration] available for ownCloud Web when it is used with an ownCloud Server. It fully integrates the ONLYOFFICE document editors and allows users to create and open documents directly in ownCloud Web.
 
 To use ONLYOFFICE in ownCloud Web, you need:
 
@@ -154,7 +154,7 @@ NOTE: Adjust the URL in the example according to your setup.
 
 === Collabora Online Integration
 
-There is a native Collabora Online integration available for ownCloud Web when it is used with an ownCloud 10.x server. It fully integrates the Collabora Online document editors and allows users to create and open documents directly in ownCloud Web.
+There is a native Collabora Online integration available for ownCloud Web when it is used with an ownCloud Server. It fully integrates the Collabora Online document editors and allows users to create and open documents directly in ownCloud Web.
 
 Requirements:
 
