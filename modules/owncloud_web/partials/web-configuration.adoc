@@ -64,7 +64,7 @@ TIP: If any issues arise when trying to access the new design, a good start for 
 | Description
 
 | server
-| ownCloud 10 server address
+| ownCloud Server address
 
 | theme
 | theme to be used in ownCloud Web pointing to a json file in the themes folder

@@ -8,7 +8,7 @@
 
 {description}
 
-If you have been using ownCloud before but with the classic user interface on an ownCloud 10 server, you may want to check out section xref:web_with_oC10.adoc[ownCloud Web with ownCloud Server 10.x] to get an overview of the main differences.
+If you have been using ownCloud before but with the ownCloud Server user interface, you may want to check out section xref:web_with_oc_server.adoc[ownCloud Web with ownCloud Server] to get an overview of the main differences.
 
 The following description assumes you're new to ownCloud.
 

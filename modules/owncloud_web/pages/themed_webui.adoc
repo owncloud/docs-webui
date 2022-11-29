@@ -31,7 +31,7 @@ To reference your theme, you have two options:
 +
 To avoid CORS issues, make sure that you host the URL on the same domain as your ownCloud web hosting.
 
-* For development and testing purposes, you can store your `theme.json` inside `packages/web-runtime/themes/\{theme-name}/` and reference it in the `config.json` file. However, this is not recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud 10.x.
+* For development and testing purposes, you can store your `theme.json` inside `packages/web-runtime/themes/\{theme-name}/` and reference it in the `config.json` file. However, this is not recommended for production use since your changes may get lost when updating Infinite Scale or the Web app on ownCloud Server.
 
 == Configuring a Theme
 

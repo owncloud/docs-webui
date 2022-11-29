@@ -2,7 +2,7 @@
 * ownCloud Web
 ** xref:owncloud_web:index.adoc[Introduction]
 ** xref:owncloud_web:requirements.adoc[Requirements]
-** xref:owncloud_web:web_with_oC10.adoc[ownCloud Web on ownCloud Server 10.x]
+** xref:owncloud_web:web_with_oc_server.adoc[ownCloud Web on ownCloud Server]
 ** xref:owncloud_web:web_for_users.adoc[ownCloud Web for Users]
 ** xref:owncloud_web:web_for_admins.adoc[ownCloud Web for Admins]
 ** xref:owncloud_web:themed_webui.adoc[ownCloud Web with Custom Theming]
