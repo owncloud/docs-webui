@@ -40,7 +40,7 @@ xref:{latest-server-version}@server:admin_manual:configuration/server/config_sam
 
 After a file or folder has been shared, xref:share-permissions[Share Permissions] can be set for it. In the image below, you can see that the directory "event-Photos" is shared with the user "pierpont", who can share, edit, create, change, and delete the directory.
 
-image::files_page-2.png[Sharing files,width=450]
+image::files/webgui/files_page-2.png[Sharing files,width=450]
 
 === What Happens When Share Recipients Move Files and Folders?
 
