@@ -12,7 +12,6 @@
 :page-aliases: next@server:user_manual:files/access_webdav.adoc, \
 {latest-server-version}@server:user_manual:files/access_webdav.adoc, \
 {previous-server-version}@server:user_manual:files/access_webdav.adoc
-
 :description: ownCloud fully supports the WebDAV protocol, and you can connect and synchronize with your ownCloud files over WebDAV. In this chapter you will learn how to connect Linux, Mac OS X, Windows and mobile devices to your ownCloud server via WebDAV.
 
 == Introduction

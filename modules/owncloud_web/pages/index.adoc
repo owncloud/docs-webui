@@ -1,6 +1,5 @@
 = ownCloud Web
 :toc: right
-
 :description: ownCloud web comes with a completely new design that is more user-friendly and intuitive and, of course, optimized for Infinite Scale.
 
 == Introduction

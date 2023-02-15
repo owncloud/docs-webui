@@ -1,4 +1,7 @@
 = Online Collaboration
+:toc: right
+:description: Collabora Online is a powerful LibreOffice based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud.
+
 :collabora-online-url: https://www.collaboraoffice.com/collabora-online/
 :libreoffice-url: https://www.libreoffice.org/
 :secure-view-label: Secure View (with watermarks)
@@ -6,11 +9,9 @@
 {latest-server-version}@server:user_manual:online_collaboration.adoc, \
 {previous-server-version}@server:user_manual:online_collaboration.adoc
 
-:description: {collabora-online-url}[Collabora Online] is a powerful {libreoffice-url}[LibreOffice]-based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud.
-
 == Collabora Online
 
-{description}
+{description} See the {collabora-online-url}[Collabora Online] and {libreoffice-url}[LibreOffice] for more details.
 
 === Secure View
 

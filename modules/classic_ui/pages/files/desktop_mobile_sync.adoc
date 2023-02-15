@@ -2,7 +2,6 @@
 :page-aliases: next@server:user_manual:files/desktop_mobile_sync.adoc, \
 {latest-server-version}@server:user_manual:files/desktop_mobile_sync.adoc, \
 {previous-server-version}@server:user_manual:files/desktop_mobile_sync.adoc
-
 :description: Syncronizing files with your desktop computer is easiest with the Desktop Synchronisation Client. While it is not mandatory, it eases keeping files in sync a lot.
 
 == Introduction

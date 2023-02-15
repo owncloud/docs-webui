@@ -3,7 +3,6 @@
 :page-aliases: next@server:user_manual:files/webgui/tagging.adoc, \
 {latest-server-version}@server:user_manual:files/webgui/tagging.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/tagging.adoc
-
 :description: ownCloud provides via the webinterface the ability to assign one or more tags to files and folders.
 
 == Introduction

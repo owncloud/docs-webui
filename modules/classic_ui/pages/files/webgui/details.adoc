@@ -5,7 +5,6 @@
 :page-aliases: next@server:user_manual:files/webgui/details.adoc, \
 {latest-server-version}@server:user_manual:files/webgui/details.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/details.adoc
-
 :description: The Details view shows all information for a file, split up into four sections:
 
 {description}

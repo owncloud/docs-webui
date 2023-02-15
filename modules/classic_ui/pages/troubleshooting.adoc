@@ -1,10 +1,9 @@
 = Troubleshooting
 :toc: right
+:description: Listed here are the most common errors you may encounter while attempting to upload files, along with what they mean and possible workarounds.
 :page-aliases: next@server:user_manual:troubleshooting.adoc, \
 {latest-server-version}@server:user_manual:troubleshooting.adoc, \
 {previous-server-version}@server:user_manual:troubleshooting.adoc
-
-:description: Listed here are the most common errors you may encounter while attempting to upload files, along with what they mean and possible workarounds.
 
 == Introduction
 

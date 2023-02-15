@@ -1,11 +1,12 @@
 = ownCloud Web on ownCloud Server
 :toc: right
+:description: ownCloud web is available for ownCloud Server as an app. To ease the transition from ownCloud Server to Infinite Scale, we recommend deploying the new user interface.
+
 :onlyoffice-owncloud-web-url: https://github.com/ONLYOFFICE/onlyoffice-owncloud-web
-:description: ownCloud web is available for ownCloud Server as an app. To ease the transition from ownCloud Server to Infinite Scale, we recommend deploying the new https://marketplace.owncloud.com/apps/web[Web app].
 
 == Introduction
 
-{description}
+{description} It can be downloaded from the marketplace as https://marketplace.owncloud.com/apps/web[Web app].
 
 ownCloud users will benefit from the following additions and improvements:
 

@@ -4,7 +4,6 @@
 next@server:user_manual:files/webgui/custom_groups.adoc, \
 {latest-server-version}@server:user_manual:files/webgui/custom_groups.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/custom_groups.adoc
-
 :description: With custom groups, users are able to define their own groups and manage contributing users themselves.
 
 == Introduction

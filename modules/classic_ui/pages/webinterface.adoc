@@ -1,9 +1,8 @@
 = The Web Interface
+:description: You can connect to your ownCloud server using any Web browser; just point it to your ownCloud server and enter your username and password. Supported Web browsers are:
 :page-aliases: next@server:user_manual:webinterface.adoc, \
 {latest-server-version}@server:user_manual:webinterface.adoc, \
 {previous-server-version}@server:user_manual:webinterface.adoc
-
-:description: You can connect to your ownCloud server using any Web browser; just point it to your ownCloud server and enter your username and password. Supported Web browsers are:
 
 == Introduction
 

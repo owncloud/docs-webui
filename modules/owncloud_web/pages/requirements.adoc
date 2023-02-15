@@ -1,6 +1,5 @@
 = Requirements
 :toc: right
-
 :description: To run ownCloud Web with full satisfaction, some requirements must be met.
 
 == Introduction
