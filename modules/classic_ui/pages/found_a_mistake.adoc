@@ -1,9 +1,9 @@
 = Have You Found a Mistake In The Documentation?
+:description: If you have found a mistake in the documentation, no matter how large or small, please let us know by {new-issue-url}[creating a new issue in the docs repository].
+
 :new-issue-url: https://github.com/owncloud/docs/issues/new
 :page-aliases: next@server:user_manual:found_a_mistake.adoc, \
 {latest-server-version}@server:user_manual:found_a_mistake.adoc, \
 {previous-server-version}@server:user_manual:found_a_mistake.adoc
-
-:description: If you have found a mistake in the documentation, no matter how large or small, please let us know by {new-issue-url}[creating a new issue in the docs repository].
 
 {description}

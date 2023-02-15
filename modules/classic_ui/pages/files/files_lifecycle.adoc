@@ -3,7 +3,6 @@
 :page-aliases: next@server:user_manual:files/files_lifecycle.adoc, \
 {latest-server-version}@server:user_manual:files/files_lifecycle.adoc, \
 {previous-server-version}@server:user_manual:files/files_lifecycle.adoc
-
 :description: With File Lifecycle Management, ownCloud provides a toolset for administrators to automatically move user files into a dedicated archive a certain time after they were uploaded. 
 
 == Introduction

@@ -1,10 +1,11 @@
 = ownCloud Web with Custom Theming
 :toc: right
 :toclevels: 1
+:description: Just like with other clients (Desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the ownCloud web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
+
 :example-theme-url: https://github.com/owncloud/web/tree/master/config
 :design-tokens-url: https://owncloud.design/#/Design%20Tokens
 :gh-webui-url: https://github.com/owncloud/web/issues/new
-:description: Just like with other clients (Desktop, Android, iOS), themes can be used with ownCloud Web. As an organization or company you may be interested in theming the ownCloud web user interface with your brand and slogan, while playful private individuals may simply enjoy the fun of decorating ownCloud web the way they like.
 
 == Introduction
 

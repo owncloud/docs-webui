@@ -1,7 +1,6 @@
 = ownCloud Web for Admins
 :toc: right
 :toc-levels: 1
-
 :description: Logged in to Infinite Scale with privileged rights like an admin user, you can perform administration tasks. These include user and group management and creating spaces.
 
 == Introduction
