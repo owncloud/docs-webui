@@ -66,8 +66,11 @@ Finally, click the btn:[Save] button to complete creation of the share. Now that
 | Setting
 | Description
 
+////
+// Not existing yet. Will likely be implemented in owncloud server 10.13.0.
 | Preview
 | When set, a recipient can only preview the document via Collabora Online. Note that previews are only available for office documents and implemented in most recent versions of ownCloud. Compared to secure view, watermarking is not used.
+////
 
 | Download / View
 | Allows recipients to view or download the public link's contents.
