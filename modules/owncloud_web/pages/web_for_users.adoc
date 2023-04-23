@@ -2,6 +2,12 @@
 :toc: right
 :description: These sections describe the web UI from a regular user's perspective without administrator privileges.
 
+////
+IMPORTANT: the build of this file is referenced by the webui via code. It MUST be available under:
+https://doc.owncloud.com/webui/next/owncloud_web/web_for_users.html
+If this file gets relocated or renamed, a page alias must be added to make it available under the above link again!
+////
+
 == Introduction
 
 {description}
