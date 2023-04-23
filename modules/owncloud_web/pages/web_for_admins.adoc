@@ -3,6 +3,12 @@
 :toc-levels: 1
 :description: Logged in to Infinite Scale with privileged rights like an admin user, you can perform administration tasks. These include user and group management and creating spaces.
 
+////
+IMPORTANT: the build of this file is referenced by the web UI via code. It MUST be available under:
+https://doc.owncloud.com/webui/next/owncloud_web/web_for_admins.html
+If this file gets relocated or renamed, a page alias must be added to make it available under the above link again!
+////
+
 == Introduction
 
 {description}
