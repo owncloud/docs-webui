@@ -31,10 +31,15 @@ asciidoc:
   attributes:
 #   branch-specific-variables: 'see antora.yml'
 #   build relevant
+    # asciidoctor prefix for section IDs
     idprefix: ''
     idseparator: '-'
-    experimental: ''
-    # the page-component-build-list is used in docs-ui
+    # Antora User Interface Macros (btn, menu)
+    experimental: true
+    # Antora pagination (prev page, next page)
+    page-pagination: true
+    # Custom attribute page-component-build-list
+    # Only embed named opengraph images in docs-ui via partials/head-meta-opengraph.hbs
     page-component-build-list: 'docs, server, ocis, webui, user, desktop, ios-app, android'
 #   common
     docs-base-url: 'https://doc.owncloud.com'
@@ -50,8 +55,8 @@ asciidoc:
 #   server
     # note that the version attributes just need to be present and have next as key
     # as they are just here for the test build
-    latest-server-version: '10.11'
-    previous-server-version: '10.10'
+    latest-server-version: '10.12'
+    previous-server-version: '10.11'
     latest-server-download-version: 'next'
     current-server-version: 'next'
     oc-changelog-url: 'https://owncloud.com/changelog/server/'
@@ -76,8 +81,9 @@ asciidoc:
 #   ocis
     latest-ocis-version: 'next'
     previous-ocis-version: 'next'
-    ocis-version: '2.0.0'
-    ocis-compiled: '2022-11-30 00:00:00 +0000 UTC'
+    ocis-actual-version: '3.0.0'
+    ocis-former-version: '2.0.0'
+    ocis-compiled: '2023-06-07 00:00:00 +0000 UTC'
     ocis-downloadpage-url: 'https://download.owncloud.com/ocis/ocis/stable/'
 #   desktop
     latest-desktop-version: 'next'
