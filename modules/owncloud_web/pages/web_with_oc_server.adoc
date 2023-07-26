@@ -152,7 +152,6 @@ Make sure that ONLYOFFICE works as expected in the regular UI then add the follo
 ----
 
 NOTE: Adjust the URL in the example according to your setup.
-NOTE: 
 
 === Collabora Online Integration
 
@@ -177,7 +176,7 @@ Make sure that Collabora Online works as expected in the regular UI, then add th
 ----
 
 NOTE: Adjust the URL to match your setup.
-NOTE: richdocuments >= 3.9.0 requires web >= 7.0.0 (The configuration is silently ignored in web <= 6.0.0)
+NOTE: richdocuments >= 3.9.0 requires web >= 7.0.0. (The configuration is silently ignored in web <= 6.0.0)
 
 === Configuring the Preview App
 
