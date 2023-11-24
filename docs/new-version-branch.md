@@ -1,11 +1,11 @@
-# Create a New Version Branch for Web Userinterface
+# Create a New Version Branch for Web User Interface
 
 Note that at the moment **no branching** is necessary for the webui repo as only the `master` branch is used that appears a `next` in the documentation.
 
 <!--
-When doing a new release for Web Userinterfaces like `1.x`, a new version branch must be created based on `master`. It is necessary to do this in four steps. Please set the new and former version numbers accordingly
+When doing a new release for Web User Interfaces like `1.x`, a new version branch must be created based on `master`. It is necessary to do this in four steps. Please set the new and former version numbers accordingly.
 
-**Step 1: Create and configure the new `1.x` branch**
+**Step 1: Create and configure the new `1.x` branch.**
 
 1.  Create a new `1.x` branch based on latest `origin/master`.
 2.  Copy the `.drone.star` file from the _former_ `1.x-1` branch

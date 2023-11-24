@@ -2,15 +2,15 @@
 
 **Table of Contents**
 
-* [Building the Web Userinterface Docs](#building-the-web-userinterface-docs)
+* [Building the Web User Interface Docs](#building-the-web-userinterface-docs)
 * [General Notes](#general-notes)
 * [Generating the Documentation](#generating-the-documentation)
 * [Target Branch and Backporting](#target-branch-and-backporting)
 * [Branching Workflow](#branching-workflow)
-* [Create a New Version Branch for Web Userinterfaces](#create-a-new-version-branch-for-web-userinterfaces)
+* [Create a New Version Branch for Web User Interfaces](#create-a-new-version-branch-for-web-userinterfaces)
 
 
-## Building the Web Userinterface Docs
+## Building the Web User Interface Docs
 
 The ownCloud Web User Interface Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Server documentation to preview changes you are making.
 
@@ -30,8 +30,8 @@ See the [following section](https://github.com/owncloud/docs#target-branch-and-b
 
 ## Branching Workflow
 
-Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) or more information.
+Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) for more information.
 
-## Create a New Version Branch for Web Userinterfaces
+## Create a New Version Branch for Web User Interfaces
 
-Please refer to [Create a New Version Branch for Web Userinterfaces](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md) for more information.
+Please refer to [Create a New Version Branch for Web User Interfaces](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md) for more information.
