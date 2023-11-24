@@ -2,12 +2,12 @@
 
 **Table of Contents**
 
-* [Building the Web User Interface Docs](#building-the-web-userinterface-docs)
+* [Building the Web User Interface Docs](#building-the-web-user-interface-docs)
 * [General Notes](#general-notes)
 * [Generating the Documentation](#generating-the-documentation)
 * [Target Branch and Backporting](#target-branch-and-backporting)
 * [Branching Workflow](#branching-workflow)
-* [Create a New Version Branch for Web User Interfaces](#create-a-new-version-branch-for-web-userinterfaces)
+* [Create a New Version Branch for Web User Interfaces](#create-a-new-version-branch-for-web-user-interfaces)
 
 
 ## Building the Web User Interface Docs
