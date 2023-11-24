@@ -1,6 +1,16 @@
 # ownCloud Web User Interface
 
-## Building the Docs
+**Table of Contents**
+
+* [Building the Web Userinterface Docs](#building-the-web-userinterface-docs)
+* [General Notes](#general-notes)
+* [Generating the Documentation](#generating-the-documentation)
+* [Target Branch and Backporting](#target-branch-and-backporting)
+* [Branching Workflow](#branching-workflow)
+* [Create a New Version Branch for Web Userinterfaces](#create-a-new-version-branch-for-web-userinterfaces)
+
+
+## Building the Web Userinterface Docs
 
 The ownCloud Web User Interface Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Server documentation to preview changes you are making.
 
@@ -10,37 +20,9 @@ Whenever a Pull Request of this repo gets merged, it automatically triggers a fu
 
 To make life easier, most of the content written in [docs](https://github.com/owncloud/docs#readme) applies also here. For ease of reading, the most important steps are documented here too. For more information see the link provided. Only a few topics of this repo are unique like the branching.
 
-## Antora Site Structure for Docs
+## Generating the Documentation
 
-Refer to the [Antora Site Structure for Docs](https://github.com/owncloud/docs/blob/master/docs/antora-site-structure.md) for more information. 
-
-## Prepare Your Environment
-
-To prepare your local environment, some steps need to be made:
-
-1.) Have the [necessary prerequisites](https://github.com/owncloud/docs/blob/master/docs/build-the-docs.md#install-the-prerequisites) installed.
-
-2.) Clone this repository and run
-```
-yarn install
-```
-to setup all necessary dependencies.
-
-## Building the ownCloud Server Documentation
-
-Run the following command to build the client documentation locally
-
-```
-yarn antora-local
-```
-
-## Previewing the Generated Docs
-
-Assuming that there are no build errors, the next thing to do is to view the result in your browser. In case you have already installed a web server to access local pages, you need to configure a virtual host (or similar) which points to the directory `public/`, located in the root directory of this repository. This directory contains the generated documentation. Alternatively, use the simple web server `serve` bundled with the current package.json, just execute the following command to serve the documentation at [http://localhost:8080/webui/](http://localhost:8080/webui/):
-
-```
-yarn serve
-```
+See the [Generating the Documentation](https://github.com/owncloud/docs#generating-the-documentation) in the docs repo for more details as it applies to all documentation repositories.
 
 ## Target Branch and Backporting
 
@@ -50,6 +32,6 @@ See the [following section](https://github.com/owncloud/docs#target-branch-and-b
 
 Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) or more information.
 
-## Create a New Version Branch for ownCloud Server
+## Create a New Version Branch for Web Userinterfaces
 
-Please refer to [Create a New Version Branch for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md) for more information.
+Please refer to [Create a New Version Branch for Web Userinterfaces](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md) for more information.
