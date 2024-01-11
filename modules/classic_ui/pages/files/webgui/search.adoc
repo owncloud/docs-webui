@@ -1,8 +1,11 @@
 = Search & Full Text Search
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/webgui/search.adoc, \
 {latest-server-version}@server:user_manual:files/webgui/search.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/search.adoc
+endif::[]
 :description: ownCloud comes with a regular search function allowing you to find files by their file name or parts of their names. Click on the magnifier icon in the upper right-hand corner of the web interface. In addition, a Full Text Search app can be enabled by your administrator.
 
 == Introduction

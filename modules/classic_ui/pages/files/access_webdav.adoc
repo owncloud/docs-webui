@@ -1,5 +1,13 @@
 = Accessing ownCloud Files Using WebDAV
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
+:page-aliases: next@server:user_manual:files/access_webdav.adoc, \
+{latest-server-version}@server:user_manual:files/access_webdav.adoc, \
+{previous-server-version}@server:user_manual:files/access_webdav.adoc
+endif::[]
+:description: ownCloud fully supports the WebDAV protocol, and you can connect and synchronize with your ownCloud files over WebDAV. In this chapter you will learn how to connect Linux, Mac OS X, Windows and mobile devices to your ownCloud server via WebDAV.
+
 :ocsmount-url: https://apps.apple.com/de/app/ocsmount/id1411490371
 :webdav-navigator-url: http://seanashton.net/webdav/
 :schimera-url: https://play.google.com/store/apps/details?id=com.schimera.webdavnavlite
@@ -9,10 +17,6 @@
 :office-opens-blank-url: https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/office-opens-blank-from-sharepoint
 :support-1-url: https://support.microsoft.com/kb/2123563
 :support-2-url: https://support.microsoft.com/kb/2668751
-:page-aliases: next@server:user_manual:files/access_webdav.adoc, \
-{latest-server-version}@server:user_manual:files/access_webdav.adoc, \
-{previous-server-version}@server:user_manual:files/access_webdav.adoc
-:description: ownCloud fully supports the WebDAV protocol, and you can connect and synchronize with your ownCloud files over WebDAV. In this chapter you will learn how to connect Linux, Mac OS X, Windows and mobile devices to your ownCloud server via WebDAV.
 
 == Introduction
 

@@ -1,8 +1,11 @@
 = Introduction
 :description: ownCloud is an open source file sync and share software for everyone from individuals operating the free ownCloud Server edition, to large enterprises and service providers operating the ownCloud Enterprise Subscription.
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:index.adoc, \
 {latest-server-version}@server:user_manual:index.adoc, \
 {previous-server-version}@server:user_manual:index.adoc
+endif::[]
 
 *Welcome to ownCloud: your self-hosted file sync and share solution.*
 

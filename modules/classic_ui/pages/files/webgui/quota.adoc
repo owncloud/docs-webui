@@ -1,8 +1,11 @@
 = Storage Quotas
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/webgui/quota.adoc, \
 {latest-server-version}@server:user_manual:files/webgui/quota.adoc, \
 {previous-server-version}@server:user_manual:files/webgui/quota.adoc
+endif::[]
 :description: Your ownCloud admin has the option to set a storage quota on users. Look
 at the top of your Personal page to see what your quota is, and how much
 you have used.

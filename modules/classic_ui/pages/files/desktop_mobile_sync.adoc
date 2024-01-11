@@ -1,7 +1,10 @@
 = Desktop and Mobile Synchronization
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/desktop_mobile_sync.adoc, \
 {latest-server-version}@server:user_manual:files/desktop_mobile_sync.adoc, \
 {previous-server-version}@server:user_manual:files/desktop_mobile_sync.adoc
+endif::[]
 :description: Syncronizing files with your desktop computer is easiest with the Desktop Synchronisation Client. While it is not mandatory, it eases keeping files in sync a lot.
 
 == Introduction

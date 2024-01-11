@@ -1,14 +1,18 @@
 = Security
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
+:page-aliases: next@server:user_manual:personal_settings/security.adoc, \
+{latest-server-version}@server:user_manual:personal_settings/security.adoc, \
+{previous-server-version}@server:user_manual:personal_settings/security.adoc
+endif::[]
+
 :cors-url: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 :gps-ms-auth-url: https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=en&gl=US
 :ios-ms-auth-url: https://apps.apple.com/us/app/microsoft-authenticator/id983156458
 :gps-google-auth-url: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US
 :ios-2fas-url: https://apps.apple.com/app/2fa-authenticator-2fas/id1217793794
 :gps-2fas-url: https://play.google.com/store/apps/details?id=com.twofasapp&hl=en&gl=US
-:page-aliases: next@server:user_manual:personal_settings/security.adoc, \
-{latest-server-version}@server:user_manual:personal_settings/security.adoc, \
-{previous-server-version}@server:user_manual:personal_settings/security.adoc
 
 == Introduction
 

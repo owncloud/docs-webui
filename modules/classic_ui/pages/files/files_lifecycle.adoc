@@ -1,8 +1,11 @@
 = File Lifecycle Management
 :toc: right
 :page-aliases: next@server:user_manual:files/files_lifecycle.adoc, \
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 {latest-server-version}@server:user_manual:files/files_lifecycle.adoc, \
 {previous-server-version}@server:user_manual:files/files_lifecycle.adoc
+endif::[]
 :description: With File Lifecycle Management, ownCloud provides a toolset for administrators to automatically move user files into a dedicated archive a certain time after they were uploaded. 
 
 == Introduction

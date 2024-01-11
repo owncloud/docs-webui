@@ -1,7 +1,10 @@
 = Using the Contacts App
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:apps/contacts.adoc, \
 {latest-server-version}@server:user_manual:apps/contacts.adoc, \
 {previous-server-version}@server:user_manual:apps/contacts.adoc
+endif::[]
 :description: The Contacts app is not enabled by default in ownCloud and needs to be enabled separately. You can download it via {oc-marketplace-url}/apps/market[the market app].
 
 {description}

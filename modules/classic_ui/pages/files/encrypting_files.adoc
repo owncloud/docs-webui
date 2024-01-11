@@ -1,8 +1,11 @@
 = Encrypting Your ownCloud Files
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/encrypting_files.adoc, \
 {latest-server-version}@server:user_manual:files/encrypting_files.adoc, \
 {previous-server-version}@server:user_manual:files/encrypting_files.adoc
+endif::[]
 :description: ownCloud includes an Encryption app, and when it is enabled by your ownCloud administrator, all of your ownCloud data files are automatically encrypted.
 
 == Introduction
