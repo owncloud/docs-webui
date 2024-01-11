@@ -18,4 +18,4 @@ For readers already familiar with ownCloud 10 and its standard web interface, th
 
 == Security Aspects
 
-The development of ownCloud Web is closely aligned to the development of Infinite Scale. Read the Infinite Scale xref:{latest-ocis-version}@ocis:ROOT:security/security.adoc[Security Aspects] document for more details.
+The development of ownCloud Web is closely aligned to the development of Infinite Scale. Read the Infinite Scale https://doc.owncloud.com/ocis/next/deployment/security/security.html[Security Aspects] document for more details.
