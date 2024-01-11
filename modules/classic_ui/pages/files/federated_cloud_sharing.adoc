@@ -1,8 +1,11 @@
 = Using Federation Shares
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/federated_cloud_sharing.adoc, \
 {latest-server-version}@server:user_manual:files/federated_cloud_sharing.adoc, \
 {previous-server-version}@server:user_manual:files/federated_cloud_sharing.adoc
+endif::[]
 :description: Federation Sharing allows you to mount file shares from remote ownCloud
 servers, in effect creating your own cloud of ownClouds.
 

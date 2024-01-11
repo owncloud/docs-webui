@@ -1,7 +1,10 @@
 = Synchronizing with OS X
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:pim/sync_osx.adoc, \
 {latest-server-version}@server:user_manual:pim/sync_osx.adoc, \
 {previous-server-version}@server:user_manual:pim/sync_osx.adoc
+endif::[]
 
 To use ownCloud with iCal you will need to use the following URL:
 

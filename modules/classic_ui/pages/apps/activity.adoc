@@ -1,8 +1,11 @@
 = The Activity App
 :toc: right
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:apps/activity.adoc, \
 {latest-server-version}@server:user_manual:apps/activity.adoc, \
 {previous-server-version}@server:user_manual:apps/activity.adoc
+endif::[]
 :description: The ownCloud Activity app gathers all your file or folder related actions in one place for you to review and can notify you about them via email as well. 
 
 == Introduction

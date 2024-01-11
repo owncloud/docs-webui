@@ -1,7 +1,10 @@
 = Sharing
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:personal_settings/sharing.adoc, \
 {latest-server-version}@server:user_manual:personal_settings/sharing.adoc, \
 {previous-server-version}@server:user_manual:personal_settings/sharing.adoc
+endif::[]
 
 == Introduction
 

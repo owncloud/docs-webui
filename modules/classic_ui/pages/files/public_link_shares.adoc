@@ -1,7 +1,10 @@
 = Public Link Shares
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:files/public_link_shares.adoc, \
 {latest-server-version}@server:user_manual:files/public_link_shares.adoc, \
 {previous-server-version}@server:user_manual:files/public_link_shares.adoc
+endif::[]
 :description: With ownCloud X (10.0), the ability to create multiple public links per file or folder was introduced.
 This offers a lot of flexibility for creating different 
 

@@ -1,8 +1,10 @@
 = Thunderbird - Synchronize Addressbook
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:pim/sync_thunderbird.adoc, \
 {latest-server-version}@server:user_manual:pim/sync_thunderbird.adoc, \
 {previous-server-version}@server:user_manual:pim/sync_thunderbird.adoc
-
+endif::[]
 
 As someone who is new to ownCloud, new to SoGo Connector, and new to
 Thunderbird Addressbook, here is what you need in excruciating pithy

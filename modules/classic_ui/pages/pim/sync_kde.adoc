@@ -1,7 +1,10 @@
 = Synchronizing with KDE SC
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:pim/sync_kde.adoc, \
 {latest-server-version}@server:user_manual:pim/sync_kde.adoc, \
 {previous-server-version}@server:user_manual:pim/sync_kde.adoc
+endif::[]
 
 image:kdes1.png[image]
 

@@ -1,13 +1,16 @@
 = Online Collaboration
 :toc: right
 :description: Collabora Online is a powerful LibreOffice based online office that supports all major document, spreadsheet and presentation file formats, and is integrable with ownCloud.
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
+:page-aliases: next@server:user_manual:online_collaboration.adoc, \
+{latest-server-version}@server:user_manual:online_collaboration.adoc, \
+{previous-server-version}@server:user_manual:online_collaboration.adoc
+endif::[]
 
 :collabora-online-url: https://www.collaboraoffice.com/collabora-online/
 :libreoffice-url: https://www.libreoffice.org/
 :secure-view-label: Secure View (with watermarks)
-:page-aliases: next@server:user_manual:online_collaboration.adoc, \
-{latest-server-version}@server:user_manual:online_collaboration.adoc, \
-{previous-server-version}@server:user_manual:online_collaboration.adoc
 
 == Collabora Online
 

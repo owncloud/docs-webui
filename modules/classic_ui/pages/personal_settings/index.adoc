@@ -1,7 +1,10 @@
 = Personal Settings
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:personal_settings/index.adoc, \
 {latest-server-version}@server:user_manual:personal_settings/index.adoc, \
 {previous-server-version}@server:user_manual:personal_settings/index.adoc
+endif::[]
 :description: As a user, you can manage your personal settings. To access them: Click on your username in the top, right-hand corner of the WebUI of your ownCloud instance.
 
 {description} The Personal Settings Menu opens.

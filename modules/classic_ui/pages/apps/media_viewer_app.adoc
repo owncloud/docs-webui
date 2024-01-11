@@ -1,13 +1,17 @@
 = The Media Viewer App
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
+:page-aliases: next@server:user_manual:apps/media_viewer_app.adoc, \
+{latest-server-version}@server:user_manual:apps/media_viewer_app.adoc, \
+{previous-server-version}@server:user_manual:apps/media_viewer_app.adoc
+endif::[]
 :browser-image-support-url: https://en.wikipedia.org/wiki/Comparison_of_web_browsers#Image_format_support
 :webm-url: https://www.webmproject.org/
 :ogg-url: https://xiph.org/vorbis/
 :mp4-url: https://en.wikipedia.org/wiki/MPEG-4_Part_14
 :media-viewer-app-url: {oc-marketplace-url}/apps/files_mediaviewer
-:page-aliases: next@server:user_manual:apps/media_viewer_app.adoc, \
-{latest-server-version}@server:user_manual:apps/media_viewer_app.adoc, \
-{previous-server-version}@server:user_manual:apps/media_viewer_app.adoc
 :description: The {media-viewer-app-url}[Media Viewer app] is a lightweight viewer for pictures and videos which integrates with the files app, and is released under the GPLv2.
+
 
 == Introduction
 

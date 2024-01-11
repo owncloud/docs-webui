@@ -1,9 +1,12 @@
 = General Settings
 :toc: right
 :toclevels: 2
+// for local build only omitting 'next@server' as it creates a build error 
+ifeval::["{latest-server-version}" != "next"]
 :page-aliases: next@server:user_manual:personal_settings/general.adoc, \
 {latest-server-version}@server:user_manual:personal_settings/general.adoc, \
 {previous-server-version}@server:user_manual:personal_settings/general.adoc
+endif::[]
 :description: In general settings, some of the features you will see include the following:
 
 == Introduction
