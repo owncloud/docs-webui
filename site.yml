@@ -13,9 +13,6 @@ content:
   - url: https://github.com/owncloud/docs-server.git
     branches:
     - master
-  - url: https://github.com/owncloud/docs-ocis.git
-    branches:
-    - master
 
 ui:
   output_dir: assets
@@ -38,9 +35,6 @@ asciidoc:
     experimental: true
     # Antora pagination (prev page, next page)
     page-pagination: true
-    # Custom attribute page-component-build-list
-    # Only embed named opengraph images in docs-ui via partials/head-meta-opengraph.hbs
-    page-component-build-list: 'docs, server, ocis, webui, user, desktop, ios-app, android'
 #   common
     docs-base-url: 'https://doc.owncloud.com'
     oc-complete-base-url: 'https://download.owncloud.com/server/stable'
@@ -49,14 +43,11 @@ asciidoc:
     oc-marketplace-url: 'https://marketplace.owncloud.com'
     oc-central-url: 'https://central.owncloud.org'
     oc-support-url: 'https://owncloud.com/support'
-#   docs
-    latest-docs-version: 'next'
-    previous-docs-version: 'next'
 #   server
     # note that the version attributes just need to be present and have next as key
     # as they are just here for the test build
-    latest-server-version: '10.12'
-    previous-server-version: '10.11'
+    latest-server-version: 'next' # do not change
+    previous-server-version: 'next' # do not change
     latest-server-download-version: 'next'
     current-server-version: 'next'
     oc-changelog-url: 'https://owncloud.com/changelog/server/'
@@ -78,27 +69,11 @@ asciidoc:
 #   webui
     latest-webui-version: 'next'
     previous-webui-version: 'next'
-#   ocis
-    latest-ocis-version: 'next'
-    previous-ocis-version: 'next'
-    ocis-actual-version: '3.0.0'
-    ocis-former-version: '2.0.0'
-    ocis-compiled: '2023-06-07 00:00:00 +0000 UTC'
-    ocis-downloadpage-url: 'https://download.owncloud.com/ocis/ocis/stable/'
-#   desktop
-    latest-desktop-version: 'next'
-    previous-desktop-version: 'next'
-#   ios-app
-    latest-ios-version: 'next'
-    previous-ios-version: 'next'
-#   android
-    latest-android-version: 'next'
-    previous-android-version: 'next'
-#   branded
-    latest-branded-version: 'next'
-    previous-branded-version: 'next'
   extensions:
-    - ./lib/extensions/tabs.js
-    - ./lib/extensions/remote-include-processor.js
-    - ./node_modules/asciidoctor-kroki/src/asciidoctor-kroki.js
+    - ./ext-asciidoc/tabs.js
+    - ./ext-asciidoc/remote-include-processor.js
+    - asciidoctor-kroki
 
+antora:
+  extensions:
+    - ./ext-antora/generate-index.js
