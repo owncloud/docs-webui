@@ -51,7 +51,7 @@ These are the changes necessary to finalize the creation of the 5.x branch.
 
 * The 5.x branch is already pushed and prepared and is included in the branch protection rules.
 
-* When 5.x (core) is finally out, the 5.x-2 branch can be archived, see step 3 in [Create a New Version Branch](https://github.com/owncloud/docs-client-desktop/blob/master/docs-webui/new-version-branch.md)
+* When 5.x (core) is finally out, the 5.x-2 branch can be archived, see step 3 in [Create a New Version Branch](https://github.com/owncloud/docs-webui/blob/master/docs/new-version-branch.md)
 
 * Note, that the 5.x branch in this repo is already created, but the `latest` pointer on the web will be set to it automatically when the tag in core is set. This means, that in the docs homepage, `latest` will point to 5.x-1 until the tag in core is set accordingly. When merging this PR, 5.x-2 will be dropped from the web.
 
