@@ -67,7 +67,7 @@ NOTE: In the following examples, You must adjust *example.com/* to the URL of yo
 
 == Accessing Files Using Linux
 
-You can access files in Linux operating systems using the following
+In addition to using a desktop client, you can access files in the Linux operating systems using the following
 methods.
 
 === Nautilus File Manager
