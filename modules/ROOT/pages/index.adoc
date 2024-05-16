@@ -2,7 +2,8 @@
 
 Welcome to the ownCloud Web User Interfaces guide. The guide covers access to the ownCloud instance via browser.
 
-Note that the xref:classic_ui:index.adoc[ownCloud Server UI] guide is only available for ownCloud Server.
+Note that the xref:classic_ui:index.adoc[ownCloud Server UI] is only available for ownCloud Server.
+The xref:owncloud_web:index.adoc[ownCloud Web] user interface is available for both, ownCloud Server and https://doc.owncloud.com/ocis/deployment/webui/webui.html[Infinite Scale].
 
 Note that the client user guides for Desktop, Android or iOS have their own documentation.
 
