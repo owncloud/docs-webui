@@ -7,6 +7,7 @@
 {description}
 
 If you are still running ownCloud Server, consider installing the {oc-marketplace-url}/apps/web[Web] app, which provides the new look and feel plus some additional features, but not everything ownCloud Web has to offer when used with Infinite Scale. For a quick introduction about what's new or different, check out the section xref:web_with_oc_server.adoc[ownCloud Web on ownCloud Server].
+For more information about owncloud Web on Infinite Scale see https://doc.owncloud.com/ocis/deployment/webui/webui.html
 
 == Changes
 
