@@ -1,9 +1,0 @@
-= Files
-// for local build only omitting 'next@server' as it creates a build error 
-ifeval::["{latest-server-version}" != "next"]
-:page-aliases: next@server:user_manual:files/index.adoc, \
-{latest-server-version}@server:user_manual:files/index.adoc, \
-{previous-server-version}@server:user_manual:files/index.adoc
-endif::[]
-
-This section covers how to work with and user files when using ownCloud.

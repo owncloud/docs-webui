@@ -1,3 +1,2 @@
 * xref:index.adoc[Introduction]
-include::classic_ui:partial$nav.adoc[]
 include::owncloud_web:partial$nav.adoc[]
