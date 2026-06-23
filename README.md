@@ -16,7 +16,7 @@ Since April 2026, this repository requires [Commit Signing](https://docs.github.
 
 ## Building the Web User Interface Docs
 
-The ownCloud Web User Interface Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Server documentation to preview changes you are making.
+The ownCloud Web User Interface Guides are not built independently. Instead, it is built together with the [main documentation](https://github.com/owncloud/docs/). However, you can build a local copy of the ownCloud Classic documentation to preview changes you are making.
 
 Whenever a Pull Request of this repo gets merged, it automatically triggers a full docs build.
 
@@ -34,7 +34,7 @@ See the [following section](https://github.com/owncloud/docs#target-branch-and-b
 
 ## Branching Workflow
 
-Please refer to the [Branching Workflow for ownCloud Server](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) for more information.
+Please refer to the [Branching Workflow for ownCloud Classic](https://github.com/owncloud/docs-webui/blob/master/docs/the-branching-workflow.md) for more information.
 
 ## Create a New Version Branch for Web User Interfaces
 
