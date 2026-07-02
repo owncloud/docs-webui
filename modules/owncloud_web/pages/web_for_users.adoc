@@ -12,8 +12,6 @@ If this file gets relocated or renamed, a page alias must be added to make it av
 
 {description}
 
-If you have been using ownCloud before but with the ownCloud Classic user interface, you may want to check out section xref:web_with_oc_server.adoc[ownCloud Web with ownCloud Classic] to get an overview of the main differences.
-
 The following description assumes you're new to ownCloud.
 
 image::web-for-users/personal-space.png[Start Page,width=500]
